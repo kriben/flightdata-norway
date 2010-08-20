@@ -4,6 +4,13 @@
 import urllib2
 import urllib
 import unittest
+import datetime
+from pytz import timezone
+import pytz
+
+
+
+
 
 class AirPort(object):
     def __init__(self, code, name):
@@ -140,9 +147,26 @@ class TestFlightInformationService(unittest.TestCase):
 
 import xml.etree.ElementTree as ET 
 
+class AirlineFactory(object):
+    def __init__(self):
+        pass
+
+    def getAirlineByCode(self, code):
+        return Airline("WF", "Wideroe")
+
+
+class MockAirlineFactory(AirlineFactory):
+    
+    def getAirlineByCode(self, code):
+        if code == "BGT":
+            return Airline("BGT", "Bergen Air Transport")
+        else:
+            return Airline("SK", "SAS")
+
+
 class FlightParser(object):
     @staticmethod 
-    def parseFlights(xml_file):
+    def parseFlights(xml_file, airline_factory):
         tree = ET.XML(xml_file)
 
         flights = []
@@ -150,7 +174,18 @@ class FlightParser(object):
         for node in tree.getiterator('flight'):
             unique_id = node.attrib.get("uniqueID")
             flight_id = node.find("flight_id").text
-            airline = Airline("SK", "SAS")
+            airline_code = node.find("airline").text
+            schedule_time_string = node.find("schedule_time").text
+            schedule_time = datetime.datetime.strptime(schedule_time_string, "%Y-%m-%dT%H:%M:%S" )
+
+            print schedule_time.tzname()
+            oslo_tz = timezone('Europe/Oslo')
+
+            local_schedule_time = oslo_tz.localize(schedule_time)
+            print ("UTC: %s") %  schedule_time
+            print ("LOCAL: %s") % local_schedule_time
+
+            airline = airline_factory.getAirlineByCode(airline_code)
             flight = Flight(unique_id, flight_id, airline)
 #            for child in node.getchildren():
 #                if child.text:
@@ -165,17 +200,18 @@ class TestFlightParser(unittest.TestCase):
     def testTrondheimData(self):
         xml_data = open("testdata/trondheimflights.xml").read()
         
-        flights = FlightParser.parseFlights(xml_data)
+        flights = FlightParser.parseFlights(xml_data, MockAirlineFactory())
         self.assertEqual(2, len(flights))
 
         flight1 = flights[0]
         self.assertEqual("1170765", flight1.unique_id) 
         self.assertEqual("BGT073", flight1.flight_id)
+        self.assertEqual("BGT", flight1.airline.code)
 
         flight2 = flights[1]
         self.assertEqual("1176338", flight2.unique_id)
         self.assertEqual("SK381", flight2.flight_id)
-
+        self.assertEqual("SK", flight2.airline.code)
         
 
 #data = {}
