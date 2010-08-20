@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd"
+         name="TRD">
+  <flights lastUpdate="2010-08-20T19:17:50">
+    <flight uniqueID="1170765">
+      <airline>BGT</airline>
+      <flight_id>BGT073</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2010-08-18T14:40:00</schedule_time>
+      <arr_dep>A</arr_dep>
+      <airport>BNN</airport>
+      <status code="E" time="2010-08-18T15:14:00"/>
+      <belt>3</belt>
+    </flight>
+    <flight uniqueID="1176338">
+      <airline>SK</airline>
+      <flight_id>SK381</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2010-08-20T17:50:00</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <check_in>EF</check_in>
+      <gate>32</gate>
+      <status code="D" time="2010-08-20T18:18:00"/>
+    </flight>
+  </flights>
+</airport>
