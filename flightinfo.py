@@ -213,6 +213,35 @@ class TestFlightParser(unittest.TestCase):
         self.assertEqual("SK381", flight2.flight_id)
         self.assertEqual("SK", flight2.airline.code)
         
+class AirlineParser(object):
+    @staticmethod 
+    def parseAirlines(xml_file):
+        tree = ET.XML(xml_file)
+
+        airlines = []
+        for node in tree.getiterator('airlineName'):
+            code = node.attrib.get("code")
+            name = node.attrib.get("name")
+            airlines.append(Airline(code, name))
+
+        return airlines
+
+class TestFlightParser(unittest.TestCase):
+    def testTrondheimData(self):
+        xml_data = open("testdata/shortairlinelist.xml").read()
+        
+        airlines = AirlineParser.parseAirlines(xml_data)
+        self.assertEqual(3, len(airlines))
+        
+        expected = [ ("AA", "American Airlines"),
+                     ("DL","Delta Airlines"),
+                     ("DY", "Norwegian") ]
+
+        for e, a in zip(expected, airlines):
+            self.assertEqual(e[0], a.code)
+            self.assertEqual(e[1], a.name)
+
+
 
 #data = {}
 #data['airport'] = 'TRD'
