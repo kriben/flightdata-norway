@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<airlineNames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/airlineNames.xsd">
+  <airlineName code="AA" name="American Airlines"/>
+  <airlineName code="AAF" name="Aigle Azur"/>
+  <airlineName code="AAG" name="Atlantic Airlines"/>
+  <airlineName code="AAT" name="Austrian Airtransport"/>
+  <airlineName code="AB" name="Air Berlin"/>
+  <airlineName code="ABD" name="Air Atlanta"/>
+  <airlineName code="AC" name="Air Canada"/>
+  <airlineName code="AD" name="Avialeasing Aviation Company"/>
+  <airlineName code="AE" name="Mandarin"/>
+  <airlineName code="AEA" name="Air Europa"/>
+  <airlineName code="AEU" name="Iceland Express"/>
+  <airlineName code="AF" name="Air France"/>
+  <airlineName code="AG" name="Air Contractors Limited"/>
+  <airlineName code="AH" name="Air Algerie"/>
+  <airlineName code="AHR" name="Air Adriatic"/>
+  <airlineName code="AI" name="Air India"/>
+  <airlineName code="AIA" name="Avies"/>
+  <airlineName code="AJ" name="Air Belgium"/>
+  <airlineName code="AK" name="Airasia"/>
+  <airlineName code="AL" name="Transaviaexport"/>
+  <airlineName code="AM" name="Aeromexico"/>
+  <airlineName code="AMK" name="Amerer Air"/>
+  <airlineName code="AN" name="Ansett"/>
+  <airlineName code="AO" name="Aviacion Y Comercio S.A"/>
+  <airlineName code="APR" name="Air Provence Charter"/>
+  <airlineName code="AQ" name="Aloha Airlines"/>
+  <airlineName code="AR" name="Aero. Argentinas"/>
+  <airlineName code="AS" name="Alaska Airlines"/>
+  <airlineName code="AT" name="Royal Air Maroc"/>
+  <airlineName code="ATV" name="Avanti Air"/>
+  <airlineName code="AU" name="Cielos del Sur "/>
+  <airlineName code="AV" name="Avianca"/>
+  <airlineName code="AVB" name="Aviation Beauport"/>
+  <airlineName code="AXY" name="Axis Airways"/>
+  <airlineName code="AY" name="Finnair Oy"/>
+  <airlineName code="AZ" name="Alitalia"/>
+  <airlineName code="A3" name="Aegan Airlines"/>
+  <airlineName code="A4" name="Southern"/>
+  <airlineName code="A5" name="Air East"/>
+  <airlineName code="A6" name="Asia Pacific"/>
+  <airlineName code="A7" name="Air 21"/>
+  <airlineName code="A8" name="Aero. Paraguayas"/>
+  <airlineName code="BA" name="British Airways"/>
+  <airlineName code="BB" name="Balair/CTA"/>
+  <airlineName code="BBL" name="IBM, Eroflight-Operations"/>
+  <airlineName code="BCS" name="European Air Transport"/>
+  <airlineName code="BD" name="British Midland Airways"/>
+  <airlineName code="BE" name="Flybe"/>
+  <airlineName code="BG" name="Biman Bangladesh"/>
+  <airlineName code="BGT" name="Bergen Air Transport"/>
+  <airlineName code="BH" name="TEA Basel"/>
+  <airlineName code="BHL" name="Bristow Helicopters"/>
+  <airlineName code="BI" name="Royal Brunei"/>
+  <airlineName code="BIE" name="Air Mediterranee"/>
+  <airlineName code="BJ" name="Nouvelair Tunisie"/>
+  <airlineName code="BK" name="Paradise Islands"/>
+  <airlineName code="BL" name="Pacific Airlines"/>
+  <airlineName code="BLX" name="TUIfly Nordic"/>
+  <airlineName code="BN" name="Britannia GMBH"/>
+  <airlineName code="BO" name="PT. Boraq Indonesia"/>
+  <airlineName code="BP" name="Air Botswana"/>
+  <airlineName code="BQ" name="Aeromar C."/>
+  <airlineName code="BRW" name="Bright Aviation Services"/>
+  <airlineName code="BT" name="Air Baltic"/>
+  <airlineName code="BU" name="Braathens "/>
+  <airlineName code="BV" name="Sun-Air"/>
+  <airlineName code="BW" name="BWIA International Airways"/>
+  <airlineName code="BWL" name="British Worl Airlines"/>
+  <airlineName code="BX" name="Coast Air"/>
+  <airlineName code="BY" name="Britannia Airways"/>
+  <airlineName code="B2" name="Belavia"/>
+  <airlineName code="B3" name="Bellview Airlines"/>
+  <airlineName code="B4" name="Bankair"/>
+  <airlineName code="B5" name="Florida Cargo"/>
+  <airlineName code="B6" name="Top Air"/>
+  <airlineName code="B7" name="UNI Airways"/>
+  <airlineName code="B9" name="Caribair"/>
+  <airlineName code="CA" name="Air China"/>
+  <airlineName code="CAI" name="Corendon Airlines"/>
+  <airlineName code="CCE" name="Cairo Air Transport"/>
+  <airlineName code="CCN" name="American Tran Air"/>
+  <airlineName code="CE" name="Natonwide"/>
+  <airlineName code="CF" name="City Airline"/>
+  <airlineName code="CFC" name="Canadian Forces"/>
+  <airlineName code="CFR" name="Chauffair"/>
+  <airlineName code="CIN" name="Constellation Intern"/>
+  <airlineName code="CJ" name="China Nothern Airlines"/>
+  <airlineName code="CJE" name="Aero Services Corporate"/>
+  <airlineName code="CL" name="Lufthansa CityLine GmbH"/>
+  <airlineName code="CLA" name="Color Air"/>
+  <airlineName code="CM" name="COPA - Compania Panamena"/>
+  <airlineName code="CNB" name="City Line"/>
+  <airlineName code="CO" name="Continental Airlines"/>
+  <airlineName code="CP" name="Canadian Airlines Internatinal"/>
+  <airlineName code="CQ" name="Constellation I.A."/>
+  <airlineName code="CR" name="Flash Airlines"/>
+  <airlineName code="CRL" name="Corse Air Int."/>
+  <airlineName code="CS" name="Continental Micronesia, Inc."/>
+  <airlineName code="CTM" name="Militaire Francais"/>
+  <airlineName code="CU" name="Cubana de Aviacion S.A."/>
+  <airlineName code="CV" name="Cargolux Airlines Internationl"/>
+  <airlineName code="CW" name="Air Marshall Islands Inc."/>
+  <airlineName code="CX" name="Cathay Pacific Airways Ltd."/>
+  <airlineName code="CY" name="Cyprus Airways"/>
+  <airlineName code="CZ" name="China Southern Airlines"/>
+  <airlineName code="C2" name="Air Caribbean"/>
+  <airlineName code="C4" name="Zimex Aviation"/>
+  <airlineName code="C6" name="Bright Air"/>
+  <airlineName code="C7" name="Special Cargo Airl"/>
+  <airlineName code="C8" name="Chicago Express"/>
+  <airlineName code="C9" name="Cirrus Airlines"/>
+  <airlineName code="DBR" name="Dutch bird"/>
+  <airlineName code="DC" name="Golden Air"/>
+  <airlineName code="DE" name="Condor Flugdienst GmbH"/>
+  <airlineName code="DI" name="Deutche BA"/>
+  <airlineName code="DJ" name="Nordic European Airlines"/>
+  <airlineName code="DK" name="Thomas Cook"/>
+  <airlineName code="DL" name="Delta Airlines"/>
+  <airlineName code="DM" name="Maersk"/>
+  <airlineName code="DNU" name="Danu Oro transportas"/>
+  <airlineName code="DP" name="Air 2000 Ltd."/>
+  <airlineName code="DS" name="Air Senegal"/>
+  <airlineName code="DT" name="TAAG - Lihas Areas de Angola"/>
+  <airlineName code="DTR" name="Danish Air Transport"/>
+  <airlineName code="DU" name="Hemus Air"/>
+  <airlineName code="DX" name="Danish Air Transport"/>
+  <airlineName code="DY" name="Norwegian"/>
+  <airlineName code="D2" name="Skyline NEPC"/>
+  <airlineName code="D3" name="Daallo"/>
+  <airlineName code="D4" name="Aries Del Sur"/>
+  <airlineName code="D5" name="NEPC Airlines"/>
+  <airlineName code="D6" name="Inter - Aviation Services dba "/>
+  <airlineName code="D7" name="Dinar Lineas Aereas S.A"/>
+  <airlineName code="D9" name="Donavia"/>
+  <airlineName code="ECA" name="Eurocypria"/>
+  <airlineName code="EI" name="Aer Lingus"/>
+  <airlineName code="EK" name="Emirates"/>
+  <airlineName code="ERJ" name="Eurojet Italia"/>
+  <airlineName code="ES" name="DHL International Airlines"/>
+  <airlineName code="ET" name="Ethiopian Airlines Enterprise"/>
+  <airlineName code="EU" name="Ecuatoriana De Aviacion"/>
+  <airlineName code="EW" name="Eurowings Ag, Nurnberg"/>
+  <airlineName code="EXN" name="Exin"/>
+  <airlineName code="EY" name="Etihad Airways"/>
+  <airlineName code="EZ" name="Sun Air"/>
+  <airlineName code="EZE" name="Eastern Airways"/>
+  <airlineName code="E2" name="Everest Air"/>
+  <airlineName code="E3" name="Domodedovo"/>
+  <airlineName code="E4" name="Aero Asia"/>
+  <airlineName code="E5" name="Samara Airlines"/>
+  <airlineName code="E6" name="Elf Air"/>
+  <airlineName code="E7" name="Downeast"/>
+  <airlineName code="E8" name="ALPI Eagles S.P.A"/>
+  <airlineName code="E9" name="AJT Air "/>
+  <airlineName code="FA" name="Safair (Proprietary) Ltd."/>
+  <airlineName code="FAT" name="Farnair"/>
+  <airlineName code="FB" name="Guard Air"/>
+  <airlineName code="FBR" name="Belair lle De France"/>
+  <airlineName code="FC" name="Finncom"/>
+  <airlineName code="FD" name="CityFlyer"/>
+  <airlineName code="FF" name="Tower Air"/>
+  <airlineName code="FG" name="Ariana Afgan Airlines"/>
+  <airlineName code="FHY" name="Freebird Airlines"/>
+  <airlineName code="FI" name="Icelandair"/>
+  <airlineName code="FJ" name="Air Pacific Ltd."/>
+  <airlineName code="FJE" name="Flyjet"/>
+  <airlineName code="FLT" name="Flightline"/>
+  <airlineName code="FM" name="Shanghai Airlines"/>
+  <airlineName code="FNY" name="French Navy Flight"/>
+  <airlineName code="FP" name="Aeroleasing"/>
+  <airlineName code="FQ" name="Thomas Cook Airlines Belgium"/>
+  <airlineName code="FR" name="Ryanair"/>
+  <airlineName code="FS" name="Servicios de Transp"/>
+  <airlineName code="FU" name="Air Littoral"/>
+  <airlineName code="FUA" name="Futura"/>
+  <airlineName code="FV" name="Rossya"/>
+  <airlineName code="FX" name="FedEx"/>
+  <airlineName code="FYG" name="Flying Service"/>
+  <airlineName code="F2" name="Southern Independent"/>
+  <airlineName code="F3" name="Flying Enterprise"/>
+  <airlineName code="F4" name="Int. Flying Services"/>
+  <airlineName code="F5" name="Archana"/>
+  <airlineName code="F8" name="Western Airlines"/>
+  <airlineName code="F9" name="Frontier"/>
+  <airlineName code="GA" name="Garuda Indonesia"/>
+  <airlineName code="GB" name="Air Glaciers SA"/>
+  <airlineName code="GD" name="Transportes Aereos Ejecutivos "/>
+  <airlineName code="GEN" name="General Aviation Flight"/>
+  <airlineName code="GF" name="Gulf Air Company G.S.C"/>
+  <airlineName code="GG" name="Air Holland Charter"/>
+  <airlineName code="GH" name="Ghana Airways  Corp."/>
+  <airlineName code="GIL" name="Gill Aviation"/>
+  <airlineName code="GJ" name="Mexicargo"/>
+  <airlineName code="GL" name="Miami Air Int."/>
+  <airlineName code="GMA" name="GAMA AVIATION"/>
+  <airlineName code="GN" name="Air Gabon"/>
+  <airlineName code="GO" name="Air Stord A.S."/>
+  <airlineName code="GR" name="Aurigny Air"/>
+  <airlineName code="GS" name="Air Foyle Ltd"/>
+  <airlineName code="GT" name="GB Airways Ltd."/>
+  <airlineName code="GU" name="AVIATECA S.A"/>
+  <airlineName code="GV" name="Riga Airlines"/>
+  <airlineName code="GW" name="Air Kuban"/>
+  <airlineName code="GX" name="JetX"/>
+  <airlineName code="GZ" name="Sakhalinskie"/>
+  <airlineName code="GZA" name="Excellent Air"/>
+  <airlineName code="G3" name="Emrald Airways"/>
+  <airlineName code="G5" name="Island Air"/>
+  <airlineName code="G7" name="Guinee Airlines"/>
+  <airlineName code="G8" name="Gujarat Airways Limited"/>
+  <airlineName code="HA" name="Hawaiian Airlines"/>
+  <airlineName code="HCY" name="Helios Airways"/>
+  <airlineName code="HEP" name="Heliopolis Airline"/>
+  <airlineName code="HF" name="Hapag Lloyd Fluggesellschaft M"/>
+  <airlineName code="HG" name="Niki"/>
+  <airlineName code="HK" name="Four Star"/>
+  <airlineName code="HM" name="Air Seychelles Limited"/>
+  <airlineName code="HS" name="Direktflyg"/>
+  <airlineName code="HTA" name="Heli -Trans AS"/>
+  <airlineName code="HV" name="Basiq Air"/>
+  <airlineName code="HW" name="Hello Airline"/>
+  <airlineName code="H3" name="Harbour Air"/>
+  <airlineName code="H4" name="Hainan"/>
+  <airlineName code="H5" name="Magadan"/>
+  <airlineName code="H6" name="Airline Chelyabinsk"/>
+  <airlineName code="H7" name="Taquan Air"/>
+  <airlineName code="H8" name="Khabarovsk Aviation"/>
+  <airlineName code="IA" name="Iraqi  Airways"/>
+  <airlineName code="IB" name="Iberia -Lineas Aereas de Espan"/>
+  <airlineName code="IBZ" name="Int. Business Air"/>
+  <airlineName code="IC" name="Indian Airlines"/>
+  <airlineName code="IE" name="Solomon Airlines"/>
+  <airlineName code="IG" name="Meridiana SPA"/>
+  <airlineName code="IH" name="Falcon Aviation"/>
+  <airlineName code="IJ" name="Air Liberte"/>
+  <airlineName code="INR" name="Inter Air AB"/>
+  <airlineName code="IQ" name="Augsburg-Airways GmbH"/>
+  <airlineName code="IR" name="Iran Air"/>
+  <airlineName code="IT" name="Air Inter Europe"/>
+  <airlineName code="IW" name="AOM-Minerve S.A."/>
+  <airlineName code="IWD" name="Iber World Airlines"/>
+  <airlineName code="IY" name="Yememia  Yemen Airways"/>
+  <airlineName code="IZ" name="Arika - Israeli Airlines Ltd"/>
+  <airlineName code="I9" name="Air Italy"/>
+  <airlineName code="JAF" name="Jet Alliance"/>
+  <airlineName code="JD" name="Japan Air System Co. Ltd."/>
+  <airlineName code="JE" name="Manx Airlines"/>
+  <airlineName code="JG" name="Air Greece"/>
+  <airlineName code="JJ" name="TAM - Transportes Aereos"/>
+  <airlineName code="JK" name="Spanair"/>
+  <airlineName code="JKK" name="Spanair"/>
+  <airlineName code="JL" name="Japan Airlines Company Ltd."/>
+  <airlineName code="JM" name="Air Jamaica"/>
+  <airlineName code="JP" name="Adria Airways - The Airline of"/>
+  <airlineName code="JQ" name="Air Jamica Express Limited"/>
+  <airlineName code="JR" name="Aero California"/>
+  <airlineName code="JS" name="Air Koryo"/>
+  <airlineName code="JTG" name="Jet Time"/>
+  <airlineName code="JTI" name="JetAir Flug"/>
+  <airlineName code="JU" name="Jugoslovenski  Aerotransport"/>
+  <airlineName code="JW" name="Arrow Air"/>
+  <airlineName code="JX" name="Sunjet Int."/>
+  <airlineName code="JY" name="Jersey European Airways Ltd."/>
+  <airlineName code="JZ" name="Skyways AB"/>
+  <airlineName code="J2" name="Azerbaijan H. Yoll."/>
+  <airlineName code="J5" name="Aviaprima-Sochi"/>
+  <airlineName code="J6" name="Larrys Flying Serv."/>
+  <airlineName code="J7" name="Valuejet"/>
+  <airlineName code="J8" name="Berjaya Air"/>
+  <airlineName code="KA" name="Hong Kong Dragon  Airlines Lim"/>
+  <airlineName code="KAT" name="Kato Air AS"/>
+  <airlineName code="KD" name="Kendell Airlines"/>
+  <airlineName code="KE" name="Korean Airlines"/>
+  <airlineName code="KF" name="Blue1"/>
+  <airlineName code="KG" name="Caledonian Airways"/>
+  <airlineName code="KGC" name="International Airway"/>
+  <airlineName code="KJC" name="Krasnoyarsk Airlines"/>
+  <airlineName code="KK" name="Atlas Jet"/>
+  <airlineName code="KL" name="KLM"/>
+  <airlineName code="KM" name="Air Malta"/>
+  <airlineName code="KQ" name="Kenya Airways"/>
+  <airlineName code="KRO" name="Kroonk Air  Agency Ltd."/>
+  <airlineName code="KU" name="Kuwait Airways"/>
+  <airlineName code="KZ" name="Nippon Cargo Airlines"/>
+  <airlineName code="K2" name="Eurostar"/>
+  <airlineName code="K3" name="Ketchikan Air "/>
+  <airlineName code="K4" name="Kazakhstan Airlines"/>
+  <airlineName code="K5" name="W Alaska/East Africa"/>
+  <airlineName code="K6" name="Apollo"/>
+  <airlineName code="K7" name="Sakha Aviation"/>
+  <airlineName code="K9" name="Skyward/Itapemirim"/>
+  <airlineName code="LA" name="Linea Aerea Nacional-Chile S.A"/>
+  <airlineName code="LAT" name="Latcharter"/>
+  <airlineName code="LB" name="Lloyd Aereoo Boliviano S.A"/>
+  <airlineName code="LBT" name="Nouvel Air Tunisie"/>
+  <airlineName code="LF" name="flynordic"/>
+  <airlineName code="LG" name="Luxair"/>
+  <airlineName code="LH" name="Lufthansa"/>
+  <airlineName code="LJ" name="Sierra National Airlines"/>
+  <airlineName code="LM" name="ALM 1997 Airline Inc. dba Air "/>
+  <airlineName code="LN" name="Jamahiriya Libyan Arab Airline"/>
+  <airlineName code="LNX" name="London Executive Aviation Ltd"/>
+  <airlineName code="LO" name="LOT- Polish Airlines"/>
+  <airlineName code="LR" name="Lineas Aereas Costarricenses S"/>
+  <airlineName code="LS" name="Jet2"/>
+  <airlineName code="LSK" name="Aurela"/>
+  <airlineName code="LT" name="LTU International Airways"/>
+  <airlineName code="LTC" name="LATCharter"/>
+  <airlineName code="LV" name="Albanian Airlines MAK S.H.P.K."/>
+  <airlineName code="LX" name="Swiss International Air Lines"/>
+  <airlineName code="LXO" name="Luxor Air"/>
+  <airlineName code="LXR" name="Air Luxor"/>
+  <airlineName code="LY" name="El Al Israel Airlines Ltd."/>
+  <airlineName code="LZ" name="Balkan, Bulgarian Airlines"/>
+  <airlineName code="L3" name="Kaiken Lineas Aereas"/>
+  <airlineName code="L4" name="Atlant-SV"/>
+  <airlineName code="L5" name="Lufttransport"/>
+  <airlineName code="L6" name="Air Maldives"/>
+  <airlineName code="L7" name="Lviv Airlines"/>
+  <airlineName code="L8" name="European A./Laparken"/>
+  <airlineName code="L9" name="Air Mali"/>
+  <airlineName code="MA" name="MALEV Hungarian Airlines Publi"/>
+  <airlineName code="MCA" name="MCA Airlines"/>
+  <airlineName code="MD" name="Air Madagascar"/>
+  <airlineName code="MDI" name="MDAirlines"/>
+  <airlineName code="ME" name="Middel East Airlines Airliban"/>
+  <airlineName code="MF" name="Xiamen Airlines"/>
+  <airlineName code="MG" name="Grand Holdings"/>
+  <airlineName code="MH" name="Malaysian Airline System Berha"/>
+  <airlineName code="MHS" name="Air Memphis"/>
+  <airlineName code="MJ" name="Lineas Aereas Privadas Argenti"/>
+  <airlineName code="MK" name="Air Mauritius"/>
+  <airlineName code="MM" name="Medellin"/>
+  <airlineName code="MMD" name="Air Alsie"/>
+  <airlineName code="MN" name="Commercial Airways (Pty.) Ltd."/>
+  <airlineName code="MO" name="Calm Air"/>
+  <airlineName code="MON" name="Monarch Airlines Ltd."/>
+  <airlineName code="MOV" name="VIM Airlines"/>
+  <airlineName code="MP" name="Martinair Holland N.V"/>
+  <airlineName code="MS" name="Egypt Air"/>
+  <airlineName code="MSC" name="Air Cairo"/>
+  <airlineName code="MTL" name="RAF-Avia"/>
+  <airlineName code="MU" name="China Eastern  Airlines"/>
+  <airlineName code="MX" name="Compania Mexicana De Aviacion"/>
+  <airlineName code="MY" name="Aerotrans. Carga"/>
+  <airlineName code="MZ" name="PT. merpati Nusantara"/>
+  <airlineName code="M3" name="Air Norway"/>
+  <airlineName code="M4" name="Interimpex-Aviompex"/>
+  <airlineName code="M5" name="Kenmore"/>
+  <airlineName code="M6" name="Amerijet"/>
+  <airlineName code="M9" name="Modiluft"/>
+  <airlineName code="NAW" name="Newair"/>
+  <airlineName code="NB" name="Sterling"/>
+  <airlineName code="NC" name="National Jet"/>
+  <airlineName code="NF" name="Air Vanuatu (Operations) Limit"/>
+  <airlineName code="NFA" name="North Flying AS"/>
+  <airlineName code="NG" name="Lauda Air Luftfahrt Ag"/>
+  <airlineName code="NH" name="All Nippon  Airways Co. Limite"/>
+  <airlineName code="NI" name="Portugalia - Companhia Portugu"/>
+  <airlineName code="NJE" name="Netjets"/>
+  <airlineName code="NK" name="Norwegian Air Force"/>
+  <airlineName code="NM" name="The Mount Cook Group Ltd."/>
+  <airlineName code="NO" name="Neos S.P.A"/>
+  <airlineName code="NP" name="Heavylift Cargo"/>
+  <airlineName code="NPT" name="Atlantic Airlines"/>
+  <airlineName code="NRD" name="Nordic Leisure"/>
+  <airlineName code="NTR" name="Nitro"/>
+  <airlineName code="NV" name="Northern Aviation"/>
+  <airlineName code="NVR" name="NovAir"/>
+  <airlineName code="NW" name="Northwest Airlines"/>
+  <airlineName code="NZ" name="Air New Zealand Limited"/>
+  <airlineName code="N2" name="Aerolineas Int."/>
+  <airlineName code="N4" name="National Airlines"/>
+  <airlineName code="N5" name="Nations Air Express"/>
+  <airlineName code="N6" name="Aero Continente"/>
+  <airlineName code="N8" name="Expresso Aereo"/>
+  <airlineName code="N9" name="North Coast Aviation"/>
+  <airlineName code="OA" name="Olympic Airways"/>
+  <airlineName code="OF" name="Air Finland"/>
+  <airlineName code="OK" name="Czech Airlines"/>
+  <airlineName code="OL" name="OLT"/>
+  <airlineName code="OM" name="MIAT - Mongolian Airlines"/>
+  <airlineName code="OS" name="Austrian Airlines"/>
+  <airlineName code="OSL" name="OSL testflighter"/>
+  <airlineName code="OSP" name="Osprey Aviation"/>
+  <airlineName code="OU" name="Croatia Airlines"/>
+  <airlineName code="OV" name="Estonian Air"/>
+  <airlineName code="PDA" name="Podillia-Avia"/>
+  <airlineName code="PF" name="Primera Air Scandinavia"/>
+  <airlineName code="PGT" name="Pegasus"/>
+  <airlineName code="PH" name="Plynesian Limited"/>
+  <airlineName code="PI" name="Sunflower Airlines ltd."/>
+  <airlineName code="PK" name="Pakistan International Airline"/>
+  <airlineName code="PL" name="Aeroperu - Empresa De Transpor"/>
+  <airlineName code="PNR" name="Pan Air Lineas Aereas"/>
+  <airlineName code="PR" name="Philippine Airlines, Inc."/>
+  <airlineName code="PRI" name="Primera Air"/>
+  <airlineName code="PS" name="Ukranie International Airlines"/>
+  <airlineName code="PT" name="West Air Sweden"/>
+  <airlineName code="PTG" name="Privat Air"/>
+  <airlineName code="PU" name="Primeras Lineas Uruguayas de"/>
+  <airlineName code="PX" name="Air Niugini Pty Limited dba"/>
+  <airlineName code="PY" name="Surinam Airways Ltd."/>
+  <airlineName code="PZ" name="TAM - Transportes Aereos del"/>
+  <airlineName code="P4" name="Sosa/Pacific Int."/>
+  <airlineName code="P5" name="Aerorepublica"/>
+  <airlineName code="P6" name="Trans Air"/>
+  <airlineName code="P7" name="Joint Stock Comp."/>
+  <airlineName code="P8" name="Pantanal"/>
+  <airlineName code="QF" name="Qantas Airways Ltd."/>
+  <airlineName code="QI" name="Cimber Air"/>
+  <airlineName code="QJ" name="LATPASS"/>
+  <airlineName code="QL" name="Air Lesotho (Pty) Ltd."/>
+  <airlineName code="QM" name="Air Malawi Limited"/>
+  <airlineName code="QO" name="Aeromexpress S.A de C.V"/>
+  <airlineName code="QR" name="Qatar Airways (W.L.L)"/>
+  <airlineName code="QS" name="Travel Service"/>
+  <airlineName code="QT" name="Mercantiles"/>
+  <airlineName code="QTM" name="Quantum Air"/>
+  <airlineName code="QY" name="European Air Transport"/>
+  <airlineName code="Q2" name="Minerva"/>
+  <airlineName code="Q4" name="Mustique"/>
+  <airlineName code="Q5" name="40-Mile Air"/>
+  <airlineName code="Q7" name="Qatar Airways"/>
+  <airlineName code="Q9" name="InterBrasil"/>
+  <airlineName code="RB" name="Syrian Arab Airlines"/>
+  <airlineName code="RBB" name="Rabbit Air"/>
+  <airlineName code="RC" name="Atlantic Airways"/>
+  <airlineName code="RCK" name="FaroeJet"/>
+  <airlineName code="RF" name="Florida West"/>
+  <airlineName code="RG" name="Varig S.A."/>
+  <airlineName code="RJ" name="Royal Jordanian"/>
+  <airlineName code="RK" name="Air Afrique"/>
+  <airlineName code="RL" name="Region Air"/>
+  <airlineName code="RN" name="Euralair International"/>
+  <airlineName code="RO" name="Tarom, Romanian Air Transport"/>
+  <airlineName code="RR" name="Royal Air Force"/>
+  <airlineName code="RS" name="Intercont de Avia"/>
+  <airlineName code="RY" name="European Executive Express"/>
+  <airlineName code="R2" name="State Orenburg"/>
+  <airlineName code="R3" name="Armenian Airlines"/>
+  <airlineName code="R5" name="Malta Air Charter"/>
+  <airlineName code="R6" name="DOT LT"/>
+  <airlineName code="R7" name="Aero. Carabobo"/>
+  <airlineName code="R8" name="Corporate Charter"/>
+  <airlineName code="R9" name="Camai/Air Charter"/>
+  <airlineName code="SA" name="South African Airways"/>
+  <airlineName code="SB" name="Air Caledonie International"/>
+  <airlineName code="SD" name="Sudan Airways Co. Ltd."/>
+  <airlineName code="SE" name="DAS Air Lim."/>
+  <airlineName code="SEU" name="Star Europe"/>
+  <airlineName code="SF" name="Air Charter"/>
+  <airlineName code="SG" name="P.T Sempati Air"/>
+  <airlineName code="SH" name="Societe Nouvelle Air Toulouse"/>
+  <airlineName code="SHE" name="Shell Aircraft LTD."/>
+  <airlineName code="SHK" name="Shorouk Air"/>
+  <airlineName code="SHY" name="Sky Airlines"/>
+  <airlineName code="SI" name="Svea Flyg AB"/>
+  <airlineName code="SK" name="SAS"/>
+  <airlineName code="SN" name="Brussels Airlines"/>
+  <airlineName code="SNX" name="Air Sweden Aviation"/>
+  <airlineName code="SOR" name="Air Stord AS"/>
+  <airlineName code="SOX" name="Solid Air B.V"/>
+  <airlineName code="SP" name="Servico Acoreano De Transporte"/>
+  <airlineName code="SPP" name="Spanair S.A"/>
+  <airlineName code="SQ" name="Singapore Airlines"/>
+  <airlineName code="SR" name="Swiss Air Transport co. Ltd."/>
+  <airlineName code="SRR" name="Star Air I/S"/>
+  <airlineName code="SSP" name="Starspeed LTD"/>
+  <airlineName code="ST" name="Germania"/>
+  <airlineName code="SU" name="Aeroflot"/>
+  <airlineName code="SUS" name="Sun Air of Scandinavia A/S"/>
+  <airlineName code="SV" name="Saudi Arabian Airlines"/>
+  <airlineName code="SVF" name="Swedish Armed  Forces"/>
+  <airlineName code="SW" name="Air Namibia"/>
+  <airlineName code="SWW" name="Intersun Havacilik A.S"/>
+  <airlineName code="SZ" name="China Southwest Airlines"/>
+  <airlineName code="S2" name="Sahara India"/>
+  <airlineName code="S4" name="SATA Internacional"/>
+  <airlineName code="S6" name="Air Saint Martin"/>
+  <airlineName code="S7" name="Siberia Airlines"/>
+  <airlineName code="S8" name="Estonian Aviation"/>
+  <airlineName code="TA" name="Taca International Airlines, S"/>
+  <airlineName code="TAT" name="T.A.T European Airlines"/>
+  <airlineName code="TAY" name="TNT Airways"/>
+  <airlineName code="TC" name="Air Tanzania Corporation"/>
+  <airlineName code="TE" name="Lithuanian Airlines"/>
+  <airlineName code="TF" name="Malmø Aviation"/>
+  <airlineName code="TG" name="Thai Airways International"/>
+  <airlineName code="TI" name="Tol Air"/>
+  <airlineName code="TK" name="Turkish Airlines"/>
+  <airlineName code="TL" name="Trans Mediterranean Airways"/>
+  <airlineName code="TLL" name="Tallin"/>
+  <airlineName code="TM" name="LAM - Linhas Aereas De Mocambi"/>
+  <airlineName code="TNT" name="Trans North Turbo Air"/>
+  <airlineName code="TP" name="TAP Portugal"/>
+  <airlineName code="TQ" name="Transwede Airways AB"/>
+  <airlineName code="TR" name="Transbrasill S.A. Linhas Aerea"/>
+  <airlineName code="TRA" name="Transavia"/>
+  <airlineName code="TRQ" name="Turdus Airways"/>
+  <airlineName code="TT" name="Air Lithuania"/>
+  <airlineName code="TU" name="Tunisair"/>
+  <airlineName code="TV" name="Virgin Express"/>
+  <airlineName code="TVL" name="Travel Service"/>
+  <airlineName code="TW" name="Trans World Airlines"/>
+  <airlineName code="TWE" name="Goodjet"/>
+  <airlineName code="TWI" name="Tailwind Airlines"/>
+  <airlineName code="TY" name="Air Caledonie "/>
+  <airlineName code="TZ" name="American Trans Air"/>
+  <airlineName code="T2" name="TABA"/>
+  <airlineName code="T3" name="Eastern Airways"/>
+  <airlineName code="T4" name="Transeast/TIE Avia."/>
+  <airlineName code="T5" name="Avia Comp Turk"/>
+  <airlineName code="T6" name="Tavrey"/>
+  <airlineName code="T8" name="Nequen del Estado"/>
+  <airlineName code="UA" name="United Airlines"/>
+  <airlineName code="UAK" name="Kiev Aviation"/>
+  <airlineName code="UC" name="Ladeco S.A. d/b/a Ladeco Airli"/>
+  <airlineName code="UK" name="Air UK Limited"/>
+  <airlineName code="UL" name="Airlanka Limited"/>
+  <airlineName code="UM" name="Air Zimbabwe Corporation"/>
+  <airlineName code="UN" name="Transaro Airlines"/>
+  <airlineName code="US" name="US Airways"/>
+  <airlineName code="UT" name="United Technologies"/>
+  <airlineName code="UU" name="Air Austral"/>
+  <airlineName code="UV" name="Universal Airways"/>
+  <airlineName code="UY" name="Cameroon Airlines"/>
+  <airlineName code="U3" name="Travelair/Uralinter."/>
+  <airlineName code="U4" name="Noman S.R.L."/>
+  <airlineName code="U5" name="Svea Flyg Ab"/>
+  <airlineName code="U7" name="United Aviation"/>
+  <airlineName code="VA" name="Venezolana Int"/>
+  <airlineName code="VB" name="Maersk Air ltd,"/>
+  <airlineName code="VD" name="T.A.T European Airlines"/>
+  <airlineName code="VE" name="Aerovias Venezolanas S.A"/>
+  <airlineName code="VEA" name="Vega Airlines"/>
+  <airlineName code="VEX" name="Virgin Express"/>
+  <airlineName code="VIK" name="Viking Airlines"/>
+  <airlineName code="VL" name="Air VIA Bulgarian"/>
+  <airlineName code="VM" name="Regional Airlines"/>
+  <airlineName code="VO" name="Tyrolean Airways"/>
+  <airlineName code="VP" name="Viacao Aerea Sao Paulo S.A."/>
+  <airlineName code="VRE" name="Volare Airlines"/>
+  <airlineName code="VS" name="Virgin Atlantic"/>
+  <airlineName code="VSG" name="Travel Servis AS"/>
+  <airlineName code="VT" name="Air Tahiti"/>
+  <airlineName code="VV" name="Aerosweet"/>
+  <airlineName code="VX" name="Aerolineas Centrales De Columb"/>
+  <airlineName code="VZ" name="Airtours International"/>
+  <airlineName code="V2" name="Associated"/>
+  <airlineName code="V4" name="Venus"/>
+  <airlineName code="V5" name="Vnukovo"/>
+  <airlineName code="V8" name="ATRAN-Aviatrans"/>
+  <airlineName code="V9" name="Bashkir"/>
+  <airlineName code="WA" name="KLM Cityhopper CV"/>
+  <airlineName code="WAS" name="Washington"/>
+  <airlineName code="WF" name="Widerøe"/>
+  <airlineName code="WG" name="Wasaya"/>
+  <airlineName code="WH" name="China Northwest Airlines"/>
+  <airlineName code="WLC" name="Welcome Air"/>
+  <airlineName code="WR" name="Royal Tongan Airlines"/>
+  <airlineName code="WT" name="Nigeria Airways Ltd."/>
+  <airlineName code="WV" name="Swe Fly"/>
+  <airlineName code="WX" name="Cityjet"/>
+  <airlineName code="WY" name="Oman Aviation Services Co. "/>
+  <airlineName code="WZ" name="Acvila Air"/>
+  <airlineName code="W3" name="Swiftair"/>
+  <airlineName code="W6" name="Wizzair"/>
+  <airlineName code="W7" name="Western Pacific"/>
+  <airlineName code="W8" name="La Costena"/>
+  <airlineName code="W9" name="Eastwind Airlines Inc."/>
+  <airlineName code="XK" name="Compagnie Aerienne Corse"/>
+  <airlineName code="XO" name="China Xinjiang Airlines"/>
+  <airlineName code="XQ" name="SunExpress"/>
+  <airlineName code="XT" name="Air Exel Netherlands B.V"/>
+  <airlineName code="X3" name="TUIfly"/>
+  <airlineName code="X5" name="Cronus Airlines"/>
+  <airlineName code="X6" name="Khors"/>
+  <airlineName code="X7" name="Chita Avia"/>
+  <airlineName code="X8" name="Aerovias DAP"/>
+  <airlineName code="X9" name="City Star Airline"/>
+  <airlineName code="YC" name="Flight West AirLines Pty. Ltd."/>
+  <airlineName code="YK" name="Cyprus Turkish Airlines"/>
+  <airlineName code="YM" name="Montenegro Airlines"/>
+  <airlineName code="YP" name="Aero Lloyd Flugreisen Gmbh Und"/>
+  <airlineName code="YW" name="Air Nostrum L.A.M.S.A."/>
+  <airlineName code="Y2" name="Alliance"/>
+  <airlineName code="Y4" name="Eagle Aviation"/>
+  <airlineName code="Y5" name="Arax"/>
+  <airlineName code="Y6" name="Europe Elite"/>
+  <airlineName code="Y7" name="F.S.Air"/>
+  <airlineName code="Y8" name="Passaredo Tran."/>
+  <airlineName code="Y9" name="Trans Air Congo"/>
+  <airlineName code="ZB" name="Monarch Airlines"/>
+  <airlineName code="ZC" name="Royal Swazi National Airways C"/>
+  <airlineName code="ZE" name="Arcus Air"/>
+  <airlineName code="ZJ" name="Teddy Air A/S"/>
+  <airlineName code="ZL" name="Hazelton Airlines"/>
+  <airlineName code="ZQ" name="Ansett New Zealand"/>
+  <airlineName code="ZR" name="Muk Air"/>
+  <airlineName code="ZT" name="Voronezhavia"/>
+  <airlineName code="ZU" name="Helios Airways"/>
+  <airlineName code="ZY" name="ADA"/>
+  <airlineName code="Z3" name="Promech/Star"/>
+  <airlineName code="Z4" name="Tayfunair"/>
+  <airlineName code="Z6" name="Dneproavia Avtn."/>
+  <airlineName code="Z7" name="Zimbabwe Ex."/>
+  <airlineName code="Z9" name="Aero Zambia"/>
+  <airlineName code="0A" name="Amber Air"/>
+  <airlineName code="0O" name="USA Jet"/>
+  <airlineName code="1B" name="Balkan Holidays"/>
+  <airlineName code="1F" name="INFINI Travle"/>
+  <airlineName code="1I" name="Ryan International"/>
+  <airlineName code="1P" name="Worldspan"/>
+  <airlineName code="1Z" name="Fantasia Info"/>
+  <airlineName code="2A" name="Deutche Bahn AG"/>
+  <airlineName code="2B" name="ATA Aerocondor"/>
+  <airlineName code="2D" name="Denim "/>
+  <airlineName code="2E" name="Sky Cabs"/>
+  <airlineName code="2F" name="Frontier Flying"/>
+  <airlineName code="2G" name="Debonair"/>
+  <airlineName code="2J" name="Air Burkina"/>
+  <airlineName code="2K" name="Kitty Hawk"/>
+  <airlineName code="2L" name="Helvetic Airways"/>
+  <airlineName code="2M" name="Moldavian"/>
+  <airlineName code="2N" name="Nextjet"/>
+  <airlineName code="2P" name="Air Philippines"/>
+  <airlineName code="2Q" name="Vildanden"/>
+  <airlineName code="2R" name="VIA Rail"/>
+  <airlineName code="2S" name="Island Express"/>
+  <airlineName code="2T" name="Canada 3000"/>
+  <airlineName code="2U" name="Joint Stock Company"/>
+  <airlineName code="2W" name="Welcome Air"/>
+  <airlineName code="2Y" name="Helenair"/>
+  <airlineName code="2Z" name="Changan"/>
+  <airlineName code="3A" name="Alliance Airlines"/>
+  <airlineName code="3B" name="Borinqueen"/>
+  <airlineName code="3G" name="Atlant-Soyuz"/>
+  <airlineName code="3H" name="Ait Inuit"/>
+  <airlineName code="3J" name="Air Alliance"/>
+  <airlineName code="3M" name="Gulfstream Int. Airlines, Inc."/>
+  <airlineName code="3N" name="Air Urga"/>
+  <airlineName code="3Q" name="China Yunnan"/>
+  <airlineName code="3R" name="Air Moldova"/>
+  <airlineName code="3S" name="Shuswap Air"/>
+  <airlineName code="3T" name="Turan Air"/>
+  <airlineName code="3U" name="Sichuan Airlines"/>
+  <airlineName code="3X" name="Japan Air Commuter"/>
+  <airlineName code="3Y" name="Baseops"/>
+  <airlineName code="4D" name="Air Sinai"/>
+  <airlineName code="4E" name="Tanana Air"/>
+  <airlineName code="4J" name="London Flight"/>
+  <airlineName code="4K" name="Kenn Borek Air"/>
+  <airlineName code="4R" name="Hamburg International"/>
+  <airlineName code="4U" name="Germanwings"/>
+  <airlineName code="4V" name="Voyaguer"/>
+  <airlineName code="4W" name="Warbelows"/>
+  <airlineName code="4X" name="F.Airlines"/>
+  <airlineName code="4Y" name="Blue Line"/>
+  <airlineName code="5A" name="Alpine"/>
+  <airlineName code="5E" name="Business Avia"/>
+  <airlineName code="5F" name="Arctic Circle Air"/>
+  <airlineName code="5K" name="State Air Co"/>
+  <airlineName code="5N" name="Aeroflot Nord"/>
+  <airlineName code="5O" name="Europe Airpost"/>
+  <airlineName code="5R" name="Rover Airways"/>
+  <airlineName code="5S" name="S.A.P."/>
+  <airlineName code="5T" name="Transwede"/>
+  <airlineName code="5W" name="Itapemirim"/>
+  <airlineName code="5X" name="UPS"/>
+  <airlineName code="5Y" name="Isles Ltd"/>
+  <airlineName code="6A" name="AVACSA"/>
+  <airlineName code="6C" name="Cape Smythe"/>
+  <airlineName code="6F" name="Laker Airways"/>
+  <airlineName code="6L" name="Aklak Inc."/>
+  <airlineName code="6N" name="Aerosucre"/>
+  <airlineName code="6P" name="DAC Air"/>
+  <airlineName code="6S" name="Kato Air AS"/>
+  <airlineName code="6U" name="Air Ukraine"/>
+  <airlineName code="6Y" name="SmartLynx"/>
+  <airlineName code="7C" name="Coyne Airways"/>
+  <airlineName code="7F" name="First Air"/>
+  <airlineName code="7G" name="MK Airlines"/>
+  <airlineName code="7J" name="State Air Tajikistan"/>
+  <airlineName code="7K" name="Joint Stock Comp."/>
+  <airlineName code="7L" name="Air Bristol"/>
+  <airlineName code="7M" name="Tyumen Air"/>
+  <airlineName code="7P" name="APA International"/>
+  <airlineName code="7W" name="Scan Con Airways"/>
+  <airlineName code="7X" name="Jeppesen Dataplan In"/>
+  <airlineName code="7Z" name="L.B. Limited"/>
+  <airlineName code="8A" name="Arctic Air"/>
+  <airlineName code="8B" name="Bremenfly"/>
+  <airlineName code="8E" name="Bering Air"/>
+  <airlineName code="8K" name="Air Ostrava"/>
+  <airlineName code="8P" name="Pacific Coastal Air"/>
+  <airlineName code="8S" name="Air Alaska Cargo"/>
+  <airlineName code="8W" name="Air Team A.S"/>
+  <airlineName code="9A" name="Air Atlantic IMP"/>
+  <airlineName code="9C" name="Gill Aviation"/>
+  <airlineName code="9E" name="Express Airlines"/>
+  <airlineName code="9K" name="Cape Air"/>
+  <airlineName code="9M" name="Central Mountair Air"/>
+  <airlineName code="9P" name="Pelangi Airways"/>
+  <airlineName code="9T" name="Athabaska Airways"/>
+  <airlineName code="9U" name="Air Moldova"/>
+  <airlineName code="9W" name="Jet Airways"/>
+  <airlineName code="9X" name="Tasawi Air"/>
+  <airlineName code="9Y" name="Air Kazakstan"/>
+</airlineNames>

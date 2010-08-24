@@ -241,6 +241,11 @@ class TestFlightParser(unittest.TestCase):
             self.assertEqual(e[0], a.code)
             self.assertEqual(e[1], a.name)
 
+    def testRealisticData(self):
+        xml_data = open("testdata/airlinenames.xml").read()
+        
+        airlines = AirlineParser.parseAirlines(xml_data)
+        self.assertEqual(709, len(airlines))
 
 
 #data = {}
