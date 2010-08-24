@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<airlineNames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/airlineNames.xsd">
+  <airlineName code="AA" name="American Airlines"/>
+  <airlineName code="DL" name="Delta Airlines"/>
+  <airlineName code="DY" name="Norwegian"/>
+</airlineNames>
