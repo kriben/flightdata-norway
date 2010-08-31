@@ -118,7 +118,7 @@ class FlightInformationService(object):
 
         return urllib.urlencode(data)
 
-
+    
 
 
 class TestFlightInformationService(unittest.TestCase):
@@ -226,7 +226,7 @@ class AirlineParser(object):
 
         return airlines
 
-class TestFlightParser(unittest.TestCase):
+class TestAirlineParser(unittest.TestCase):
     def testTrondheimData(self):
         xml_data = open("testdata/shortairlinelist.xml").read()
         
