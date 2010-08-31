@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<flightStatuses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/flightStatuses.xsd">
+  <flightStatus code="N" statusTextEn="New info" statusTextNo="Ny info"/>
+  <flightStatus code="E" statusTextEn="New time" statusTextNo="Ny tid"/>
+  <flightStatus code="D" statusTextEn="Departed" statusTextNo="Avreist"/>
+  <flightStatus code="A" statusTextEn="Arrived" statusTextNo="Landet"/>
+  <flightStatus code="C" statusTextEn="Cancelled" statusTextNo="Innstilt"/>
+</flightStatuses>

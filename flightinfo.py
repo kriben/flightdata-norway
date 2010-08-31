@@ -39,8 +39,18 @@ class TestAirline(unittest.TestCase):
         self.assertEqual(a.code, code)
         self.assertEqual(a.name, name)
 
-
+class FlightStatus(object):
+    def __init__(self, code, text):
+        self.code = code
+        self.text = text
     
+class TestFlightStatus(unittest.TestCase):
+    def testBasic(self):
+        code = "E"
+        text =  "New time"
+        s = FlightStatus(code, text)
+        self.assertEqual(s.code, code)
+        self.assertEqual(s.text, text)
 
 
 class Flight:
@@ -246,6 +256,39 @@ class TestAirlineParser(unittest.TestCase):
         
         airlines = AirlineParser.parseAirlines(xml_data)
         self.assertEqual(709, len(airlines))
+
+
+class FlightStatusParser(object):
+    @staticmethod 
+    def parseStatuses(xml_file):
+        tree = ET.XML(xml_file)
+
+        statuses = []
+        for node in tree.getiterator('flightStatus'):
+            code = node.attrib.get("code")
+            text = node.attrib.get("statusTextEn")
+            statuses.append(FlightStatus(code, text))
+
+        return statuses
+
+
+class TestFlightStatusParser(unittest.TestCase):
+    def testXml(self):
+        xml_data = open("testdata/flightStatuses.xml").read()
+        
+        statuses = FlightStatusParser.parseStatuses(xml_data)
+        self.assertEqual(5, len(statuses))
+        
+        expected = [ ("N", "New info"),
+                     ("E", "New time"),
+                     ("D", "Departed"),
+                     ("A", "Arrived"),
+                     ("C", "Cancelled"), ] 
+
+        for e, s in zip(expected, statuses):
+            self.assertEqual(e[0], s.code)
+            self.assertEqual(e[1], s.text)
+
 
 
 #data = {}
