@@ -1,7 +1,10 @@
 
 class AirlineFactory(object):
-    def __init__(self):
-        pass
+    def __init__(self, airlines):
+        self.mapping = {}
+        for a in airlines:
+            self.mapping[a.code] = a
+
 
     def getAirlineByCode(self, code):
-        return Airline("WF", "Wideroe")
+        return self.mapping[code]

@@ -1,21 +1,36 @@
-#data = {}
-#data['airport'] = 'TRD'
-#data['direction'] = 'D'
-#url_values = urllib.urlencode(data)
+#!/usr/bin/python
+# -*- coding: latin-1 -*-
 
-#print url_values
+import sys
+sys.path.append('../') 
+import urllib2
 
-#url = "http://flydata.avinor.no/XmlFeed.asp"
-
-#full_url = url + '?' + url_values
-
-#response = urllib2.urlopen(full_url)
-
-#xml = response.read()
-
+from flightinfo.query import Query
+from flightinfo.airport import AirPort
+from flightinfo.flightinformationservice import FlightInformationService
+from flightinfo.flightparser import FlightParser
+from flightinfo.airlineparser import AirlineParser
+from flightinfo.airlinefactory import AirlineFactory
 
 
-#print xml
+airlines_xml = open("../tests/testdata/airlinenames.xml").read()
+airlines = AirlineParser.parse_airlines(airlines_xml)
+airline_factory = AirlineFactory(airlines)
 
-if __name__ == '__main__':
-    unittest.main()
+
+airport = AirPort("TRD", "Trondheim")
+query = Query(airport)
+
+url = "http://flydata.avinor.no/XmlFeed.asp?" + \
+  FlightInformationService.generate_query_string(query)
+
+response = urllib2.urlopen(url)
+xml = response.read()
+
+
+flights = FlightParser.parse_flights(xml, airline_factory)
+for f in flights:
+    print f
+
+
+print xml

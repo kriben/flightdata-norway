@@ -11,6 +11,8 @@ from flightinfo.flight import Flight
 from flightinfo.flightparser import FlightParser
 
 class MockAirlineFactory(AirlineFactory):
+    def __init__(self):
+        pass
     
     def getAirlineByCode(self, code):
         if code == "BGT":
