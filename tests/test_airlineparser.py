@@ -13,7 +13,7 @@ class TestAirlineParser(unittest.TestCase):
     def testTrondheimData(self):
         xml_data = open("testdata/shortairlinelist.xml").read()
         
-        airlines = AirlineParser.parseAirlines(xml_data)
+        airlines = AirlineParser.parse_airlines(xml_data)
         self.assertEqual(3, len(airlines))
         
         expected = [ ("AA", "American Airlines"),
@@ -27,5 +27,5 @@ class TestAirlineParser(unittest.TestCase):
     def testRealisticData(self):
         xml_data = open("testdata/airlinenames.xml").read()
         
-        airlines = AirlineParser.parseAirlines(xml_data)
+        airlines = AirlineParser.parse_airlines(xml_data)
         self.assertEqual(709, len(airlines))

@@ -1,10 +1,20 @@
 import urllib
 from query import Query
 
+
 class FlightInformationService(object):
+    """
+    Utility for converting a Query object into a query string (part of the url).
+
+    """
 
     @staticmethod 
-    def generateQueryString(query):
+    def generate_query_string(query):
+        """
+        Generates the query part of the url.
+
+        """
+
         data = {}
         data["airport"] = query.airport.code
         if query.time_from:

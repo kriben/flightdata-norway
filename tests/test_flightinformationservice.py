@@ -15,22 +15,22 @@ class TestFlightInformationService(unittest.TestCase):
         self.query = Query(airport)
 
     def testSimpleQueryString(self):
-        v = FlightInformationService.generateQueryString(self.query)
+        v = FlightInformationService.generate_query_string(self.query)
         self.assertEqual(v, "airport=OSL")
 
     def testTimeBoxQueryString(self):
         self.query.time_to = 3
-        v = FlightInformationService.generateQueryString(self.query)
+        v = FlightInformationService.generate_query_string(self.query)
         self.assertEqual(v, "airport=OSL&timeTo=3")
 
     def testDirectionDepartureQueryString(self):
         self.query.direction = Query.Directions.DEPARTURE
-        v = FlightInformationService.generateQueryString(self.query)
+        v = FlightInformationService.generate_query_string(self.query)
         self.assertEqual(v, "airport=OSL&direction=D")
 
     def testDirectionArrivalQueryString(self):
         self.query.direction = Query.Directions.ARRIVAL
-        v = FlightInformationService.generateQueryString(self.query)
+        v = FlightInformationService.generate_query_string(self.query)
         self.assertEqual(v, "airport=OSL&direction=A")
 
 
