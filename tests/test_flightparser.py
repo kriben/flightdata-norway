@@ -24,7 +24,7 @@ class TestFlightParser(unittest.TestCase):
     def testTrondheimData(self):
         xml_data = open("testdata/trondheimflights.xml").read()
         
-        flights = FlightParser.parseFlights(xml_data, MockAirlineFactory())
+        flights = FlightParser.parse_flights(xml_data, MockAirlineFactory())
         self.assertEqual(2, len(flights))
 
         flight1 = flights[0]
