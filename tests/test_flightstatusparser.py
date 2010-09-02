@@ -12,7 +12,7 @@ class TestFlightStatusParser(unittest.TestCase):
     def testXml(self):
         xml_data = open("testdata/flightStatuses.xml").read()
         
-        statuses = FlightStatusParser.parseStatuses(xml_data)
+        statuses = FlightStatusParser.parse_statuses(xml_data)
         self.assertEqual(5, len(statuses))
         
         expected = [ ("N", "New info"),
