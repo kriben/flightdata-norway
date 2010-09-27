@@ -13,24 +13,17 @@ from flightinfo.airlineparser import AirlineParser
 from flightinfo.airlinefactory import AirlineFactory
 
 
-airlines_xml = open("../tests/testdata/airlinenames.xml").read()
+
+airlines_xml = FlightInformationService.download_airline_xml()
 airlines = AirlineParser.parse_airlines(airlines_xml)
 airline_factory = AirlineFactory(airlines)
 
-
 airport = AirPort("TRD", "Trondheim")
 query = Query(airport)
-
-url = "http://flydata.avinor.no/XmlFeed.asp?" + \
-  FlightInformationService.generate_query_string(query)
-
-response = urllib2.urlopen(url)
-xml = response.read()
-
+xml = FlightInformationService.download_flight_xml(query)
 
 flights = FlightParser.parse_flights(xml, airline_factory)
 for f in flights:
     print f
-
 
 print xml

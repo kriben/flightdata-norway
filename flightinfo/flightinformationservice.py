@@ -1,6 +1,6 @@
 import urllib
 from query import Query
-
+import urllib2
 
 class FlightInformationService(object):
     """
@@ -29,3 +29,24 @@ class FlightInformationService(object):
             data["direction"] = conversion[query.direction]
 
         return urllib.urlencode(data)
+
+
+    @staticmethod
+    def download_xml(url):
+        response = urllib2.urlopen(url)
+        return response.read()
+
+
+    @staticmethod
+    def download_flight_xml(query):
+        url = "http://flydata.avinor.no/XmlFeed.asp?" + \
+            FlightInformationService.generate_query_string(query)
+
+        return FlightInformationService.download_xml(url)
+    
+    @staticmethod 
+    def download_airline_xml():
+        url = "http://flydata.avinor.no/airlineNames.asp" 
+        return FlightInformationService.download_xml(url)
+
+    
