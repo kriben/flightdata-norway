@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<airportNames xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/airportNames.xsd">
+  <airportName code="AAH" name="Aachen-Merzbruck"/>
+  <airportName code="AAL" name="Aalborg"/>
+  <airportName code="AAQ" name="Anapa"/>
+  <airportName code="AAR" name="Aarhus"/>
+  <airportName code="ABA" name="Abakan"/>
+  <airportName code="ABE" name="Allenrown-Bethlehem-Easton"/>
+  <airportName code="ABI" name="Abilene"/>
+  <airportName code="ABQ" name="Albuquerque"/>
+  <airportName code="ABR" name="Aberdeen"/>
+  <airportName code="ABS" name="Abu Simbel"/>
+  <airportName code="ABT" name="Abha"/>
+  <airportName code="ABZ" name="Aberdeen"/>
+  <airportName code="ACA" name="Acapulco/Alvarez"/>
+  <airportName code="ACE" name="Lanzarote"/>
+  <airportName code="ACH" name="Altenrhein"/>
+  <airportName code="ACI" name="Alderney"/>
+  <airportName code="ACO" name="Ascona"/>
+  <airportName code="ACT" name="Waco"/>
+  <airportName code="ACV" name="Arcata"/>
+  <airportName code="ACY" name="Atlantic City"/>
+  <airportName code="ADA" name="Adana"/>
+  <airportName code="ADB" name="Izmir"/>
+  <airportName code="ADH" name="Aldan"/>
+  <airportName code="ADW" name="Camp Springs/Andrews"/>
+  <airportName code="AES" name="Ålesund"/>
+  <airportName code="AEY" name="Akureyri"/>
+  <airportName code="AFW" name="Fort Worth"/>
+  <airportName code="AFY" name="Afyon"/>
+  <airportName code="AGA" name="Agadir"/>
+  <airportName code="AGB" name="Augsburg"/>
+  <airportName code="AGC" name="Pittsburgh/Allegheny"/>
+  <airportName code="AGE" name="Wangerooge"/>
+  <airportName code="AGF" name="Agen/La Garenne"/>
+  <airportName code="AGH" name="Angelholm"/>
+  <airportName code="AGP" name="Malaga"/>
+  <airportName code="AGQ" name="Agrinion"/>
+  <airportName code="AGR" name="Agra/Kheria"/>
+  <airportName code="AGS" name="Augusta/Bush Fie"/>
+  <airportName code="AHN" name="Athens"/>
+  <airportName code="AHO" name=" Alghero"/>
+  <airportName code="AHU" name="Al Hoceima/Charif Al Idrissi"/>
+  <airportName code="AJA" name="Ajaccio"/>
+  <airportName code="AJR" name="Arvidsjaur"/>
+  <airportName code="AKT" name="Akrotiri"/>
+  <airportName code="AKU" name="Skiros"/>
+  <airportName code="AKX" name="Aktyubinsk"/>
+  <airportName code="ALA" name="Almaty"/>
+  <airportName code="ALC" name="Alicante"/>
+  <airportName code="ALF" name="Alta"/>
+  <airportName code="ALI" name="Alice"/>
+  <airportName code="ALJ" name="Alexander Bay/Kortdoor"/>
+  <airportName code="ALL" name="Albenga"/>
+  <airportName code="ALN" name="Alton"/>
+  <airportName code="ALO" name="Waterloo"/>
+  <airportName code="ALW" name="Walla Walla"/>
+  <airportName code="ALY" name="Alexandria"/>
+  <airportName code="AMA" name="Amarillo"/>
+  <airportName code="AMM" name="Amman"/>
+  <airportName code="AMS" name="Amsterdam"/>
+  <airportName code="ANB" name="Anniston"/>
+  <airportName code="ANC" name="Anchorage"/>
+  <airportName code="AND" name="Anderson"/>
+  <airportName code="ANE" name="Angers-Avrille"/>
+  <airportName code="ANG" name="Angouleme/Brie-Champniers"/>
+  <airportName code="ANK" name="Ankara/Etimesgut"/>
+  <airportName code="ANR" name="Antwerpen"/>
+  <airportName code="ANX" name="Andenes"/>
+  <airportName code="AOC" name="Altenburg-Nobitz"/>
+  <airportName code="AOI" name="Ancona/Falconara"/>
+  <airportName code="AOK" name="Karpathos"/>
+  <airportName code="AOO" name="Altoona"/>
+  <airportName code="AOR" name="Alor Setar/Sultan Abdul Halim"/>
+  <airportName code="APF" name="Naples"/>
+  <airportName code="APG" name="Aberdeen/Phillips"/>
+  <airportName code="APN" name="Alpena"/>
+  <airportName code="AQJ" name="Aqaba"/>
+  <airportName code="ARH" name="Arkhangelsk"/>
+  <airportName code="ARN" name="Stockholm"/>
+  <airportName code="ART" name="Watertown"/>
+  <airportName code="ARW" name="Arad"/>
+  <airportName code="ASE" name="Aspen"/>
+  <airportName code="ASF" name="Astrakhan"/>
+  <airportName code="ASM" name="Asmara"/>
+  <airportName code="ASR" name="Kayseri"/>
+  <airportName code="ASW" name="Aswan"/>
+  <airportName code="ATH" name="Athen"/>
+  <airportName code="ATL" name="Atlanta/William"/>
+  <airportName code="ATQ" name="Amritsar/Raja San"/>
+  <airportName code="ATY" name="Watertown"/>
+  <airportName code="AUF" name="Auxerre/Moneteau"/>
+  <airportName code="AUH" name="Abu Dhabi Intl"/>
+  <airportName code="AUR" name="Aurillac"/>
+  <airportName code="AUS" name="Austin/Robert M"/>
+  <airportName code="AVB" name="Aviano"/>
+  <airportName code="AVL" name="Asheville"/>
+  <airportName code="AVN" name="Avignon-Caumont"/>
+  <airportName code="AVP" name="Scranton"/>
+  <airportName code="AXD" name="Alexandroupolis/Dimokritos"/>
+  <airportName code="AXP" name="Spring Point,Acklins I."/>
+  <airportName code="AYK" name="Arkalyk"/>
+  <airportName code="AYT" name="Antalya"/>
+  <airportName code="AZN" name="Andizhan"/>
+  <airportName code="AZO" name="Kalamazoo/Battle C"/>
+  <airportName code="AZS" name="El Catey"/>
+  <airportName code="BAE" name="Barcelonnette-Saint-Pons"/>
+  <airportName code="BAF" name="Westfield/Barnes"/>
+  <airportName code="BAH" name="Bahrain"/>
+  <airportName code="BAL" name="Batman"/>
+  <airportName code="BAY" name="Baia Mare/Tautii Magheraus"/>
+  <airportName code="BBH" name="Barth"/>
+  <airportName code="BBP" name="Bembridge"/>
+  <airportName code="BBS" name="Blackbushe"/>
+  <airportName code="BCM" name="Bacau"/>
+  <airportName code="BCN" name="Barcelona"/>
+  <airportName code="BCS" name="Belle Chasse"/>
+  <airportName code="BCT" name="Boca Raton"/>
+  <airportName code="BDA" name="Bermuda"/>
+  <airportName code="BDE" name="Baudette"/>
+  <airportName code="BDL" name="Windsor Locks/Bradley"/>
+  <airportName code="BDM" name="Balikesir/Bandirma"/>
+  <airportName code="BDR" name="Bridgeport/Igor I."/>
+  <airportName code="BDS" name="Brindisi"/>
+  <airportName code="BDU" name="Bardufoss"/>
+  <airportName code="BEB" name="Benbecula"/>
+  <airportName code="BED" name="Bedford/Hanscom"/>
+  <airportName code="BEG" name="Beograd"/>
+  <airportName code="BES" name="Brest"/>
+  <airportName code="BEV" name="Beer-Sheba/Teyman Airstrip"/>
+  <airportName code="BEX" name="Benson"/>
+  <airportName code="BEY" name="Beirut"/>
+  <airportName code="BFD" name="Bradford"/>
+  <airportName code="BFE" name="Bielefeld"/>
+  <airportName code="BFF" name="Scottsbluff/Scotts B"/>
+  <airportName code="BFI" name="Seattle/Boeing F"/>
+  <airportName code="BFL" name="Bakersfield/Meadows"/>
+  <airportName code="BFS" name="Belfast"/>
+  <airportName code="BFT" name="Beaufort/County"/>
+  <airportName code="BGC" name="Braganca"/>
+  <airportName code="BGI" name="Barbados"/>
+  <airportName code="BGM" name="Binghamton"/>
+  <airportName code="BGO" name="Bergen"/>
+  <airportName code="BGR" name="Bangor"/>
+  <airportName code="BGY" name="Milano/Orio Al Serio"/>
+  <airportName code="BGZ" name="Braga"/>
+  <airportName code="BHD" name="Belfast/City"/>
+  <airportName code="BHH" name="Arar"/>
+  <airportName code="BHK" name="Bukhara"/>
+  <airportName code="BHM" name="Birmingham"/>
+  <airportName code="BHX" name="Birmingham"/>
+  <airportName code="BHZ" name="Belo Horizonte/Tancredo N."/>
+  <airportName code="BIA" name="Bastia"/>
+  <airportName code="BIF" name="El Paso/Biggs AA"/>
+  <airportName code="BIL" name="Billings"/>
+  <airportName code="BIM" name="Alice Town/South Bimini"/>
+  <airportName code="BIO" name="Bilbao"/>
+  <airportName code="BIQ" name="Biarritz"/>
+  <airportName code="BIS" name="Bismarck"/>
+  <airportName code="BIX" name="Biloxi/Keesler"/>
+  <airportName code="BJD" name="Bakkafjordur"/>
+  <airportName code="BJF" name="Båtsfjord"/>
+  <airportName code="BJL" name="Banjul/Yundum"/>
+  <airportName code="BJS" name="Beijing City"/>
+  <airportName code="BJV" name="Bodrum/Milas"/>
+  <airportName code="BJZ" name="Badajoz/Talavera La Real"/>
+  <airportName code="BKE" name="Baker"/>
+  <airportName code="BKK" name="Bangkok"/>
+  <airportName code="BKL" name="Cleveland/Burke La"/>
+  <airportName code="BKW" name="Beckley"/>
+  <airportName code="BLA" name="Beauvais-Tille"/>
+  <airportName code="BLE" name="Borlange"/>
+  <airportName code="BLI" name="Bellingham"/>
+  <airportName code="BLK" name="Blackpool"/>
+  <airportName code="BLL" name="Billund"/>
+  <airportName code="BLO" name="Blonduos"/>
+  <airportName code="BLQ" name="Bologna"/>
+  <airportName code="BLV" name="Belleville/Scott AF"/>
+  <airportName code="BLX" name="Belluno"/>
+  <airportName code="BLY" name="Belmullet"/>
+  <airportName code="BMA" name="Bromma"/>
+  <airportName code="BMG" name="Bloomington"/>
+  <airportName code="BMR" name="Baltrum"/>
+  <airportName code="BNA" name="Nashville"/>
+  <airportName code="BNN" name="Brønnøysund"/>
+  <airportName code="BOD" name="Bordeaux"/>
+  <airportName code="BOF" name="Washington/Bolling"/>
+  <airportName code="BOH" name="Bournemouth"/>
+  <airportName code="BOI" name="Boise"/>
+  <airportName code="BOJ" name="Bourgas"/>
+  <airportName code="BOL" name="Ballykelly"/>
+  <airportName code="BOM" name="Bombay"/>
+  <airportName code="BOO" name="Bodø"/>
+  <airportName code="BOR" name="Belfort/Chaux"/>
+  <airportName code="BOS" name="Boston/Logan In"/>
+  <airportName code="BOU" name="Bourges"/>
+  <airportName code="BPT" name="Beaumont/Jefferson"/>
+  <airportName code="BQH" name="Biggin Hill"/>
+  <airportName code="BQK" name="Brunswick/Glynco J"/>
+  <airportName code="BRE" name="Bremen"/>
+  <airportName code="BRG" name="Kentucky"/>
+  <airportName code="BRI" name="Bari"/>
+  <airportName code="BRL" name="Burlington"/>
+  <airportName code="BRN" name="Bern-Belp"/>
+  <airportName code="BRO" name="Brownsville/South Pa"/>
+  <airportName code="BRQ" name="Brno/Turany"/>
+  <airportName code="BRR" name="Barra"/>
+  <airportName code="BRS" name="Bristol"/>
+  <airportName code="BRU" name="Brussel"/>
+  <airportName code="BRV" name="Bremerhaven"/>
+  <airportName code="BSB" name="Brasilia"/>
+  <airportName code="BSL" name="Basel/Mulhouse"/>
+  <airportName code="BSM" name="Austin"/>
+  <airportName code="BSR" name="Basrah"/>
+  <airportName code="BTL" name="Battle Creek/WK Kello"/>
+  <airportName code="BTM" name="Butte"/>
+  <airportName code="BTR" name="Baton Rouge/Ryan"/>
+  <airportName code="BTS" name="Bratislava"/>
+  <airportName code="BTV" name="Burlington"/>
+  <airportName code="BTZ" name="Bursa"/>
+  <airportName code="BUD" name="Budapest"/>
+  <airportName code="BUF" name="Buffalo/Greater"/>
+  <airportName code="BUH" name="Bucuresti/Baneasa"/>
+  <airportName code="BUR" name="Burbank"/>
+  <airportName code="BVA" name="Paris/Beauvais"/>
+  <airportName code="BVB" name="Boa Vista"/>
+  <airportName code="BVE" name="Brive La Gaillarde"/>
+  <airportName code="BVG" name="Berlevåg"/>
+  <airportName code="BVY" name="Beverly"/>
+  <airportName code="BWE" name="Braunschweig"/>
+  <airportName code="BWF" name="Barrow/Walney Island"/>
+  <airportName code="BWG" name="Bowling Green/Warren C"/>
+  <airportName code="BWI" name="Baltimore Washington"/>
+  <airportName code="BYH" name="Blytheville"/>
+  <airportName code="BYI" name="Burley"/>
+  <airportName code="BYR" name="Laeso"/>
+  <airportName code="BYS" name="Fort Irwin/Bicycle"/>
+  <airportName code="BYT" name="Bantry"/>
+  <airportName code="BYU" name="Bayreuth"/>
+  <airportName code="BZI" name="Balikesir/Edremit-Korfez"/>
+  <airportName code="BZM" name="Bergen Op Zoom"/>
+  <airportName code="BZO" name="Bolzano"/>
+  <airportName code="BZR" name="Beziers-Vias"/>
+  <airportName code="BZZ" name="Brize Norton"/>
+  <airportName code="CAE" name="Columbia"/>
+  <airportName code="CAG" name="Cagliari"/>
+  <airportName code="CAI" name="Kairo"/>
+  <airportName code="CAL" name="Campbeltown"/>
+  <airportName code="CAR" name="Caribou"/>
+  <airportName code="CAS" name="Casablanca/Anfa"/>
+  <airportName code="CAX" name="Carlisle"/>
+  <airportName code="CBG" name="Cambridge"/>
+  <airportName code="CBP" name="Coimbra"/>
+  <airportName code="CBU" name="Cottbus"/>
+  <airportName code="CCF" name="Carcassonne"/>
+  <airportName code="CCZ" name="Chub Cay, Berry I."/>
+  <airportName code="CDC" name="Cedar City"/>
+  <airportName code="CDF" name="Cortina"/>
+  <airportName code="CDG" name="Paris/Charles de Gaulle"/>
+  <airportName code="CDN" name="Camden"/>
+  <airportName code="CEC" name="Crescent City/Mc Namar"/>
+  <airportName code="CEF" name="Springfield/Westover"/>
+  <airportName code="CEI" name="Chiang Rai"/>
+  <airportName code="CEL" name="Cape Eleuthera, Eleuthera I."/>
+  <airportName code="CEQ" name="Cannes-Mandelieu"/>
+  <airportName code="CER" name="Cherbourg"/>
+  <airportName code="CET" name="Cholet-Le Pontreau"/>
+  <airportName code="CEW" name="Crestview/Bob Sike"/>
+  <airportName code="CFE" name="Clermont-Ferrand"/>
+  <airportName code="CFN" name="Donegal"/>
+  <airportName code="CFR" name="Caen"/>
+  <airportName code="CFU" name="Korfu/Kerkira"/>
+  <airportName code="CGF" name="Cleveland/Cuyahoga"/>
+  <airportName code="CGH" name="Sao Paulo/Congonhas"/>
+  <airportName code="CGI" name="Cape Girardeau"/>
+  <airportName code="CGN" name="Køln/Bonn"/>
+  <airportName code="CGX" name="Chicago/Merrill"/>
+  <airportName code="CHA" name="Chattanooga"/>
+  <airportName code="CHC" name="Christchurch"/>
+  <airportName code="CHD" name="Chandler/Williams"/>
+  <airportName code="CHO" name="Charlottesville"/>
+  <airportName code="CHQ" name="Chania"/>
+  <airportName code="CHR" name="Chateauroux/Villers"/>
+  <airportName code="CHS" name="Charleston"/>
+  <airportName code="CHV" name="Chaves"/>
+  <airportName code="CIA" name="Roma/Ciampino"/>
+  <airportName code="CID" name="Cedar Rapids"/>
+  <airportName code="CIH" name="Changzhi"/>
+  <airportName code="CIU" name="Sault Ste Marie/Chippewa"/>
+  <airportName code="CJS" name="Ciudad Juarez"/>
+  <airportName code="CKB" name="Clarksburg"/>
+  <airportName code="CKZ" name="Canakkale"/>
+  <airportName code="CLB" name="Castlebar"/>
+  <airportName code="CLE" name="Cleveland/Hopkins"/>
+  <airportName code="CLL" name="College Station"/>
+  <airportName code="CLM" name="Port Angeles/Fairchild"/>
+  <airportName code="CLT" name="Charlotte"/>
+  <airportName code="CLY" name="Calvi"/>
+  <airportName code="CMF" name="Chambery"/>
+  <airportName code="CMH" name="Columbus/Port Col"/>
+  <airportName code="CMI" name="Champaign/Willard"/>
+  <airportName code="CMN" name="Casablanca/Mohamed V"/>
+  <airportName code="CMR" name="Colmar/Houssen"/>
+  <airportName code="CND" name="Constanta"/>
+  <airportName code="CNG" name="Cognac/Chateau Bernard"/>
+  <airportName code="CNM" name="Carlsbad"/>
+  <airportName code="CNP" name="Nerlerit Inaat/Constable Pynt"/>
+  <airportName code="CNX" name="Chiang Mai"/>
+  <airportName code="COF" name="Cocoa"/>
+  <airportName code="COH" name="Cooch-Behar"/>
+  <airportName code="COS" name="Colorado Springs"/>
+  <airportName code="COU" name="Columbia"/>
+  <airportName code="COV" name="Covilha"/>
+  <airportName code="COX" name="Congo Town, Andros I."/>
+  <airportName code="CPH" name="København"/>
+  <airportName code="CPR" name="Casper"/>
+  <airportName code="CPT" name="Cape Town"/>
+  <airportName code="CQF" name="Calais/Dunkerque"/>
+  <airportName code="CRA" name="Craiova"/>
+  <airportName code="CRI" name="Pittsdown, Crooked I."/>
+  <airportName code="CRL" name="Brussel Sør/Charleroi"/>
+  <airportName code="CRP" name="Corpus Christi"/>
+  <airportName code="CRV" name="Crotone"/>
+  <airportName code="CRW" name="Charleston"/>
+  <airportName code="CRZ" name="Chardzhou"/>
+  <airportName code="CSB" name="Caransebes"/>
+  <airportName code="CSF" name="Creil"/>
+  <airportName code="CSG" name="Columbus"/>
+  <airportName code="CTA" name="Catania"/>
+  <airportName code="CTB" name="Cut Bank"/>
+  <airportName code="CTT" name="Le Castellet"/>
+  <airportName code="CUF" name="Cuneo/Levaldigi"/>
+  <airportName code="CVF" name="Courchevel"/>
+  <airportName code="CVO" name="Corvallis"/>
+  <airportName code="CVS" name="Clovis"/>
+  <airportName code="CVT" name="Coventry"/>
+  <airportName code="CVU" name="Corvo"/>
+  <airportName code="CWL" name="Cardiff"/>
+  <airportName code="CXL" name="Calexico"/>
+  <airportName code="CXO" name="Conroe/Montgome"/>
+  <airportName code="CYS" name="Cheyenne"/>
+  <airportName code="CZW" name="Czesochowa/Ridniki"/>
+  <airportName code="DAA" name="Fort Belvoir"/>
+  <airportName code="DAB" name="Daytona Beach"/>
+  <airportName code="DAL" name="Dallas/Love Fie"/>
+  <airportName code="DAM" name="Damaskus"/>
+  <airportName code="DAN" name="Danville"/>
+  <airportName code="DAY" name="Dayton/James Co"/>
+  <airportName code="DBQ" name="Dubuque"/>
+  <airportName code="DBV" name="Dubrovnik"/>
+  <airportName code="DBX" name="Dubai"/>
+  <airportName code="DCA" name="Washington Dc National"/>
+  <airportName code="DCI" name="Decimomannu"/>
+  <airportName code="DCM" name="Castres"/>
+  <airportName code="DCT" name="Duncan Town,Ragged I."/>
+  <airportName code="DDC" name="Dodge City"/>
+  <airportName code="DEB" name="Debrecen"/>
+  <airportName code="DEC" name="Decatur"/>
+  <airportName code="DEL" name="New Delhi"/>
+  <airportName code="DEN" name="Denver/Stapleton"/>
+  <airportName code="DET" name="Detroit City"/>
+  <airportName code="DFW" name="Dallas-Fort Worth"/>
+  <airportName code="DGP" name="Daugavpils"/>
+  <airportName code="DHN" name="Dothan"/>
+  <airportName code="DHR" name="Den Helder/De Kooy"/>
+  <airportName code="DIJ" name="Dijon"/>
+  <airportName code="DIY" name="Diyarbakir"/>
+  <airportName code="DJE" name="Djerba/Zarzis"/>
+  <airportName code="DJU" name="Djupivogur"/>
+  <airportName code="DLD" name="Geilo"/>
+  <airportName code="DLE" name="Dole/Tavaux"/>
+  <airportName code="DLH" name="Duluth"/>
+  <airportName code="DLM" name="Dalaman"/>
+  <airportName code="DMA" name="Tucson/Davis Mo"/>
+  <airportName code="DME" name="Moskva/Domodedovo"/>
+  <airportName code="DMM" name="Dammam/King Fahd"/>
+  <airportName code="DMN" name="Deming"/>
+  <airportName code="DND" name="Dundee"/>
+  <airportName code="DNK" name="Dnepropetrovsk"/>
+  <airportName code="DNR" name="Dinard"/>
+  <airportName code="DNZ" name="Denizli/Cardak"/>
+  <airportName code="DOL" name="Deauville"/>
+  <airportName code="DOV" name="Dover-Cheswold"/>
+  <airportName code="DPE" name="Dieppe/Saint-Aubin"/>
+  <airportName code="DRI" name="De Ridder/Beaurega"/>
+  <airportName code="DRS" name="Dresden"/>
+  <airportName code="DSE" name="Dessie"/>
+  <airportName code="DSM" name="Des Moines"/>
+  <airportName code="DTM" name="Dortmund"/>
+  <airportName code="DUB" name="Dublin"/>
+  <airportName code="DUJ" name="Dubois/Jefferson"/>
+  <airportName code="DUR" name="Durban"/>
+  <airportName code="DUS" name="Dusseldorf"/>
+  <airportName code="DXB" name="Dubai"/>
+  <airportName code="EAS" name="San Sebastian"/>
+  <airportName code="EAU" name="Eau Claire"/>
+  <airportName code="EBJ" name="Esbjerg"/>
+  <airportName code="EBL" name="Erbil"/>
+  <airportName code="EBM" name="El Borma"/>
+  <airportName code="EBU" name="Saint Etienne"/>
+  <airportName code="ECG" name="Elizabeth City"/>
+  <airportName code="EDI" name="Edinburgh"/>
+  <airportName code="EDW" name="Edwards AFB"/>
+  <airportName code="EEN" name="Keene/Dillant"/>
+  <airportName code="EFL" name="Kefallinia/Argostol"/>
+  <airportName code="EGC" name="Bergerac"/>
+  <airportName code="EGS" name="Egilsstadir"/>
+  <airportName code="EIB" name="Eisenach"/>
+  <airportName code="EIN" name="Eindhoven"/>
+  <airportName code="EIY" name="Eyn-Yahav Airstrip"/>
+  <airportName code="EJH" name="Wadi Ad Dawasir"/>
+  <airportName code="EKA" name="Eureka/Murray F"/>
+  <airportName code="EKN" name="Elkins"/>
+  <airportName code="EKO" name="Elko"/>
+  <airportName code="EKT" name="Eskilstuna"/>
+  <airportName code="ELD" name="El Dorado/Goodwin"/>
+  <airportName code="ELH" name="North Eleuthera,Eleuthera I."/>
+  <airportName code="ELM" name="Elmira"/>
+  <airportName code="ELP" name="El Paso"/>
+  <airportName code="ELQ" name="Dhahran"/>
+  <airportName code="EMA" name="Nottingham/East Midland"/>
+  <airportName code="EME" name="Emden"/>
+  <airportName code="ENC" name="Nancy-Essey"/>
+  <airportName code="END" name="Enid/Vance AF"/>
+  <airportName code="ENF" name="Enontekio"/>
+  <airportName code="ENK" name="Enniskillen/St.Angelo"/>
+  <airportName code="ENS" name="Enschede"/>
+  <airportName code="ENW" name="Kenosha"/>
+  <airportName code="EPK" name="Episkopi"/>
+  <airportName code="EPL" name="Epinal-Mirecourt"/>
+  <airportName code="EQI" name="Eday"/>
+  <airportName code="ERC" name="Erzincan"/>
+  <airportName code="ERF" name="Erfurt"/>
+  <airportName code="ERH" name="Errachidia/Mouay Ali Cherif"/>
+  <airportName code="ERI" name="Erie"/>
+  <airportName code="ERZ" name="Erzurum"/>
+  <airportName code="ESB" name="Ankara/Esenboga"/>
+  <airportName code="ESH" name="Shoreham"/>
+  <airportName code="ESK" name="Eskisehir/Anadolu"/>
+  <airportName code="ESS" name="Essen"/>
+  <airportName code="ETH" name="Eilat/J. Hozman Airport"/>
+  <airportName code="ETZ" name="Metz/Nancy"/>
+  <airportName code="EUG" name="Eugene"/>
+  <airportName code="EVE" name="Harstad/Narvik"/>
+  <airportName code="EVG" name="Sveg"/>
+  <airportName code="EVN" name="Jerevan"/>
+  <airportName code="EVV" name="Evansville/Dress Re"/>
+  <airportName code="EVX" name="Evreux-Fauville"/>
+  <airportName code="EWB" name="New Bedford"/>
+  <airportName code="EWN" name="New Bern/Simmons"/>
+  <airportName code="EWR" name="New York/Newark"/>
+  <airportName code="EXT" name="Exeter"/>
+  <airportName code="EYW" name="Key West"/>
+  <airportName code="EZS" name="Elazig"/>
+  <airportName code="FAB" name="Farnborough"/>
+  <airportName code="FAE" name="Færøyene"/>
+  <airportName code="FAG" name="Fagurholsmyri"/>
+  <airportName code="FAN" name="Farsund"/>
+  <airportName code="FAO" name="Faro"/>
+  <airportName code="FAR" name="Fargo/Hector F"/>
+  <airportName code="FAT" name="Fresno"/>
+  <airportName code="FAY" name="Fayetteville"/>
+  <airportName code="FBG" name="Fort Bragg/Simmons"/>
+  <airportName code="FCA" name="Kalispell/Glacier"/>
+  <airportName code="FCO" name="Roma/Fiumicino"/>
+  <airportName code="FDE" name="Førde"/>
+  <airportName code="FDH" name="Friedrichshafen"/>
+  <airportName code="FEZ" name="Fez"/>
+  <airportName code="FFD" name="Fairford"/>
+  <airportName code="FFO" name="Dayton/Patterson"/>
+  <airportName code="FHU" name="Fort Huachuca/Libby AA"/>
+  <airportName code="FIE" name="Fair Isle"/>
+  <airportName code="FIN" name="Finnmark"/>
+  <airportName code="FLF" name="Flensburg/Schaferhaus"/>
+  <airportName code="FLG" name="Flagstaff/Pulliam"/>
+  <airportName code="FLO" name="Florence"/>
+  <airportName code="FLR" name="Florence"/>
+  <airportName code="FLV" name="Fort Leavenworth/Sherman"/>
+  <airportName code="FLW" name="Azorene/Flores"/>
+  <airportName code="FME" name="Fort Meade/Tipton A"/>
+  <airportName code="FMO" name="Munster"/>
+  <airportName code="FNC" name="Funchal"/>
+  <airportName code="FNI" name="Nimes"/>
+  <airportName code="FNT" name="Flint/Bishop"/>
+  <airportName code="FOD" name="Fort Dodge"/>
+  <airportName code="FOE" name="Topeka/Forbes A"/>
+  <airportName code="FOG" name="Foggia"/>
+  <airportName code="FOR" name="Fortaleza"/>
+  <airportName code="FPM" name="Melun"/>
+  <airportName code="FPO" name="Freeport/Intl,Grand Bahama I"/>
+  <airportName code="FPR" name="Fort Pierce/St Lucie"/>
+  <airportName code="FRA" name="Frankfurt"/>
+  <airportName code="FRG" name="Farmingdale"/>
+  <airportName code="FRI" name="Fort Riley/Marshall"/>
+  <airportName code="FRL" name="Forli"/>
+  <airportName code="FRO" name="Florø"/>
+  <airportName code="FRU" name="Manas"/>
+  <airportName code="FRZ" name="Fritzlar"/>
+  <airportName code="FSC" name="Figari,Sud-Corse"/>
+  <airportName code="FSD" name="Sioux Falls"/>
+  <airportName code="FSI" name="Fort Sill/Henry Po"/>
+  <airportName code="FSM" name="Fort Smith"/>
+  <airportName code="FTW" name="Fort Worth/Meacham"/>
+  <airportName code="FTY" name="Atlanta/Fulton C"/>
+  <airportName code="FUE" name="Fuerteventura"/>
+  <airportName code="FWA" name="Fort Wayne"/>
+  <airportName code="FWH" name="Fort Worth/Carswell"/>
+  <airportName code="FYV" name="Fayetteville"/>
+  <airportName code="FZO" name="Filton"/>
+  <airportName code="GAE" name="Gabes"/>
+  <airportName code="GAF" name="Gafsa"/>
+  <airportName code="GAL" name="Galena"/>
+  <airportName code="GAN" name="Gan Island"/>
+  <airportName code="GBI" name="Grand Bahama"/>
+  <airportName code="GCI" name="Guernsey"/>
+  <airportName code="GCK" name="Garden City"/>
+  <airportName code="GCN" name="Grand Canyon"/>
+  <airportName code="GDN" name="Gdansk"/>
+  <airportName code="GDX" name="Magadan/Sokol"/>
+  <airportName code="GEG" name="Spokane"/>
+  <airportName code="GEV" name="Gallivare"/>
+  <airportName code="GFA" name="Great Falls/Malmstro"/>
+  <airportName code="GFL" name="Glens Falls/Warren C"/>
+  <airportName code="GFR" name="Granville"/>
+  <airportName code="GGG" name="Longview"/>
+  <airportName code="GGT" name="George Town, Exuma I."/>
+  <airportName code="GGW" name="Glasgow"/>
+  <airportName code="GHC" name="Bullocks Harbour/Great Harbour"/>
+  <airportName code="GHF" name="Giebelstadt"/>
+  <airportName code="GHK" name="Gush Katif"/>
+  <airportName code="GIA" name="Gap-Tallard"/>
+  <airportName code="GIB" name="Gibraltar/North Fr"/>
+  <airportName code="GIZ" name="Gassim"/>
+  <airportName code="GJR" name="Gjogur"/>
+  <airportName code="GKE" name="Geilenkirchen"/>
+  <airportName code="GLA" name="Glasgow"/>
+  <airportName code="GLL" name="Gol"/>
+  <airportName code="GLO" name="Gloucestershire"/>
+  <airportName code="GLZ" name="Breda/Gilze-Rijen"/>
+  <airportName code="GNB" name="Grenoble"/>
+  <airportName code="GNV" name="Gainesville/J R Alis"/>
+  <airportName code="GOA" name="Genova"/>
+  <airportName code="GOH" name="Nuuk/Godthaab"/>
+  <airportName code="GOI" name="Goa"/>
+  <airportName code="GOJ" name="Novgorod"/>
+  <airportName code="GON" name="Groton"/>
+  <airportName code="GOT" name="Gøteborg"/>
+  <airportName code="GOZ" name="Gorna Orechovitsa"/>
+  <airportName code="GPA" name="Patras/Araxos A"/>
+  <airportName code="GPT" name="Gulfport/Biloxi R"/>
+  <airportName code="GRO" name="Girona"/>
+  <airportName code="GRQ" name="Groningen"/>
+  <airportName code="GRR" name="Grand Rapids/Kent Cou"/>
+  <airportName code="GRS" name="Grosseto"/>
+  <airportName code="GRU" name="Sao Paulo/Guarulhos"/>
+  <airportName code="GRW" name="Azorene/GRW"/>
+  <airportName code="GRX" name="Granada"/>
+  <airportName code="GRY" name="Grimsey"/>
+  <airportName code="GRZ" name="Graz"/>
+  <airportName code="GSB" name="Goldsboro/Seymour"/>
+  <airportName code="GSE" name="Gøteborg/Save"/>
+  <airportName code="GSP" name="Greer/Greenvil"/>
+  <airportName code="GTF" name="Great Falls"/>
+  <airportName code="GTW" name="Zlin/Holesov"/>
+  <airportName code="GUP" name="Gallup/Senator"/>
+  <airportName code="GUS" name="Peru/Grissom"/>
+  <airportName code="GVA" name="Geneve"/>
+  <airportName code="GVX" name="Gavle"/>
+  <airportName code="GWO" name="Greenwood/Leflore"/>
+  <airportName code="GWT" name="Westerland/Sylt"/>
+  <airportName code="GWY" name="Galway Carnmore"/>
+  <airportName code="GYD" name="Baku"/>
+  <airportName code="GYY" name="Gary"/>
+  <airportName code="GZT" name="Gaziantep"/>
+  <airportName code="HAA" name="Hasvik"/>
+  <airportName code="HAD" name="Halmstad"/>
+  <airportName code="HAJ" name="Hannover"/>
+  <airportName code="HAM" name="Hamburg"/>
+  <airportName code="HAQ" name="Hanimaadhoo"/>
+  <airportName code="HAU" name="Haugesund"/>
+  <airportName code="HAV" name="Habana Jose(marti Intl."/>
+  <airportName code="HAW" name="Haverfordwest"/>
+  <airportName code="HDB" name="Heidelberg"/>
+  <airportName code="HDF" name="Heringsdorf"/>
+  <airportName code="HEL" name="Helsinki"/>
+  <airportName code="HER" name="Heraklion"/>
+  <airportName code="HFA" name="Haifa/U. Michaeli Airport"/>
+  <airportName code="HFD" name="Hartford/Brainard"/>
+  <airportName code="HFN" name="Hofn/Hornafjordur"/>
+  <airportName code="HFS" name="Hagfors"/>
+  <airportName code="HFT" name="Hammerfest"/>
+  <airportName code="HGL" name="Helgoland-Dune"/>
+  <airportName code="HGR" name="Hagerstown/Wash. Co"/>
+  <airportName code="HHN" name="Frankfurt/Hahn"/>
+  <airportName code="HHR" name="Hawthorne"/>
+  <airportName code="HIB" name="Hibbing/Chisholm"/>
+  <airportName code="HIF" name="Ogden/Hill AFB"/>
+  <airportName code="HIJ" name="Hiroshima"/>
+  <airportName code="HKG" name="Hongkong"/>
+  <airportName code="HKT" name="Phuket"/>
+  <airportName code="HKY" name="Hickory"/>
+  <airportName code="HLF" name="Hultsfred"/>
+  <airportName code="HLN" name="Helena"/>
+  <airportName code="HLY" name="Holyhead"/>
+  <airportName code="HMA" name="Khanty-Mansiysk"/>
+  <airportName code="HMN" name="Alamogordo/Holloman"/>
+  <airportName code="HMR" name="Hamar"/>
+  <airportName code="HMV" name="Hemavan"/>
+  <airportName code="HOF" name="Hail"/>
+  <airportName code="HOH" name="Hohenems"/>
+  <airportName code="HON" name="Huron/Howes"/>
+  <airportName code="HOQ" name="Hof"/>
+  <airportName code="HOR" name="Azorene/Horta"/>
+  <airportName code="HOU" name="Houston/Hobby"/>
+  <airportName code="HOV" name="Ørsta-Volda"/>
+  <airportName code="HPN" name="White Plains"/>
+  <airportName code="HQM" name="Hoquiam/Bowerman"/>
+  <airportName code="HRD" name="Harstad"/>
+  <airportName code="HRG" name="Hurghada"/>
+  <airportName code="HRK" name="Kharkov"/>
+  <airportName code="HRL" name="Harlingen/Valley I"/>
+  <airportName code="HRO" name="Harrison/Boone Co"/>
+  <airportName code="HST" name="Homestead"/>
+  <airportName code="HSV" name="Huntsville"/>
+  <airportName code="HTS" name="Huntington"/>
+  <airportName code="HUA" name="Huntsville/Redstone"/>
+  <airportName code="HUF" name="Terre Haute/Hulman F"/>
+  <airportName code="HUV" name="Hudiksvall"/>
+  <airportName code="HUY" name="Humberside"/>
+  <airportName code="HVG" name="Honningsvåg"/>
+  <airportName code="HVK" name="Holmavik"/>
+  <airportName code="HVN" name="New Haven"/>
+  <airportName code="HYA" name="Hyannis/Barnstab"/>
+  <airportName code="HYC" name="High Wycombe"/>
+  <airportName code="HYV" name="Hyvinkaa"/>
+  <airportName code="HZK" name="Husavik"/>
+  <airportName code="IAD" name="Washington/Dulles I"/>
+  <airportName code="IAG" name="Niagara Falls"/>
+  <airportName code="IAH" name="Houston"/>
+  <airportName code="IAS" name="Iasi"/>
+  <airportName code="IBZ" name="Ibiza"/>
+  <airportName code="ICN" name="Seoul/Inchon"/>
+  <airportName code="IDA" name="Idaho Falls/Fanning"/>
+  <airportName code="IDB" name="Idre"/>
+  <airportName code="IEG" name="Zielona Gora/Babimost"/>
+  <airportName code="IES" name="Riesa-Gohlis"/>
+  <airportName code="IEV" name="Kiev/Zhulyany"/>
+  <airportName code="IFJ" name="Isafjordur"/>
+  <airportName code="IFO" name="Ivano-Frankovsk"/>
+  <airportName code="IGA" name="Matthew Town,Great Inagua I."/>
+  <airportName code="IGL" name="Izmir/Cigli"/>
+  <airportName code="IIA" name="Inishmaan"/>
+  <airportName code="IKK" name="Kankakee/Greater"/>
+  <airportName code="IKT" name="Irkutsk"/>
+  <airportName code="ILF" name="Ilford"/>
+  <airportName code="ILG" name="Wilmington/Greater"/>
+  <airportName code="ILH" name="Illesheim"/>
+  <airportName code="ILM" name="Wilmington/New Hano"/>
+  <airportName code="ILY" name="Islay"/>
+  <airportName code="ILZ" name="Zilina"/>
+  <airportName code="IND" name="Indianapolis"/>
+  <airportName code="INI" name="Nis"/>
+  <airportName code="INK" name="Wink"/>
+  <airportName code="INN" name="Innsbruck"/>
+  <airportName code="INQ" name="Inisheer"/>
+  <airportName code="INT" name="Winston Salem/Smith-Re"/>
+  <airportName code="INV" name="Inverness"/>
+  <airportName code="IOA" name="Ioannina"/>
+  <airportName code="IOM" name="Isle Of Man"/>
+  <airportName code="IOR" name="Inishmore/Kilronan"/>
+  <airportName code="IPT" name="Williamsport/Lycoming"/>
+  <airportName code="IRK" name="Kirksville"/>
+  <airportName code="ISB" name="Islamabad"/>
+  <airportName code="ISE" name="Isparta/S.Demirel"/>
+  <airportName code="ISP" name="Islip/Long Isl"/>
+  <airportName code="IST" name="Istanbul"/>
+  <airportName code="IUD" name="Al Udeid"/>
+  <airportName code="IVL" name="Ivalo"/>
+  <airportName code="JAC" name="Jackson"/>
+  <airportName code="JAN" name="Jackson"/>
+  <airportName code="JAV" name="Ilulissat/Jakobshavn"/>
+  <airportName code="JAX" name="Jacksonville"/>
+  <airportName code="JBR" name="Jonesboro"/>
+  <airportName code="JCH" name="Qasigiannguit/Christianshaab"/>
+  <airportName code="JED" name="Jeddah/King Abdulaziz"/>
+  <airportName code="JEG" name="Aasiaat/Egedesminde"/>
+  <airportName code="JER" name="Jersey"/>
+  <airportName code="JFK" name="New York/John F K"/>
+  <airportName code="JFR" name="Paamiut/Frederikshaab"/>
+  <airportName code="JGO" name="Qeqertarsuaq/Godhavn"/>
+  <airportName code="JHS" name="Sisimiut/Holsteinsborg"/>
+  <airportName code="JIK" name="Ikaria"/>
+  <airportName code="JJN" name="Jinjiang"/>
+  <airportName code="JJU" name="Qaqortoq/Julianehaab"/>
+  <airportName code="JKG" name="Jønkøping"/>
+  <airportName code="JKH" name="Chios"/>
+  <airportName code="JKT" name="Jakarta"/>
+  <airportName code="JLN" name="Joplin"/>
+  <airportName code="JMK" name="Mikonos"/>
+  <airportName code="JMS" name="Jamestown"/>
+  <airportName code="JNB" name="Johannesburg"/>
+  <airportName code="JNN" name="Nanortalik"/>
+  <airportName code="JNX" name="Naxos"/>
+  <airportName code="JOE" name="Joensuu"/>
+  <airportName code="JRK" name="Arsuk"/>
+  <airportName code="JSH" name="Sitia"/>
+  <airportName code="JSI" name="Skiathos"/>
+  <airportName code="JST" name="Johnstown"/>
+  <airportName code="JSU" name="Maniitsoq"/>
+  <airportName code="JSY" name="Syros"/>
+  <airportName code="JTR" name="Santorini"/>
+  <airportName code="JTY" name="Astypalaia"/>
+  <airportName code="JUI" name="Juist"/>
+  <airportName code="JXN" name="Jackson/Reynolds"/>
+  <airportName code="JYV" name="Jyvaskyla"/>
+  <airportName code="KAJ" name="Kajaani"/>
+  <airportName code="KAO" name="Kuusamo"/>
+  <airportName code="KAU" name="Kauhava"/>
+  <airportName code="KBL" name="Kabul"/>
+  <airportName code="KBP" name="Kiev/Borispol"/>
+  <airportName code="KBV" name="Krabi"/>
+  <airportName code="KCM" name="Kahramanmaras"/>
+  <airportName code="KDL" name="Kardla"/>
+  <airportName code="KDM" name="Kaadedhdhoo"/>
+  <airportName code="KDO" name="Kadhdhoo"/>
+  <airportName code="KEF" name="Reykjavik"/>
+  <airportName code="KEL" name="Kiel"/>
+  <airportName code="KEM" name="Kemi/Tornio"/>
+  <airportName code="KES" name="Kelsey"/>
+  <airportName code="KEV" name="Kuorevesi"/>
+  <airportName code="KGD" name="Kaliningrad"/>
+  <airportName code="KGF" name="Karaganda"/>
+  <airportName code="KGS" name="Kos"/>
+  <airportName code="KHI" name="Karachi"/>
+  <airportName code="KHJ" name="Kauhajoki"/>
+  <airportName code="KID" name="Kristianstad"/>
+  <airportName code="KIN" name="Kingston/Norman Manley"/>
+  <airportName code="KIR" name="Kerry Farranfore"/>
+  <airportName code="KIT" name="Kithira"/>
+  <airportName code="KIV" name="Kishinev"/>
+  <airportName code="KIX" name="Osaka/Japan"/>
+  <airportName code="KJK" name="Kortrijk"/>
+  <airportName code="KKC" name="Khon Kaen"/>
+  <airportName code="KKN" name="Kirkenes"/>
+  <airportName code="KKY" name="Kilkenny"/>
+  <airportName code="KLI" name="Kaiserslautern Hel"/>
+  <airportName code="KLJ" name="Klaipeda"/>
+  <airportName code="KLR" name="Kalmar"/>
+  <airportName code="KLU" name="Klagenfurt"/>
+  <airportName code="KLV" name="Karlovy Vary"/>
+  <airportName code="KLX" name="Kalamata"/>
+  <airportName code="KOI" name="Orknøyene"/>
+  <airportName code="KOJ" name="Kagoshima/Japan"/>
+  <airportName code="KOK" name="Kokkola/Pietarsaari"/>
+  <airportName code="KRF" name="Kramfors"/>
+  <airportName code="KRH" name="Redhill"/>
+  <airportName code="KRK" name="Krakow"/>
+  <airportName code="KRN" name="Kiruna"/>
+  <airportName code="KRP" name="Karup"/>
+  <airportName code="KRS" name="Kristiansand"/>
+  <airportName code="KSC" name="Kosice/Barca"/>
+  <airportName code="KSD" name="Karlstadt"/>
+  <airportName code="KSF" name="Kassel"/>
+  <airportName code="KSJ" name="Kasos"/>
+  <airportName code="KSK" name="Karlskoga"/>
+  <airportName code="KSO" name="Kastoria/Aristo/Lis"/>
+  <airportName code="KSU" name="Kristiansund"/>
+  <airportName code="KSW" name="Kiryat-Shmona Airstrip"/>
+  <airportName code="KSY" name="Kars"/>
+  <airportName code="KTP" name="Kingston/Tinson"/>
+  <airportName code="KTQ" name="Kitee"/>
+  <airportName code="KTT" name="Kittila"/>
+  <airportName code="KTW" name="Katowice"/>
+  <airportName code="KUA" name="Kuantan"/>
+  <airportName code="KUL" name="Kuala Lumpur"/>
+  <airportName code="KUN" name="Kaunas"/>
+  <airportName code="KUO" name="Kuopio"/>
+  <airportName code="KUS" name="Kulusuk"/>
+  <airportName code="KVA" name="Kavala/Megas Alexandros"/>
+  <airportName code="KVB" name="Skøvde"/>
+  <airportName code="KVX" name="Kirov"/>
+  <airportName code="KWI" name="Kuwait International"/>
+  <airportName code="KYA" name="Konya"/>
+  <airportName code="KZG" name="Kitzingen"/>
+  <airportName code="KZI" name="Kozani/Filippos"/>
+  <airportName code="KZS" name="Kastelorizo"/>
+  <airportName code="LAF" name="Lafayette/Purdue U"/>
+  <airportName code="LAI" name="Lannion"/>
+  <airportName code="LAL" name="Lakeland"/>
+  <airportName code="LAN" name="Lansing"/>
+  <airportName code="LAR" name="Laramie"/>
+  <airportName code="LAS" name="Las Vegas/Mccarran"/>
+  <airportName code="LAX" name="Los Angeles"/>
+  <airportName code="LBA" name="Leeds/Bradford"/>
+  <airportName code="LBB" name="Lubbock"/>
+  <airportName code="LBC" name="Hamburg/Lubeck"/>
+  <airportName code="LBD" name="Khudzhand"/>
+  <airportName code="LBE" name="Latrobe/Westmore"/>
+  <airportName code="LBG" name="Le Bourget"/>
+  <airportName code="LBI" name="Albi/Le Sequestre"/>
+  <airportName code="LBL" name="Liberal"/>
+  <airportName code="LBY" name="La Baule-Escoublac"/>
+  <airportName code="LCA" name="Larnaca"/>
+  <airportName code="LCC" name="Lecce/Lepore"/>
+  <airportName code="LCG" name="La Coruna"/>
+  <airportName code="LCH" name="Lake Charles"/>
+  <airportName code="LCJ" name="Lodz"/>
+  <airportName code="LCK" name="Columbus/Rickenba"/>
+  <airportName code="LCV" name="Lucca/Tassignano"/>
+  <airportName code="LCY" name="London City"/>
+  <airportName code="LDE" name="Lourdes/Tarbes"/>
+  <airportName code="LDK" name="Lidkøping"/>
+  <airportName code="LDV" name="Landivisiau"/>
+  <airportName code="LDY" name="Londonderry"/>
+  <airportName code="LEB" name="Lebanon"/>
+  <airportName code="LED" name="St. Petersburg"/>
+  <airportName code="LEH" name="Le Havre"/>
+  <airportName code="LEI" name="Almeria"/>
+  <airportName code="LEJ" name="Leipzig"/>
+  <airportName code="LEQ" name="Lands End/St.Just"/>
+  <airportName code="LEU" name="Seo De Urgel"/>
+  <airportName code="LEX" name="Lexington"/>
+  <airportName code="LEY" name="Lelystad"/>
+  <airportName code="LFI" name="Hampton/Langley"/>
+  <airportName code="LFT" name="Lafayette"/>
+  <airportName code="LGA" name="New York/La Guardia"/>
+  <airportName code="LGB" name="Long Beach"/>
+  <airportName code="LGG" name="Liege"/>
+  <airportName code="LGO" name="Langeoog"/>
+  <airportName code="LGW" name="London/Gatwick"/>
+  <airportName code="LHA" name="Lahr"/>
+  <airportName code="LHE" name="Lahore"/>
+  <airportName code="LHR" name="London/Heathrow"/>
+  <airportName code="LID" name="Leiden"/>
+  <airportName code="LIG" name="Limoges"/>
+  <airportName code="LIL" name="Lille"/>
+  <airportName code="LIN" name="Milano/Linate"/>
+  <airportName code="LIS" name="Lisboa"/>
+  <airportName code="LJU" name="Ljubljana"/>
+  <airportName code="LKL" name="Lakselv"/>
+  <airportName code="LKN" name="Leknes"/>
+  <airportName code="LLA" name="Luleå"/>
+  <airportName code="LME" name="Le Mans-Arnage"/>
+  <airportName code="LMO" name="Lossiemouth"/>
+  <airportName code="LMP" name="Lampedusa"/>
+  <airportName code="LMT" name="Klamath Falls/Kingsley"/>
+  <airportName code="LNK" name="Lincoln"/>
+  <airportName code="LNS" name="Lancaster"/>
+  <airportName code="LNZ" name="Linz"/>
+  <airportName code="LON" name="London"/>
+  <airportName code="LOS" name="Lagos"/>
+  <airportName code="LOU" name="Louisville"/>
+  <airportName code="LOZ" name="London"/>
+  <airportName code="LPA" name="Las Palmas"/>
+  <airportName code="LPI" name="Linkøping"/>
+  <airportName code="LPL" name="Liverpool"/>
+  <airportName code="LPP" name="Lappeenranta"/>
+  <airportName code="LPT" name="Lampang"/>
+  <airportName code="LPX" name="Liepaya"/>
+  <airportName code="LPY" name="Le Puy/Loudes"/>
+  <airportName code="LRA" name="Larisa"/>
+  <airportName code="LRC" name="Laarbruch"/>
+  <airportName code="LRD" name="Laredo"/>
+  <airportName code="LRH" name="La Rochelle"/>
+  <airportName code="LRS" name="Leros"/>
+  <airportName code="LRT" name="Lorient"/>
+  <airportName code="LRU" name="Las Cruces"/>
+  <airportName code="LSE" name="La Crosse"/>
+  <airportName code="LSF" name="Fort Benning/Lawson A"/>
+  <airportName code="LSI" name="Shetland"/>
+  <airportName code="LSV" name="Las Vegas/Nellis A"/>
+  <airportName code="LTH" name="Lathorp Wells"/>
+  <airportName code="LTN" name="London/Luton"/>
+  <airportName code="LTQ" name="Le Touquet/Paris-Plage"/>
+  <airportName code="LTS" name="Altus"/>
+  <airportName code="LUG" name="Lugano"/>
+  <airportName code="LUK" name="Cincinnati"/>
+  <airportName code="LUX" name="Luxembourg"/>
+  <airportName code="LVA" name="Laval-Entrammes"/>
+  <airportName code="LVM" name="Livingston"/>
+  <airportName code="LWM" name="Lawrence"/>
+  <airportName code="LWO" name="Lvov"/>
+  <airportName code="LWR" name="Leeuwarden"/>
+  <airportName code="LWT" name="Lewistown"/>
+  <airportName code="LXR" name="Luxor"/>
+  <airportName code="LXS" name="Lemnos"/>
+  <airportName code="LYC" name="Lycksele"/>
+  <airportName code="LYE" name="Lyneham"/>
+  <airportName code="LYH" name="Lynchburg"/>
+  <airportName code="LYN" name="Lyon-Bron"/>
+  <airportName code="LYR" name="Longyearbyen"/>
+  <airportName code="LYS" name="Lyon"/>
+  <airportName code="LYU" name="Ely"/>
+  <airportName code="LYX" name="Lydd"/>
+  <airportName code="MAA" name="Madras"/>
+  <airportName code="MAD" name="Madrid"/>
+  <airportName code="MAF" name="Midland/Odessa R"/>
+  <airportName code="MAH" name="Menorca"/>
+  <airportName code="MAN" name="Manchester"/>
+  <airportName code="MBD" name="Mmabatho"/>
+  <airportName code="MBJ" name="Montego Bay/Sangster"/>
+  <airportName code="MBS" name="Saginaw/Tri City"/>
+  <airportName code="MBX" name="Maribor"/>
+  <airportName code="MCC" name="Sacramento/Mcclellan"/>
+  <airportName code="MCF" name="Tampa/Mac Dill"/>
+  <airportName code="MCI" name="Kansas City"/>
+  <airportName code="MCM" name="Monte Carlo"/>
+  <airportName code="MCN" name="Macon"/>
+  <airportName code="MCO" name="Orlando"/>
+  <airportName code="MCQ" name="Miskolc"/>
+  <airportName code="MCT" name="Muscat/Seeb"/>
+  <airportName code="MCU" name="Montlucon-Gueret"/>
+  <airportName code="MDT" name="Harrisburg"/>
+  <airportName code="MDW" name="Chicago/Midway"/>
+  <airportName code="MED" name="Khamis Mushait"/>
+  <airportName code="MEH" name="Mehamn"/>
+  <airportName code="MEI" name="Meridian/Key Fiel"/>
+  <airportName code="MEM" name="Memphis"/>
+  <airportName code="MEN" name="Mende-Brenoux"/>
+  <airportName code="MER" name="Merced/Castle A"/>
+  <airportName code="MEX" name="Mexico City"/>
+  <airportName code="MFE" name="Mcallen/Miller I"/>
+  <airportName code="MFR" name="Medford/Jackson"/>
+  <airportName code="MFX" name="Meribel-Bois Des Fraises"/>
+  <airportName code="MGE" name="Marietta"/>
+  <airportName code="MGM" name="Montgomery/Dannelly"/>
+  <airportName code="MGW" name="Morgantown"/>
+  <airportName code="MHG" name="Mannheim"/>
+  <airportName code="MHH" name="Marsh Harbour, Abaco I."/>
+  <airportName code="MHK" name="Manhattan"/>
+  <airportName code="MHP" name="Minsk"/>
+  <airportName code="MHQ" name="Mariehamn"/>
+  <airportName code="MHT" name="Manchester"/>
+  <airportName code="MHZ" name="Mildenhall"/>
+  <airportName code="MIA" name="Miami"/>
+  <airportName code="MIE" name="Muncie/Delaware"/>
+  <airportName code="MIK" name="Mikkeli"/>
+  <airportName code="MIL" name="Milano"/>
+  <airportName code="MIP" name="Mitzpe-Ramon Airstrip"/>
+  <airportName code="MIR" name="Monastir"/>
+  <airportName code="MJF" name="Mosjøen"/>
+  <airportName code="MJH" name="Madinah/Pr Mohammad Bin Abdula"/>
+  <airportName code="MJT" name="Mytilene"/>
+  <airportName code="MJV" name="Murcia"/>
+  <airportName code="MKA" name="Marianske Lazne"/>
+  <airportName code="MKC" name="Kansas City"/>
+  <airportName code="MKE" name="Milwaukee/General Mitchell"/>
+  <airportName code="MKG" name="Muskegon"/>
+  <airportName code="MKL" name="Jackson/Mckellar"/>
+  <airportName code="MKZ" name="Malacca/Batu Ber"/>
+  <airportName code="MLA" name="Malta"/>
+  <airportName code="MLB" name="Melbourne"/>
+  <airportName code="MLC" name="Mc Alester"/>
+  <airportName code="MLE" name="Male"/>
+  <airportName code="MLH" name="Mulhouse"/>
+  <airportName code="MLI" name="Moline/Quad-Cit"/>
+  <airportName code="MLN" name="Melilla"/>
+  <airportName code="MLO" name="Milos"/>
+  <airportName code="MLU" name="Monroe"/>
+  <airportName code="MLX" name="Malatya/Erhac"/>
+  <airportName code="MME" name="Teesside"/>
+  <airportName code="MMK" name="Murmansk"/>
+  <airportName code="MMU" name="Morristown"/>
+  <airportName code="MMX" name="Malmø"/>
+  <airportName code="MNL" name="Manila"/>
+  <airportName code="MOD" name="Modesto"/>
+  <airportName code="MOL" name="Molde"/>
+  <airportName code="MON" name="Mount Cook"/>
+  <airportName code="MOT" name="Minot"/>
+  <airportName code="MOW" name="Moskva"/>
+  <airportName code="MPL" name="Montpellier"/>
+  <airportName code="MQC" name="Miquelon"/>
+  <airportName code="MQN" name="Mo i Rana"/>
+  <airportName code="MQT" name="Marquette"/>
+  <airportName code="MQY" name="Smyrna"/>
+  <airportName code="MRB" name="Martinsburg"/>
+  <airportName code="MRS" name="Marseille"/>
+  <airportName code="MRY" name="Monterey"/>
+  <airportName code="MSE" name="Manston"/>
+  <airportName code="MSN" name="Madison"/>
+  <airportName code="MSO" name="Missoula/Johnson-"/>
+  <airportName code="MSP" name="Minneapolis"/>
+  <airportName code="MSQ" name="Minsk"/>
+  <airportName code="MSR" name="Mus"/>
+  <airportName code="MSS" name="Massena/Richards"/>
+  <airportName code="MST" name="Maastricht"/>
+  <airportName code="MSY" name="New Orleans"/>
+  <airportName code="MTN" name="Baltimore/Glenn L"/>
+  <airportName code="MUC" name="Munchen"/>
+  <airportName code="MUH" name="Mersa"/>
+  <airportName code="MUI" name="Fort Indiantown/Muir AAF"/>
+  <airportName code="MUO" name="Mountain Home/AFB"/>
+  <airportName code="MVQ" name="Mogilev"/>
+  <airportName code="MVV" name="Megeve"/>
+  <airportName code="MXF" name="Montgomery/Maxwell"/>
+  <airportName code="MXN" name="Morlaix-Ploujean"/>
+  <airportName code="MXP" name="Milano/Malpensa"/>
+  <airportName code="MXX" name="Mora"/>
+  <airportName code="MYG" name="Mayaguana Aafb,Mayaguana I."/>
+  <airportName code="MYR" name="Myrtle Beach"/>
+  <airportName code="MYV" name="Marysville/Yuba Cou"/>
+  <airportName code="NAP" name="Napoli"/>
+  <airportName code="NAQ" name="Qaanaaq"/>
+  <airportName code="NAS" name="Nassau/Intl,New Providence I"/>
+  <airportName code="NAW" name="Narathiwat"/>
+  <airportName code="NBE" name="Enfidha"/>
+  <airportName code="NBG" name="New Orleans/NAS/Alvi"/>
+  <airportName code="NCE" name="Nice"/>
+  <airportName code="NCL" name="Newcastle"/>
+  <airportName code="NCY" name="Annecy"/>
+  <airportName code="NDB" name="Nouadhibou"/>
+  <airportName code="NDJ" name="Ndjamena"/>
+  <airportName code="NDR" name="Nador"/>
+  <airportName code="NDY" name="Sanday"/>
+  <airportName code="NDZ" name="Nordholz-Spieka"/>
+  <airportName code="NEG" name="Negril"/>
+  <airportName code="NEL" name="Lakehurst/Naec"/>
+  <airportName code="NET" name="New Bight, Cat I."/>
+  <airportName code="NEW" name="New Orleans/Lakefron"/>
+  <airportName code="NFL" name="Fallon/NAS"/>
+  <airportName code="NGP" name="Corpus Christi/NAS"/>
+  <airportName code="NGS" name="Nagasaki"/>
+  <airportName code="NGU" name="Norfolk/NAS Cham"/>
+  <airportName code="NHK" name="Patuxent River/NAS"/>
+  <airportName code="NHT" name="Northolt"/>
+  <airportName code="NHZ" name="Brunswick/NAS"/>
+  <airportName code="NIC" name="Nicosia"/>
+  <airportName code="NIP" name="Jacksonville"/>
+  <airportName code="NIT" name="Niort/Souche"/>
+  <airportName code="NKC" name="Nouakchott"/>
+  <airportName code="NKT" name="Cherry Point"/>
+  <airportName code="NKX" name="San Diego/Miramar"/>
+  <airportName code="NNA" name="Kenitra"/>
+  <airportName code="NNG" name="Nord-Norge"/>
+  <airportName code="NNR" name="Connemara"/>
+  <airportName code="NOC" name="Connaught"/>
+  <airportName code="NOD" name="Norden-Norddeich"/>
+  <airportName code="NOR" name="Nordfjordur"/>
+  <airportName code="NPA" name="Pensacola"/>
+  <airportName code="NQI" name="Kingsville/NAS"/>
+  <airportName code="NQX" name="Key West/NAS"/>
+  <airportName code="NQY" name="Newquay"/>
+  <airportName code="NRD" name="Norderney"/>
+  <airportName code="NRK" name="Norrkøping"/>
+  <airportName code="NRL" name="North Ronaldsway"/>
+  <airportName code="NRN" name="Dusseldorf Weeze"/>
+  <airportName code="NRT" name="Narita/Japan"/>
+  <airportName code="NSY" name="Sigonella"/>
+  <airportName code="NTB" name="Notodden"/>
+  <airportName code="NTE" name="Nantes"/>
+  <airportName code="NUE" name="Nurnberg"/>
+  <airportName code="NUK" name="Kristin"/>
+  <airportName code="NUQ" name="Mountain View/Moffett"/>
+  <airportName code="NUT" name="Nutuve"/>
+  <airportName code="NVK" name="Narvik"/>
+  <airportName code="NVS" name="Nevers/Fourchambault"/>
+  <airportName code="NWI" name="Norwich"/>
+  <airportName code="NXX" name="Willow Grove"/>
+  <airportName code="NYO" name="Stockholm Skavsta Airport"/>
+  <airportName code="NZC" name="Jacksonville/Cecil Fi"/>
+  <airportName code="NZY" name="San Diego/North Is"/>
+  <airportName code="OAK" name="Oakland"/>
+  <airportName code="OBF" name="Oberpfaffenhofen"/>
+  <airportName code="OBL" name="Zoersel"/>
+  <airportName code="OBS" name="Aubenas-Vals-Lanas"/>
+  <airportName code="OBY" name="Ittoqqortoormiit/Scoresbysund"/>
+  <airportName code="OCJ" name="Ocho Rios/Boscobel"/>
+  <airportName code="ODB" name="Ciudad Real/Almagro"/>
+  <airportName code="ODE" name="Odense"/>
+  <airportName code="ODH" name="Odiham"/>
+  <airportName code="ODS" name="Odessa"/>
+  <airportName code="OER" name="Ørnskøldsvik"/>
+  <airportName code="OGD" name="Ogden"/>
+  <airportName code="OHR" name="Wyk Auf Fohr"/>
+  <airportName code="OKA" name="Okinawa/Kadena A"/>
+  <airportName code="OKC" name="Oklahoma City/Will Rog"/>
+  <airportName code="OLA" name="Ørland"/>
+  <airportName code="OLB" name="Olbia"/>
+  <airportName code="OLD" name="Old Town"/>
+  <airportName code="OLM" name="Olympia"/>
+  <airportName code="OLO" name="Olomouc"/>
+  <airportName code="OLU" name="Columbus"/>
+  <airportName code="OMA" name="Omaha/Eppley A"/>
+  <airportName code="OMO" name="Mostar"/>
+  <airportName code="OMR" name="Oradea"/>
+  <airportName code="OMS" name="Omsk"/>
+  <airportName code="ONT" name="Ontario"/>
+  <airportName code="OPA" name="Kopasker"/>
+  <airportName code="OPO" name="Porto"/>
+  <airportName code="ORA" name="Al Asud"/>
+  <airportName code="ORB" name="Ørebro"/>
+  <airportName code="ORD" name="Chicago"/>
+  <airportName code="ORE" name="Orleans"/>
+  <airportName code="ORF" name="Norfolk"/>
+  <airportName code="ORH" name="Worcester"/>
+  <airportName code="ORK" name="Cork"/>
+  <airportName code="ORM" name="Northampton/Sywell"/>
+  <airportName code="ORY" name="Paris/Orly"/>
+  <airportName code="OSA" name="Osaka"/>
+  <airportName code="OSD" name="Østersund"/>
+  <airportName code="OSH" name="Oshkosh"/>
+  <airportName code="OSI" name="Osijek"/>
+  <airportName code="OSK" name="Oskarshamn"/>
+  <airportName code="OSL" name="Oslo"/>
+  <airportName code="OSP" name="Redzikow"/>
+  <airportName code="OSR" name="Mosnov/Ostrava"/>
+  <airportName code="OST" name="Oostende"/>
+  <airportName code="OSU" name="Columbus/Ohio Sta"/>
+  <airportName code="OSY" name="Namsos"/>
+  <airportName code="OSZ" name="Koszalin"/>
+  <airportName code="OTH" name="North Bend"/>
+  <airportName code="OTP" name="Bucuresti"/>
+  <airportName code="OUL" name="Oulu"/>
+  <airportName code="OVB" name="Novosibirsk (Tolmachevo)"/>
+  <airportName code="OVD" name="Asturias"/>
+  <airportName code="OWB" name="Owensboro-Davies County"/>
+  <airportName code="OXF" name="Oxford/Kidlington"/>
+  <airportName code="OZZ" name="Ouarzazate"/>
+  <airportName code="PAD" name="Paderborn-Lippstadt"/>
+  <airportName code="PAE" name="Everett/Snohomis"/>
+  <airportName code="PAH" name="Paducah/Barkley"/>
+  <airportName code="PAM" name="Panama City/Tyndall"/>
+  <airportName code="PAR" name="Paris"/>
+  <airportName code="PAS" name="Paros"/>
+  <airportName code="PAU" name="Pau/Pyrenees"/>
+  <airportName code="PBG" name="Plattsburgh/AFB"/>
+  <airportName code="PCN" name="Picton/Koromiko"/>
+  <airportName code="PDG" name="Padang/Tabing"/>
+  <airportName code="PDK" name="Atlanta/De Kalb"/>
+  <airportName code="PDL" name="Ponta Delgada/Sao Miguel"/>
+  <airportName code="PDV" name="Plovdiv"/>
+  <airportName code="PDX" name="Portland"/>
+  <airportName code="PEF" name="Peenemunde"/>
+  <airportName code="PEG" name="Perugia"/>
+  <airportName code="PEK" name="Beijing/Capital"/>
+  <airportName code="PEN" name="Penang"/>
+  <airportName code="PFJ" name="Patreksfjordur"/>
+  <airportName code="PFN" name="Panama City/Bay Count."/>
+  <airportName code="PFO" name="Paphos"/>
+  <airportName code="PGF" name="Perpignan"/>
+  <airportName code="PHF" name="Newport News"/>
+  <airportName code="PHL" name="Philadelphia"/>
+  <airportName code="PHX" name="Phoenix/Sky Harbor"/>
+  <airportName code="PIA" name="Peoria/Greaterpreoria"/>
+  <airportName code="PIE" name="St Petersburg"/>
+  <airportName code="PIH" name="Pocatello"/>
+  <airportName code="PIK" name="Glasgow Prestwick"/>
+  <airportName code="PIR" name="Pierre"/>
+  <airportName code="PIS" name="Poitiers/Biard"/>
+  <airportName code="PIT" name="Pittsburgh"/>
+  <airportName code="PIW" name="Pikwitonei"/>
+  <airportName code="PIX" name="Azorene/Pico"/>
+  <airportName code="PKB" name="Parkeresburg/Wood County-GRW"/>
+  <airportName code="PKH" name="Porto Kheli/Alexion"/>
+  <airportName code="PLB" name="Plattsburgh/Clinton"/>
+  <airportName code="PLH" name="Plymouth"/>
+  <airportName code="PLN" name="Pellston/Emmet Co"/>
+  <airportName code="PLQ" name="Palanga"/>
+  <airportName code="PLU" name="Belo Horizonte/Pampulha"/>
+  <airportName code="PLV" name="Poltava"/>
+  <airportName code="PLZ" name="Port Elizabeth"/>
+  <airportName code="PMD" name="Palmdale/Air Forc"/>
+  <airportName code="PME" name="Portsmouth/Fleetlands"/>
+  <airportName code="PMF" name="Parma"/>
+  <airportName code="PMI" name="Palma"/>
+  <airportName code="PMO" name="Palermo"/>
+  <airportName code="PMV" name="Isla de Margarita"/>
+  <airportName code="PNA" name="Pamplona"/>
+  <airportName code="PNH" name="Phnom Penh"/>
+  <airportName code="PNL" name="Pantelleria"/>
+  <airportName code="PNR" name="Pointe Noire"/>
+  <airportName code="PNS" name="Pensacola"/>
+  <airportName code="PNV" name="Panevezys"/>
+  <airportName code="POB" name="Fayetteville/Pope AFB"/>
+  <airportName code="POE" name="Fort Polk"/>
+  <airportName code="POR" name="Pori"/>
+  <airportName code="POT" name="Port Antonio/Ken Jones"/>
+  <airportName code="POU" name="Poughkeepsie/Dutchess"/>
+  <airportName code="POV" name="Presov"/>
+  <airportName code="POW" name="Portoroz"/>
+  <airportName code="POX" name="Pontoise/Cormeilles-En-Vexin"/>
+  <airportName code="POZ" name="Lawica"/>
+  <airportName code="PPW" name="Papa Westray"/>
+  <airportName code="PRB" name="Paso Robles"/>
+  <airportName code="PRC" name="Prescott"/>
+  <airportName code="PRG" name="Praha"/>
+  <airportName code="PRJ" name="Capri"/>
+  <airportName code="PRM" name="Portimao"/>
+  <airportName code="PRN" name="Pristina"/>
+  <airportName code="PRP" name="Propriano"/>
+  <airportName code="PRV" name="Prerov"/>
+  <airportName code="PRX" name="Paris/Cox Fiel"/>
+  <airportName code="PRY" name="Pretoria"/>
+  <airportName code="PSA" name="Pisa"/>
+  <airportName code="PSD" name="Port Said"/>
+  <airportName code="PSH" name="St. Peter-Ording"/>
+  <airportName code="PSM" name="Portsmouth/Pease AF"/>
+  <airportName code="PSP" name="Palm Springs"/>
+  <airportName code="PSR" name="Pescara"/>
+  <airportName code="PTK" name="Pontiac"/>
+  <airportName code="PUB" name="Pueblo"/>
+  <airportName code="PUF" name="Pau"/>
+  <airportName code="PUY" name="Pula"/>
+  <airportName code="PVD" name="Providence"/>
+  <airportName code="PVK" name="Preveza/Lefkas"/>
+  <airportName code="PWM" name="Portland"/>
+  <airportName code="PWT" name="Bremerton"/>
+  <airportName code="PXO" name="Porto Santo, Porto Santo I."/>
+  <airportName code="PXY" name="Roma/Pratica di Mare Mil."/>
+  <airportName code="PZE" name="Penzance Heliport"/>
+  <airportName code="PZY" name="Piestany"/>
+  <airportName code="QAL" name="Alessandria"/>
+  <airportName code="QAM" name="Amiens/Glisy"/>
+  <airportName code="QCM" name="Como/Idroscalo"/>
+  <airportName code="QCY" name="Coningsby"/>
+  <airportName code="QDM" name="Bisha"/>
+  <airportName code="QEF" name="Egelsbach"/>
+  <airportName code="QEW" name="Leicester"/>
+  <airportName code="QFB" name="Freiburg Im Breisgau"/>
+  <airportName code="QFJ" name="Alluitsup Paa\Sydproven"/>
+  <airportName code="QFK" name="Selje"/>
+  <airportName code="QFN" name="Narsaq Kujalleq/Frederiksdal"/>
+  <airportName code="QFO" name="Duxford"/>
+  <airportName code="QFQ" name="Måløy"/>
+  <airportName code="QFR" name="Frosinone"/>
+  <airportName code="QGO" name="Gorizia"/>
+  <airportName code="QGY" name="Gyor"/>
+  <airportName code="QHA" name="Hasselt"/>
+  <airportName code="QIE" name="Istres-Le Tube"/>
+  <airportName code="QIF" name="Isleworth"/>
+  <airportName code="QIZ" name="Bizerte"/>
+  <airportName code="QJL" name="Kjøllefjord"/>
+  <airportName code="QJS" name="Saeby/Ottestrup"/>
+  <airportName code="QKF" name="Krefeld-Egelsberg"/>
+  <airportName code="QKK" name="Karasjok"/>
+  <airportName code="QKQ" name="Anklam"/>
+  <airportName code="QKX" name="Kautokeino"/>
+  <airportName code="QKZ" name="Konstanz"/>
+  <airportName code="QLA" name="Lasham"/>
+  <airportName code="QLF" name="Lahti"/>
+  <airportName code="QLG" name="Landshut"/>
+  <airportName code="QLR" name="Leiria"/>
+  <airportName code="QLS" name="Langenthal"/>
+  <airportName code="QLT" name="Latina"/>
+  <airportName code="QMZ" name="Mainz/Finthen"/>
+  <airportName code="QNC" name="Neuchatel"/>
+  <airportName code="QNJ" name="Annemasse"/>
+  <airportName code="QNM" name="Namur/Suarlee"/>
+  <airportName code="QNX" name="Macon-Charnay"/>
+  <airportName code="QOB" name="Ansbach-Petersdorf"/>
+  <airportName code="QOK" name="Øksfjord"/>
+  <airportName code="QOS" name="Oristano Fenosu"/>
+  <airportName code="QPA" name="Padova"/>
+  <airportName code="QPB" name="Campobasso"/>
+  <airportName code="QPJ" name="Pecs"/>
+  <airportName code="QPO" name="Potenza"/>
+  <airportName code="QPZ" name="Piacenza/S.Damiano"/>
+  <airportName code="QQQ" name="Unknown"/>
+  <airportName code="QRT" name="Rieti"/>
+  <airportName code="QRV" name="Arras/Roclincourt"/>
+  <airportName code="QRY" name="Ikerasassuaq/Prins Chr. Sund"/>
+  <airportName code="QSA" name="Sabadell"/>
+  <airportName code="QSR" name="Salerno/Pontecagnano"/>
+  <airportName code="QST" name="Izmit/Topel"/>
+  <airportName code="QTJ" name="Chartres-Champhol"/>
+  <airportName code="QTP" name="Tana"/>
+  <airportName code="QUL" name="Ulm(mil(met Army"/>
+  <airportName code="QUY" name="Wyton"/>
+  <airportName code="QVA" name="Varese/Venegono"/>
+  <airportName code="QVD" name="Salo"/>
+  <airportName code="QVE" name="Forssa"/>
+  <airportName code="QVF" name="Karkkila"/>
+  <airportName code="QVK" name="Valkeakoski"/>
+  <airportName code="QVM" name="Hameenlinna"/>
+  <airportName code="QVO" name="Havøysund"/>
+  <airportName code="QVQ" name="Verden-Scharnhorst"/>
+  <airportName code="QVS" name="Tervakoski"/>
+  <airportName code="QVT" name="Riihimaki"/>
+  <airportName code="QVV" name="Heinola"/>
+  <airportName code="QVW" name="Kotka"/>
+  <airportName code="QVY" name="Kouvola"/>
+  <airportName code="QVZ" name="Hamina"/>
+  <airportName code="QWQ" name="Sheffield City"/>
+  <airportName code="QWR" name="Donauworth/Genderkingen"/>
+  <airportName code="QXB" name="Aix-En-Provence "/>
+  <airportName code="QXH" name="Schonhagen"/>
+  <airportName code="QXI" name="Loviisa"/>
+  <airportName code="QXJ" name="Porvoo"/>
+  <airportName code="QYC" name="Drachten"/>
+  <airportName code="QYI" name="Hilversum"/>
+  <airportName code="QYR" name="Troyes/Barberey"/>
+  <airportName code="QYV" name="Deventer/Teuge"/>
+  <airportName code="QZB" name="Zermatt"/>
+  <airportName code="QZD" name="Szeged"/>
+  <airportName code="QZJ" name="Loimaa"/>
+  <airportName code="QZK" name="Mantsala"/>
+  <airportName code="QZO" name="Arezzo"/>
+  <airportName code="QZS" name="Sørøya"/>
+  <airportName code="QZU" name="Rauma"/>
+  <airportName code="RAE" name="Al-Baha/Al-Aqiq"/>
+  <airportName code="RAK" name="Marrakech"/>
+  <airportName code="RAL" name="Regalia"/>
+  <airportName code="RAN" name="Ravenna"/>
+  <airportName code="RAP" name="Rapid City"/>
+  <airportName code="RBA" name="Rabat"/>
+  <airportName code="RBL" name="Red Bluff"/>
+  <airportName code="RBM" name="Straubing-Wallmuhle"/>
+  <airportName code="RCA" name="Rapid City/Ellsworth"/>
+  <airportName code="RCO" name="Rochefort/Saint-Agnant"/>
+  <airportName code="RCS" name="Rochester"/>
+  <airportName code="RDD" name="Redding"/>
+  <airportName code="RDG" name="Reading"/>
+  <airportName code="RDM" name="Redmond/Roberts"/>
+  <airportName code="RDU" name="Raleigh/Durham"/>
+  <airportName code="RDZ" name="Rodez/Marcillac"/>
+  <airportName code="REB" name="Rechlin-Larz"/>
+  <airportName code="REE" name="Lubbock"/>
+  <airportName code="REG" name="Reggio Calabria"/>
+  <airportName code="RET" name="Røst"/>
+  <airportName code="REU" name="Reus"/>
+  <airportName code="RFN" name="Raufarhofn"/>
+  <airportName code="RHE" name="Reims-Champagne"/>
+  <airportName code="RHI" name="Rhinelander/Oneida C"/>
+  <airportName code="RHO" name="Rhodos"/>
+  <airportName code="RIC" name="Richmond"/>
+  <airportName code="RIG" name="Rio Grande"/>
+  <airportName code="RIO" name="Rio De Janeiro/Galeao"/>
+  <airportName code="RIV" name="Riverside/March AF"/>
+  <airportName code="RIX" name="Riga"/>
+  <airportName code="RJK" name="Rijeka"/>
+  <airportName code="RKE" name="Kobenhavn/Roskilde"/>
+  <airportName code="RKV" name="Reykjavik"/>
+  <airportName code="RLG" name="Rostock-Laage"/>
+  <airportName code="RME" name="Rome/Griffiss"/>
+  <airportName code="RMG" name="Rome/Richard B. Russell"/>
+  <airportName code="RMI" name="Rimini"/>
+  <airportName code="RMS" name="Ramstein"/>
+  <airportName code="RNB" name="Rønneby"/>
+  <airportName code="RNE" name="Roanne-Renaison"/>
+  <airportName code="RNN" name="Bornholm/Ronne"/>
+  <airportName code="RNO" name="Reno"/>
+  <airportName code="RNS" name="Rennes/St Jacques"/>
+  <airportName code="RNT" name="Renton"/>
+  <airportName code="ROA" name="Roanoke"/>
+  <airportName code="ROC" name="Rochester/Monroe C"/>
+  <airportName code="ROM" name="Roma"/>
+  <airportName code="ROU" name="Rousse"/>
+  <airportName code="ROW" name="Roswell"/>
+  <airportName code="RPN" name="Rosh-Pina/Mahanaim-I.Ben-Yaak."/>
+  <airportName code="RRS" name="Røros"/>
+  <airportName code="RSD" name="Rock Sound/Intl,  Eleuthera I."/>
+  <airportName code="RSW" name="Fort Myers/Southwes"/>
+  <airportName code="RTM" name="Rotterdam"/>
+  <airportName code="RUH" name="Riyadh/King Khalid"/>
+  <airportName code="RUT" name="Rutland"/>
+  <airportName code="RVK" name="Rørvik"/>
+  <airportName code="RVN" name="Rovaniemi"/>
+  <airportName code="RWI" name="Rocky Mount"/>
+  <airportName code="RYG" name="Rygge"/>
+  <airportName code="RZE" name="Jasionka"/>
+  <airportName code="SAC" name="Sacramento"/>
+  <airportName code="SAK" name="Saudarkrokur"/>
+  <airportName code="SAN" name="San Diego/Lindbergh"/>
+  <airportName code="SAT" name="San Antonio"/>
+  <airportName code="SAV" name="Savannah"/>
+  <airportName code="SAW" name="Istanbul/Sabiha"/>
+  <airportName code="SAY" name="Siena"/>
+  <airportName code="SBA" name="Santa Barbara"/>
+  <airportName code="SBD" name="San Bernardino/Norton A"/>
+  <airportName code="SBN" name="South Bend/St Josep"/>
+  <airportName code="SBP" name="San Luis Obispo/County A"/>
+  <airportName code="SBS" name="Steamboat Springs"/>
+  <airportName code="SBY" name="Salisbury/Wicomico"/>
+  <airportName code="SBZ" name="Sibiu"/>
+  <airportName code="SCH" name="Schenectady/County"/>
+  <airportName code="SCK" name="Stockton"/>
+  <airportName code="SCN" name="Saarbrucken"/>
+  <airportName code="SCO" name="Aktau"/>
+  <airportName code="SCQ" name="Santiago de Composte"/>
+  <airportName code="SCV" name="Suceava/Salcea"/>
+  <airportName code="SDF" name="Louisville"/>
+  <airportName code="SDL" name="Sundsvall"/>
+  <airportName code="SDM" name="San Diego/Brown Fi"/>
+  <airportName code="SDN" name="Sandane"/>
+  <airportName code="SDU" name="Rio De Janeiro/Santos D."/>
+  <airportName code="SDV" name="Tel-Aviv/Yafo Sde Dov"/>
+  <airportName code="SEA" name="Seattle"/>
+  <airportName code="SEL" name="Seoul"/>
+  <airportName code="SEN" name="Southend"/>
+  <airportName code="SEX" name="Sembach Hel"/>
+  <airportName code="SFB" name="Orlando"/>
+  <airportName code="SFF" name="Spokane/Felts Fi"/>
+  <airportName code="SFI" name="Safi"/>
+  <airportName code="SFJ" name="Kangerlussuaq/Sondre Stromfjrd"/>
+  <airportName code="SFO" name="San Francisco"/>
+  <airportName code="SFQ" name="Sanliurfa"/>
+  <airportName code="SFT" name="Skellefteå"/>
+  <airportName code="SGC" name="Surgut"/>
+  <airportName code="SGD" name="Sønderborg"/>
+  <airportName code="SGE" name="Siegen"/>
+  <airportName code="SGF" name="Springfield"/>
+  <airportName code="SGH" name="Springfield"/>
+  <airportName code="SHA" name="Shanghai/Hongqiao"/>
+  <airportName code="SHH" name="Shismaref"/>
+  <airportName code="SHJ" name="Sharjah"/>
+  <airportName code="SHR" name="Sheridan"/>
+  <airportName code="SHV" name="Shreveport"/>
+  <airportName code="SHW" name="Riyadh/King Khalid "/>
+  <airportName code="SIC" name="Sinop"/>
+  <airportName code="SID" name="Sal/Kapp Verde"/>
+  <airportName code="SIE" name="Sines"/>
+  <airportName code="SII" name="Sidi Ifni"/>
+  <airportName code="SIJ" name="Siglufjordur"/>
+  <airportName code="SIN" name="Singapore/Changi"/>
+  <airportName code="SIR" name="Sion"/>
+  <airportName code="SJC" name="San Jose"/>
+  <airportName code="SJJ" name="Sarajevo"/>
+  <airportName code="SJY" name="Seinajoki"/>
+  <airportName code="SJZ" name="Azorene/Sao Jorge"/>
+  <airportName code="SKA" name="Spokane/Fairchild"/>
+  <airportName code="SKD" name="Samarkand"/>
+  <airportName code="SKE" name="Skien"/>
+  <airportName code="SKF" name="San Antonio/Kelly AF"/>
+  <airportName code="SKG" name="Thessaloniki"/>
+  <airportName code="SKN" name="Stokmarknes"/>
+  <airportName code="SKP" name="Skopje"/>
+  <airportName code="SKS" name="Skrydstrup"/>
+  <airportName code="SKU" name="Skiros"/>
+  <airportName code="SKV" name="Santa Katarina"/>
+  <airportName code="SLC" name="Salt Lake City"/>
+  <airportName code="SLD" name="Sliac"/>
+  <airportName code="SLE" name="Salem/Mcnary F"/>
+  <airportName code="SLF" name="Sharurah"/>
+  <airportName code="SLK" name="Saranac Lake/Adironda"/>
+  <airportName code="SLM" name="Salamanca"/>
+  <airportName code="SLN" name="Salina"/>
+  <airportName code="SMA" name="Azorene/Santa Maria"/>
+  <airportName code="SMF" name="Sacramento"/>
+  <airportName code="SMI" name="Samos"/>
+  <airportName code="SML" name="Stella Maris, Long I."/>
+  <airportName code="SMV" name="St Moritz"/>
+  <airportName code="SMW" name="Smara"/>
+  <airportName code="SMX" name="Santa Maria"/>
+  <airportName code="SNA" name="Santa Ana/John Wayne"/>
+  <airportName code="SNG" name="Sør-Norge"/>
+  <airportName code="SNN" name="Shannon"/>
+  <airportName code="SNS" name="Salinas"/>
+  <airportName code="SOB" name="Saarmelleek"/>
+  <airportName code="SOF" name="Sofia"/>
+  <airportName code="SOG" name="Sogndal"/>
+  <airportName code="SOJ" name="Sørkjosen"/>
+  <airportName code="SOO" name="Søderhamn"/>
+  <airportName code="SOT" name="Sodankyla"/>
+  <airportName code="SOU" name="Southampton"/>
+  <airportName code="SOY" name="Stronsay"/>
+  <airportName code="SOZ" name="Solenzara"/>
+  <airportName code="SPA" name="Spartanburg/Downtown"/>
+  <airportName code="SPI" name="Springfield"/>
+  <airportName code="SPJ" name="Sparti"/>
+  <airportName code="SPK" name="Sapporo/Chitose"/>
+  <airportName code="SPL" name="Amsterdam"/>
+  <airportName code="SPM" name="Spangdahlem"/>
+  <airportName code="SPS" name="Wichita Falls/Sheppard"/>
+  <airportName code="SPU" name="Split"/>
+  <airportName code="SQQ" name="Siauliai"/>
+  <airportName code="SQW" name="Skive"/>
+  <airportName code="SRP" name="Stord"/>
+  <airportName code="SRQ" name="Sarasota / Bradenton"/>
+  <airportName code="SSC" name="Sumter/Shaw AFB"/>
+  <airportName code="SSH" name="Sharm el Sheik"/>
+  <airportName code="SSI" name="Brunswick/Mckinnon"/>
+  <airportName code="SSJ" name="Sandnessjøen"/>
+  <airportName code="SSX" name="Samsun"/>
+  <airportName code="STA" name="Stauning"/>
+  <airportName code="STJ" name="St Joseph/Rosecrans"/>
+  <airportName code="STN" name="London/Stansted"/>
+  <airportName code="STO" name="Stockholm/Swedish Air Force"/>
+  <airportName code="STP" name="St Paul/Downtown"/>
+  <airportName code="STR" name="Stuttgart"/>
+  <airportName code="SUB" name="Surabaya/Juanda"/>
+  <airportName code="SUF" name="Lamezia/Terme"/>
+  <airportName code="SUJ" name="Satu Mare"/>
+  <airportName code="SUU" name="Fairfield/Travis A"/>
+  <airportName code="SUX" name="Sioux City"/>
+  <airportName code="SVG" name="Stavanger"/>
+  <airportName code="SVJ" name="Svolvær"/>
+  <airportName code="SVL" name="Savonlinna"/>
+  <airportName code="SVN" name="Savannah/Hunter A"/>
+  <airportName code="SVO" name="Moskva/Sheremetyevo"/>
+  <airportName code="SVQ" name="Sevilla"/>
+  <airportName code="SWF" name="Newburgh/Stewart"/>
+  <airportName code="SWO" name="Stillwater/Searcy F"/>
+  <airportName code="SWS" name="Swansea"/>
+  <airportName code="SXB" name="Strasbourg-Entzheim"/>
+  <airportName code="SXF" name="Berlin/Schoenefeld"/>
+  <airportName code="SXL" name="Sligo"/>
+  <airportName code="SXZ" name="Siirt"/>
+  <airportName code="SYG" name="Svalbard"/>
+  <airportName code="SYK" name="Stykkisholmur"/>
+  <airportName code="SYR" name="Syracuse/Hancock"/>
+  <airportName code="SYY" name="Stornoway"/>
+  <airportName code="SZF" name="Samsun"/>
+  <airportName code="SZG" name="Salzburg"/>
+  <airportName code="SZY" name="Szymany/Mazury"/>
+  <airportName code="SZZ" name="Szczecin"/>
+  <airportName code="TAP" name="Tapachula"/>
+  <airportName code="TAS" name="Tashkent"/>
+  <airportName code="TAT" name="Tatry/Poprad"/>
+  <airportName code="TAY" name="Tartu/Raadi"/>
+  <airportName code="TBJ" name="Tabarka/7 Novembre"/>
+  <airportName code="TBN" name="Fort Leonard Wood/Forney A"/>
+  <airportName code="TBS" name="Tbilisi"/>
+  <airportName code="TCB" name="Treasure Cay, Abaco I."/>
+  <airportName code="TCC" name="Tucumcari"/>
+  <airportName code="TCE" name="Tulcea"/>
+  <airportName code="TCL" name="Tuscaloosa/Van De G"/>
+  <airportName code="TCM" name="Tacoma/Mc Chord"/>
+  <airportName code="TCP" name="Taba"/>
+  <airportName code="TCS" name="Truth Or Consequences NM"/>
+  <airportName code="TEB" name="Teterboro"/>
+  <airportName code="TED" name="Thisted"/>
+  <airportName code="TEQ" name="Tekirdag, Corlu"/>
+  <airportName code="TEY" name="Thingeyri"/>
+  <airportName code="TFN" name="Tenerife Norte"/>
+  <airportName code="TFS" name="Tenerife"/>
+  <airportName code="TGA" name="Tengah"/>
+  <airportName code="TGD" name="Podgorica"/>
+  <airportName code="THF" name="Berlin/Tempelhof"/>
+  <airportName code="THN" name="Trollhattan"/>
+  <airportName code="THO" name="Thorshofn"/>
+  <airportName code="TIF" name="Tabuk"/>
+  <airportName code="TIP" name="Tripoli"/>
+  <airportName code="TIV" name="Tivat"/>
+  <airportName code="TIW" name="Tacoma"/>
+  <airportName code="TIX" name="Titusville/Space Ce"/>
+  <airportName code="TJK" name="Tokat"/>
+  <airportName code="TKU" name="Turku"/>
+  <airportName code="TLH" name="Tallahassee"/>
+  <airportName code="TLL" name="Tallinn/Ulemiste"/>
+  <airportName code="TLN" name="Toulon"/>
+  <airportName code="TLS" name="Toulouse"/>
+  <airportName code="TLV" name="Tel-Aviv/Ben Gurion"/>
+  <airportName code="TMJ" name="Termez"/>
+  <airportName code="TMP" name="Tampere"/>
+  <airportName code="TNF" name="Toussus-Le-Noble"/>
+  <airportName code="TNG" name="Tanger"/>
+  <airportName code="TOE" name="Tozeur/Nefta"/>
+  <airportName code="TOJ" name="Madrid/Torrejon"/>
+  <airportName code="TOL" name="Toledo"/>
+  <airportName code="TOS" name="Tromsø"/>
+  <airportName code="TPA" name="Tampa"/>
+  <airportName code="TPL" name="Temple/Draughon"/>
+  <airportName code="TPS" name="Trapani/Birgi"/>
+  <airportName code="TRD" name="Trondheim"/>
+  <airportName code="TRE" name="Tiree"/>
+  <airportName code="TRF" name="Sandefjord"/>
+  <airportName code="TRN" name="Torino"/>
+  <airportName code="TSE" name="Akmola"/>
+  <airportName code="TSF" name="Venezia/Treviso"/>
+  <airportName code="TSR" name="Timisoara"/>
+  <airportName code="TTB" name="Tortoli"/>
+  <airportName code="TTN" name="Trenton/Mercer C"/>
+  <airportName code="TUF" name="Tours-St-Symphorien"/>
+  <airportName code="TUI" name="Taif"/>
+  <airportName code="TUL" name="Tulsa"/>
+  <airportName code="TUN" name="Tunis"/>
+  <airportName code="TUP" name="Tupelo/Lemons M"/>
+  <airportName code="TUS" name="Tucson"/>
+  <airportName code="TUU" name="Sulayel"/>
+  <airportName code="TVL" name="South Lake Tahoe"/>
+  <airportName code="TWF" name="Twin Falls/City Cou"/>
+  <airportName code="TXK" name="Texarkana"/>
+  <airportName code="TXL" name="Berlin/Tegel"/>
+  <airportName code="TYF" name="Torsby/Fryklanda"/>
+  <airportName code="TYM" name="Staniel Cay,Great Exuma I."/>
+  <airportName code="TYO" name="Tokyo"/>
+  <airportName code="TYR" name="Tyler/Pounds F"/>
+  <airportName code="TZK" name="Trabzon"/>
+  <airportName code="UCA" name="Utica/Oneida C"/>
+  <airportName code="UDE" name="Uden"/>
+  <airportName code="UIN" name="Quincy"/>
+  <airportName code="UIP" name="Quimper"/>
+  <airportName code="UKI" name="Ukiah"/>
+  <airportName code="ULY" name="Uljanovsk"/>
+  <airportName code="UMD" name="Uummannaq"/>
+  <airportName code="UME" name="Umeå"/>
+  <airportName code="UNN" name="Ranong"/>
+  <airportName code="UOX" name="Oxford"/>
+  <airportName code="URD" name="Burg Feuerstein"/>
+  <airportName code="URE" name="Kuressaare"/>
+  <airportName code="URO" name="Rouen"/>
+  <airportName code="UST" name="St Augustine"/>
+  <airportName code="UTC" name="Utrecht"/>
+  <airportName code="UTW" name="Queenstown"/>
+  <airportName code="UVL" name="New Valley/Karga"/>
+  <airportName code="UZC" name="Uzice/Ponikve"/>
+  <airportName code="UZH" name="Turaif"/>
+  <airportName code="VAA" name="Vaasa"/>
+  <airportName code="VAC" name="Varrelbusch"/>
+  <airportName code="VAD" name="Valdosta/Moody AF"/>
+  <airportName code="VAF" name="Valence-Chabeuil"/>
+  <airportName code="VAJ" name="Varna"/>
+  <airportName code="VAN" name="Van"/>
+  <airportName code="VAR" name="Varna"/>
+  <airportName code="VAS" name="Sivas"/>
+  <airportName code="VAW" name="Vardø"/>
+  <airportName code="VBG" name="Lompoc/Vandenbe"/>
+  <airportName code="VBS" name="Brescia"/>
+  <airportName code="VBY" name="Visby"/>
+  <airportName code="VCE" name="Venezia"/>
+  <airportName code="VCT" name="Victoria"/>
+  <airportName code="VDA" name="Ovda"/>
+  <airportName code="VDB" name="Fagernes"/>
+  <airportName code="VDS" name="Vadsø"/>
+  <airportName code="VEY" name="Vestmannaeyjar"/>
+  <airportName code="VGO" name="Vigo"/>
+  <airportName code="VHM" name="Vilhelmina"/>
+  <airportName code="VHY" name="Vichy-Charmeil"/>
+  <airportName code="VIC" name="Vibo Valentia"/>
+  <airportName code="VIE" name="Wien"/>
+  <airportName code="VIT" name="Vitoria"/>
+  <airportName code="VIY" name="Villa Coblay"/>
+  <airportName code="VKO" name="Moskva/Vnukovo"/>
+  <airportName code="VLC" name="Valence"/>
+  <airportName code="VLD" name="Valdosta"/>
+  <airportName code="VLL" name="Valladolid"/>
+  <airportName code="VNE" name="Vannes-Meucon"/>
+  <airportName code="VNO" name="Vilnius"/>
+  <airportName code="VOG" name="Volgograd"/>
+  <airportName code="VOK" name="Camp Douglas/Volk Fie"/>
+  <airportName code="VOL" name="Volos/Nea Anch"/>
+  <airportName code="VPN" name="Vopnafjordur"/>
+  <airportName code="VPS" name="Valparaiso/Ft. Walt"/>
+  <airportName code="VPZ" name="Valparaiso/Porter C"/>
+  <airportName code="VRA" name="Varadero"/>
+  <airportName code="VRB" name="Vero Beach"/>
+  <airportName code="VRK" name="Varkaus"/>
+  <airportName code="VRL" name="Vila Real"/>
+  <airportName code="VRN" name="Verona"/>
+  <airportName code="VRY" name="Værøy"/>
+  <airportName code="VSE" name="Viseu"/>
+  <airportName code="VST" name="Vesterås"/>
+  <airportName code="VTL" name="Vittel-Champ De Courses"/>
+  <airportName code="VVK" name="Vestervik"/>
+  <airportName code="VVO" name="Vladivostok"/>
+  <airportName code="VXO" name="Vaxjo"/>
+  <airportName code="WAT" name="Waterford"/>
+  <airportName code="WAW" name="Warszawa"/>
+  <airportName code="WBG" name="Schleswig"/>
+  <airportName code="WFK" name="Frenchville"/>
+  <airportName code="WHS" name="Whalsay"/>
+  <airportName code="WIC" name="Wick"/>
+  <airportName code="WIE" name="Wiesbaden"/>
+  <airportName code="WKR" name="Walker Cay, Abaco I."/>
+  <airportName code="WLG" name="Wellington"/>
+  <airportName code="WOE" name="Woendrecht"/>
+  <airportName code="WRL" name="Worland"/>
+  <airportName code="WRO" name="Wroclaw"/>
+  <airportName code="WRY" name="Westray"/>
+  <airportName code="WTD" name="West End, Grand Bahama I."/>
+  <airportName code="WTN" name="Waddington"/>
+  <airportName code="WVN" name="Wilhelmshaven-Mariensiel"/>
+  <airportName code="WWD" name="Wildwood/Cape May"/>
+  <airportName code="WYS" name="West Yellowstone"/>
+  <airportName code="XAB" name="Abbeville"/>
+  <airportName code="XAC" name="Arcachon/La Teste De Buch"/>
+  <airportName code="XAK" name="Herning"/>
+  <airportName code="XAM" name="Amboise/Dierre"/>
+  <airportName code="XAN" name="Alencon-Valframbert"/>
+  <airportName code="XAS" name="Ales-Deaux"/>
+  <airportName code="XAV" name="Albertville"/>
+  <airportName code="XBF" name="Bellegarde/Vouvray"/>
+  <airportName code="XBQ" name="Blois-Le Breuil"/>
+  <airportName code="XBV" name="Beaune/Challanges"/>
+  <airportName code="XBX" name="Bernay-Saint-Martin"/>
+  <airportName code="XCP" name="Compiegne/Margny"/>
+  <airportName code="XCW" name="Chaumont Semoutiers"/>
+  <airportName code="XCX" name="Chatellerault/Targe"/>
+  <airportName code="XCY" name="Chateau-Thierry-Belleau"/>
+  <airportName code="XCZ" name="Charleville-Mezieres"/>
+  <airportName code="XDA" name="Dax/Seyresse"/>
+  <airportName code="XDK" name="Dunkerque-Ghyvelde"/>
+  <airportName code="XED" name="Epernay-Plivot"/>
+  <airportName code="XFE" name="Parent"/>
+  <airportName code="XFV" name="Brantford"/>
+  <airportName code="XGT" name="Gueret/Saint-Laurent"/>
+  <airportName code="XHE" name="Hyeres-Le Palyvestre"/>
+  <airportName code="XKS" name="Kasabonika"/>
+  <airportName code="XLE" name="Lens-Benifontaine"/>
+  <airportName code="XLG" name="Lognes-Emerainville"/>
+  <airportName code="XLL" name="Lons Le Saunier/Courlaoux"/>
+  <airportName code="XLN" name="Laon/Chambry"/>
+  <airportName code="XLR" name="Libourne/Artiques De Lussac"/>
+  <airportName code="XLW" name="Lemwerder"/>
+  <airportName code="XME" name="Maubeuge/Elesmes"/>
+  <airportName code="XMF" name="Montbeliard-Courcelles"/>
+  <airportName code="XMK" name="Montelimar-Ancone"/>
+  <airportName code="XMS" name="Marmande/Virazeil"/>
+  <airportName code="XMW" name="Montauban"/>
+  <airportName code="XNA" name="Narbonne"/>
+  <airportName code="XNM" name="Nottingham"/>
+  <airportName code="XOG" name="Orange-Caritat"/>
+  <airportName code="XQH" name="Derby"/>
+  <airportName code="XRN" name="Redon/Bains-Sur-Oust"/>
+  <airportName code="XRO" name="La Roche-Sur-Yon-Les Ajoncs"/>
+  <airportName code="XRY" name="Jerez"/>
+  <airportName code="XSL" name="Sarlat/Domme"/>
+  <airportName code="XSN" name="Saint-Yan"/>
+  <airportName code="XSP" name="Singapore/Seletar"/>
+  <airportName code="XSS" name="Soissons-Courmelles"/>
+  <airportName code="XST" name="Saintes-Thenac"/>
+  <airportName code="XSV" name="Saverne-Steinbourg"/>
+  <airportName code="XSW" name="Sedan-Douzy"/>
+  <airportName code="XTH" name="Thionville/Yutz"/>
+  <airportName code="XVI" name="Vienne/Reventin"/>
+  <airportName code="XVN" name="Verdun/Rozelier"/>
+  <airportName code="XVO" name="Vesoul-Frotey"/>
+  <airportName code="XVS" name="Valenciennes/Denain"/>
+  <airportName code="XVZ" name="Vierzon-Mereau"/>
+  <airportName code="XXP" name="Potsdam"/>
+  <airportName code="XYT" name="Toulouse-Montaudran"/>
+  <airportName code="YAW" name="Halifax/Shearwater.S."/>
+  <airportName code="YAY" name="St Anthony"/>
+  <airportName code="YAZ" name="Tofino"/>
+  <airportName code="YBE" name="Uranium City"/>
+  <airportName code="YBR" name="Brandon"/>
+  <airportName code="YBY" name="Bonnyville"/>
+  <airportName code="YCD" name="Nanaimo"/>
+  <airportName code="YCG" name="Castlegar"/>
+  <airportName code="YCL" name="Charlo"/>
+  <airportName code="YCM" name="St Catharines/Niagara Dist."/>
+  <airportName code="YCN" name="Cochrane"/>
+  <airportName code="YCT" name="Coronation"/>
+  <airportName code="YCW" name="Chilliwack"/>
+  <airportName code="YCX" name="Gagetown.B."/>
+  <airportName code="YDB" name="Burwash"/>
+  <airportName code="YDG" name="Digby"/>
+  <airportName code="YDN" name="Dauphin"/>
+  <airportName code="YDP" name="Nain"/>
+  <airportName code="YEG" name="Edmonton"/>
+  <airportName code="YEO" name="Yeovilton"/>
+  <airportName code="YET" name="Edson"/>
+  <airportName code="YEU" name="Eureka"/>
+  <airportName code="YFC" name="Fredericton"/>
+  <airportName code="YFE" name="Forestville"/>
+  <airportName code="YGK" name="Kingston"/>
+  <airportName code="YGP" name="Gaspeue."/>
+  <airportName code="YGQ" name="Geraldtonn"/>
+  <airportName code="YGX" name="Gillam"/>
+  <airportName code="YGZ" name="Grise Fiord.W.T."/>
+  <airportName code="YHE" name="Hope"/>
+  <airportName code="YHI" name="Holman.W.T."/>
+  <airportName code="YHM" name="Hamiltonn"/>
+  <airportName code="YHO" name="Hopedale"/>
+  <airportName code="YHZ" name="Halifax "/>
+  <airportName code="YIP" name="Detroit/Willow R"/>
+  <airportName code="YJT" name="Stephenvillefld."/>
+  <airportName code="YKG" name="Kangirsuk"/>
+  <airportName code="YKL" name="Schefferville"/>
+  <airportName code="YKM" name="Yakima"/>
+  <airportName code="YKN" name="Yankton/Chan Gur"/>
+  <airportName code="YKQ" name="Waskaganish"/>
+  <airportName code="YKZ" name="Toronto/Buttonville"/>
+  <airportName code="YLC" name="Kimmirut.W.T."/>
+  <airportName code="YLD" name="Chapleau"/>
+  <airportName code="YLI" name="Ylivieska"/>
+  <airportName code="YLL" name="Lloydminster"/>
+  <airportName code="YLO" name="Shilo/Flewin"/>
+  <airportName code="YLW" name="Kelowna"/>
+  <airportName code="YMA" name="Mayo"/>
+  <airportName code="YME" name="Matane"/>
+  <airportName code="YMN" name="Makkovik"/>
+  <airportName code="YNA" name="Natashquan"/>
+  <airportName code="YNE" name="Norway House"/>
+  <airportName code="YNG" name="Youngstown"/>
+  <airportName code="YNM" name="Matagami"/>
+  <airportName code="YNS" name="Nemiscau"/>
+  <airportName code="YOA" name="Koala Nwt"/>
+  <airportName code="YOC" name="Old Crow"/>
+  <airportName code="YOH" name="Oxford House"/>
+  <airportName code="YOO" name="Oshawa"/>
+  <airportName code="YOW" name="Ottawa/Macd.-Cartier"/>
+  <airportName code="YOY" name="Valcartier"/>
+  <airportName code="YPA" name="Prince Albert"/>
+  <airportName code="YPC" name="Paulatuk.W.T."/>
+  <airportName code="YPM" name="Pikangikum"/>
+  <airportName code="YPO" name="Peawanuck"/>
+  <airportName code="YPQ" name="Peterborough"/>
+  <airportName code="YQA" name="Muskoka"/>
+  <airportName code="YQB" name="Quebec/Jean Lesage"/>
+  <airportName code="YQC" name="Quaqtaq"/>
+  <airportName code="YQG" name="Windsor"/>
+  <airportName code="YQI" name="Yarmouth"/>
+  <airportName code="YQK" name="Kenora"/>
+  <airportName code="YQL" name="Lethbridge"/>
+  <airportName code="YQM" name="Moncton"/>
+  <airportName code="YQN" name="Nakina"/>
+  <airportName code="YQQ" name="Comox"/>
+  <airportName code="YQS" name="St Thomas(muni"/>
+  <airportName code="YQT" name="Thunder Bay"/>
+  <airportName code="YQX" name="Gander"/>
+  <airportName code="YQY" name="Sydney"/>
+  <airportName code="YQZ" name="Quesnel"/>
+  <airportName code="YRF" name="Cartwright"/>
+  <airportName code="YRJ" name="Roberval"/>
+  <airportName code="YRO" name="Ottawa/Rockcliffe"/>
+  <airportName code="YRV" name="Revelstoke"/>
+  <airportName code="YSB" name="Sudbury"/>
+  <airportName code="YSC" name="Sherbrooke"/>
+  <airportName code="YSD" name="Suffield"/>
+  <airportName code="YSE" name="Squamish"/>
+  <airportName code="YSK" name="Sanikiluaq.W.T"/>
+  <airportName code="YSR" name="Nanisivik.W.T."/>
+  <airportName code="YSU" name="Summerside"/>
+  <airportName code="YTA" name="Pembroke"/>
+  <airportName code="YTR" name="Trenton"/>
+  <airportName code="YTS" name="Timmins"/>
+  <airportName code="YUM" name="Yuma"/>
+  <airportName code="YVB" name="Bonaventure"/>
+  <airportName code="YVE" name="Vernon"/>
+  <airportName code="YVG" name="Vermillion"/>
+  <airportName code="YVQ" name="Norman Wells.W.T."/>
+  <airportName code="YVR" name="Vancouver"/>
+  <airportName code="YVV" name="Wiarton"/>
+  <airportName code="YWA" name="Petawawa"/>
+  <airportName code="YWG" name="Winnipeg"/>
+  <airportName code="YWJ" name="Deline"/>
+  <airportName code="YWK" name="Wabush"/>
+  <airportName code="YWO" name="Lupin.W.T."/>
+  <airportName code="YWP" name="Webquie"/>
+  <airportName code="YWY" name="Wrigley.W.T."/>
+  <airportName code="YXC" name="Cranbrook"/>
+  <airportName code="YXD" name="Edmonton"/>
+  <airportName code="YXK" name="Rimouski"/>
+  <airportName code="YXP" name="Pangnirtung.W.T."/>
+  <airportName code="YXU" name="London"/>
+  <airportName code="YXX" name="Abbotsford"/>
+  <airportName code="YXY" name="Whitehorse"/>
+  <airportName code="YXZ" name="Wawa"/>
+  <airportName code="YYC" name="Calgary"/>
+  <airportName code="YYD" name="Smithers"/>
+  <airportName code="YYF" name="Penticton"/>
+  <airportName code="YYG" name="Charlottetown"/>
+  <airportName code="YYJ" name="Victoria"/>
+  <airportName code="YYM" name="Cowley"/>
+  <airportName code="YYR" name="Goose Bay"/>
+  <airportName code="YYU" name="Kapuskasing"/>
+  <airportName code="YYY" name="Mont-Joli"/>
+  <airportName code="YYZ" name="Toronto/L. B. P."/>
+  <airportName code="YZF" name="Yellowknife"/>
+  <airportName code="YZG" name="Salluit"/>
+  <airportName code="YZP" name="Sandspit"/>
+  <airportName code="YZR" name="Sarnia"/>
+  <airportName code="YZU" name="Whitecourt"/>
+  <airportName code="YZW" name="Teslin"/>
+  <airportName code="YZX" name="Greenwood.S."/>
+  <airportName code="ZAD" name="Zadar"/>
+  <airportName code="ZAG" name="Zagreb"/>
+  <airportName code="ZAH" name="Zahedan"/>
+  <airportName code="ZAO" name="Cahors/Lalbenque"/>
+  <airportName code="ZAV" name="Aveiro"/>
+  <airportName code="ZAZ" name="Zaragoza"/>
+  <airportName code="ZBE" name="Zabreh/Dolni Be"/>
+  <airportName code="ZBF" name="Bathurst"/>
+  <airportName code="ZBM" name="Bromont"/>
+  <airportName code="ZBQ" name="Randers"/>
+  <airportName code="ZCA" name="Arnsberg"/>
+  <airportName code="ZCB" name="Aschaffenburg-Grossostheim"/>
+  <airportName code="ZCC" name="Baden-Baden/Oos"/>
+  <airportName code="ZCD" name="Bamberg"/>
+  <airportName code="ZCN" name="Celle"/>
+  <airportName code="ZCR" name="Dachau/Grobenried"/>
+  <airportName code="ZCV" name="Dinslaken Schwarze Heide"/>
+  <airportName code="ZDK" name="Biel-Kappelen"/>
+  <airportName code="ZEE" name="Fulda-Jossa"/>
+  <airportName code="ZFA" name="Faro"/>
+  <airportName code="ZGA" name="Gera-Leumnitz"/>
+  <airportName code="ZGO" name="Gotha-Ost"/>
+  <airportName code="ZGQ" name="Tournai"/>
+  <airportName code="ZHH" name="Gossau Sg"/>
+  <airportName code="ZHI" name="Grenchen"/>
+  <airportName code="ZHK" name="Gstaad-Inn Grund"/>
+  <airportName code="ZHW" name="La Cote"/>
+  <airportName code="ZIA" name="Trento/Mattarello"/>
+  <airportName code="ZIH" name="Ixtapa/Zihuatanejo"/>
+  <airportName code="ZIN" name="Interlaken"/>
+  <airportName code="ZJS" name="Jena-Schongleina"/>
+  <airportName code="ZJU" name="Olten"/>
+  <airportName code="ZKE" name="Kashechewan"/>
+  <airportName code="ZKJ" name="Schaffhausen"/>
+  <airportName code="ZLI" name="Winterthur"/>
+  <airportName code="ZLJ" name="Yverdon-Les-Bains"/>
+  <airportName code="ZMG" name="Magdeburg"/>
+  <airportName code="ZMO" name="Modena/Marzaglia"/>
+  <airportName code="ZMT" name="Masset"/>
+  <airportName code="ZNF" name="Hanau"/>
+  <airportName code="ZNM" name="Herten-Rheinfelden"/>
+  <airportName code="ZNO" name="Hildesheim"/>
+  <airportName code="ZNQ" name="Ingolstadt"/>
+  <airportName code="ZNS" name="Kempten-Durach"/>
+  <airportName code="ZNV" name="Koblenz-Winningen"/>
+  <airportName code="ZOA" name="Leverkusen"/>
+  <airportName code="ZOI" name="Marburg-Schonstadt"/>
+  <airportName code="ZOJ" name="Marl-Loemuhle"/>
+  <airportName code="ZOW" name="Nordhorn-Lingen"/>
+  <airportName code="ZPA" name="Offenburg"/>
+  <airportName code="ZPD" name="Oldenburg-Hatten"/>
+  <airportName code="ZPE" name="Osnabruck-Atterheide"/>
+  <airportName code="ZPG" name="Peine-Eddesse"/>
+  <airportName code="ZPI" name="Pirmasens"/>
+  <airportName code="ZPM" name="Regensburg-Oberhub"/>
+  <airportName code="ZPT" name="Saarlouis-Duren"/>
+  <airportName code="ZPU" name="Salzgitter-Drutte"/>
+  <airportName code="ZQC" name="Speyer"/>
+  <airportName code="ZQD" name="Stade"/>
+  <airportName code="ZQP" name="Wesel-Romerwardt"/>
+  <airportName code="ZQV" name="Worms"/>
+  <airportName code="ZQW" name="Zweibruken"/>
+  <airportName code="ZRH" name="Zurich"/>
+  <airportName code="ZRK" name="Rockford/Van Gald"/>
+  <airportName code="ZSK" name="Pasewalk-Fransfelde"/>
+  <airportName code="ZSN" name="Stendal-Borstel"/>
+  <airportName code="ZSO" name="Suhl-Goldlauter"/>
+  <airportName code="ZSR" name="Schwerin-Parchim"/>
+  <airportName code="ZST" name="Stewart"/>
+  <airportName code="ZSU" name="Dessau"/>
+  <airportName code="ZSX" name="Stralsund"/>
+  <airportName code="ZTH" name="Zakynthos"/>
+  <airportName code="ZTK" name="Triengen"/>
+  <airportName code="ZTM" name="Shamattawa"/>
+  <airportName code="ZTZ" name="Chemnitz/Jahnsdorf"/>
+  <airportName code="ZUB" name="Neubrandenburg"/>
+  <airportName code="ZWM" name="Wismar-Muggenburg"/>
+  <airportName code="ZZV" name="Zanesville"/>
+</airportNames>

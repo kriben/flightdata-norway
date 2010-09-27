@@ -41,7 +41,6 @@ class FlightInformationService(object):
     def download_flight_xml(query):
         url = "http://flydata.avinor.no/XmlFeed.asp?" + \
             FlightInformationService.generate_query_string(query)
-
         return FlightInformationService.download_xml(url)
     
     @staticmethod 
@@ -49,4 +48,10 @@ class FlightInformationService(object):
         url = "http://flydata.avinor.no/airlineNames.asp" 
         return FlightInformationService.download_xml(url)
 
+    @staticmethod 
+    def download_airport_xml():
+        url = "http://flydata.avinor.no/airportNames.asp" 
+        return FlightInformationService.download_xml(url)
+
+    
     

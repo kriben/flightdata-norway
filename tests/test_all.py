@@ -7,8 +7,10 @@ from test_query import TestQuery
 
 from test_flightparser import TestFlightParser
 from test_airlineparser import TestAirlineParser
+from test_airportparser import TestAirPortParser
 from test_flightstatusparser import TestFlightStatusParser
 from test_flightinformationservice import TestFlightInformationService
+
 
 def suite():
     """ This defines all the tests of a module"""
@@ -22,6 +24,7 @@ def suite():
     suite.addTest(unittest.makeSuite(TestFlightStatusParser))
     suite.addTest(unittest.makeSuite(TestFlightInformationService))
     suite.addTest(unittest.makeSuite(TestAirlineParser))
+    suite.addTest(unittest.makeSuite(TestAirPortParser))
 
     return suite
 

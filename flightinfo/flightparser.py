@@ -4,7 +4,6 @@ import xml.etree.ElementTree as ET
 #from pytz import timezone
 
 from flight import Flight
-#from airlinefactory import AirlineFactory
 
 class FlightParser(object):
     """
@@ -13,7 +12,7 @@ class FlightParser(object):
     """
 
     @staticmethod 
-    def parse_flights(xml_file, airline_factory):
+    def parse_flights(xml_file, airline_factory, airport_factory):
         """ 
         Parses the flights from the given xml.
 
@@ -27,6 +26,7 @@ class FlightParser(object):
             unique_id = node.attrib.get("uniqueID")
             flight_id = node.find("flight_id").text
             airline_code = node.find("airline").text
+            airport_code = node.find("airport").text
 #            schedule_time_string = node.find("schedule_time").text
 #            schedule_time = datetime.datetime.strptime(schedule_time_string, 
 #            "%Y-%m-%dT%H:%M:%S" )
@@ -38,8 +38,9 @@ class FlightParser(object):
 #            print ("UTC: %s") %  schedule_time
 #            print ("LOCAL: %s") % local_schedule_time
 
-            airline = airline_factory.getAirlineByCode(airline_code)
-            flight = Flight(unique_id, flight_id, airline)
+            airline = airline_factory.get_airline_by_code(airline_code)
+            airport = airport_factory.get_airport_by_code(airport_code)
+            flight = Flight(unique_id, flight_id, airline, airport)
             flights.append(flight)
 
         return flights

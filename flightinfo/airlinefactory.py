@@ -6,5 +6,5 @@ class AirlineFactory(object):
             self.mapping[a.code] = a
 
 
-    def getAirlineByCode(self, code):
+    def get_airline_by_code(self, code):
         return self.mapping[code]
