@@ -18,13 +18,16 @@ class TestFlight(unittest.TestCase):
         airline = Airline("WF", "Widerøe")
         airport = AirPort("TRD", "Trondheim")
         schedule_time = datetime.datetime.now()
-        f = Flight(unique_id, flight_id, airline, airport, schedule_time)
+        direction = Flight.Directions.ARRIVAL
+        f = Flight(unique_id, flight_id, airline, airport, schedule_time, 
+                   direction)
         
         self.assertEqual(unique_id, f.unique_id)
         self.assertEqual(flight_id, f.flight_id)
         self.assertEqual(airline, f.airline)
         self.assertEqual(airport, f.airport)
         self.assertEqual(schedule_time, f.schedule_time)
+        self.assertEqual(direction, f.direction)
 
     def testLocalTime(self):
         unique_id = "12345434"
@@ -32,7 +35,9 @@ class TestFlight(unittest.TestCase):
         airline = Airline("WF", "Widerøe")
         airport = AirPort("TRD", "Trondheim")
         schedule_time = datetime.datetime.now(pytz.utc)
-        f = Flight(unique_id, flight_id, airline, airport, schedule_time)
+        direction = Flight.Directions.DEPARTURE
+        f = Flight(unique_id, flight_id, airline, airport, schedule_time,
+                   direction)
 
         self.assertEqual(schedule_time, f.get_local_schedule_time())
 

@@ -8,6 +8,7 @@ import unittest
 from flightinfo.flightinformationservice import FlightInformationService
 from flightinfo.airport import AirPort
 from flightinfo.query import Query
+from flightinfo.flight import Flight
 
 class TestFlightInformationService(unittest.TestCase):
     def setUp(self):
@@ -24,12 +25,12 @@ class TestFlightInformationService(unittest.TestCase):
         self.assertEqual(v, "airport=OSL&timeTo=3")
 
     def testDirectionDepartureQueryString(self):
-        self.query.direction = Query.Directions.DEPARTURE
+        self.query.direction = Flight.Directions.DEPARTURE
         v = FlightInformationService.generate_query_string(self.query)
         self.assertEqual(v, "airport=OSL&direction=D")
 
     def testDirectionArrivalQueryString(self):
-        self.query.direction = Query.Directions.ARRIVAL
+        self.query.direction = Flight.Directions.ARRIVAL
         v = FlightInformationService.generate_query_string(self.query)
         self.assertEqual(v, "airport=OSL&direction=A")
 

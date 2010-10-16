@@ -32,10 +32,18 @@ class FlightParser(object):
             schedule_time = pytz.utc.localize(
                 datetime.datetime.strptime(schedule_time_string, 
                                            "%Y-%m-%dT%H:%M:%S"))
+            arr_dep_string = node.find("arr_dep").text
+            arr_dep_mapping = { "A" : Flight.Directions.ARRIVAL,
+                                "D" : Flight.Directions.DEPARTURE }
+
+
+            direction = arr_dep_mapping[arr_dep_string]
+
 
             airline = airline_factory.get_airline_by_code(airline_code)
             airport = airport_factory.get_airport_by_code(airport_code)
-            flight = Flight(unique_id, flight_id, airline, airport, schedule_time)
+            flight = Flight(unique_id, flight_id, airline, airport, 
+                            schedule_time, direction)
             flights.append(flight)
 
         return flights

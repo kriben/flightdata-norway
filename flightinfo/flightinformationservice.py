@@ -1,5 +1,6 @@
 import urllib
 from query import Query
+from flight import Flight
 import urllib2
 
 class FlightInformationService(object):
@@ -24,8 +25,8 @@ class FlightInformationService(object):
             data["timeTo"] = query.time_to
 
         if query.direction:
-            conversion = { Query.Directions.DEPARTURE : "D",
-                           Query.Directions.ARRIVAL : "A" }
+            conversion = { Flight.Directions.DEPARTURE : "D",
+                           Flight.Directions.ARRIVAL : "A" }
             data["direction"] = conversion[query.direction]
 
         return urllib.urlencode(data)
