@@ -1,6 +1,7 @@
 """ FlightParser: Utility for parsing flights from XML """
 import xml.etree.ElementTree as ET 
-#import datetime
+import datetime
+import pytz
 #from pytz import timezone
 
 from flight import Flight
@@ -27,12 +28,13 @@ class FlightParser(object):
             flight_id = node.find("flight_id").text
             airline_code = node.find("airline").text
             airport_code = node.find("airport").text
-#            schedule_time_string = node.find("schedule_time").text
-#            schedule_time = datetime.datetime.strptime(schedule_time_string, 
-#            "%Y-%m-%dT%H:%M:%S" )
+            schedule_time_string = node.find("schedule_time").text
+            schedule_time = pytz.utc.localize(datetime.datetime.strptime(schedule_time_string, 
+                                                       "%Y-%m-%dT%H:%M:%S"))
+
 
 #            print schedule_time.tzname()
-#            oslo_tz = timezone('Europe/Oslo')
+
 
 #            local_schedule_time = oslo_tz.localize(schedule_time)
 #            print ("UTC: %s") %  schedule_time
@@ -40,7 +42,7 @@ class FlightParser(object):
 
             airline = airline_factory.get_airline_by_code(airline_code)
             airport = airport_factory.get_airport_by_code(airport_code)
-            flight = Flight(unique_id, flight_id, airline, airport)
+            flight = Flight(unique_id, flight_id, airline, airport, schedule_time)
             flights.append(flight)
 
         return flights
