@@ -29,16 +29,9 @@ class FlightParser(object):
             airline_code = node.find("airline").text
             airport_code = node.find("airport").text
             schedule_time_string = node.find("schedule_time").text
-            schedule_time = pytz.utc.localize(datetime.datetime.strptime(schedule_time_string, 
-                                                       "%Y-%m-%dT%H:%M:%S"))
-
-
-#            print schedule_time.tzname()
-
-
-#            local_schedule_time = oslo_tz.localize(schedule_time)
-#            print ("UTC: %s") %  schedule_time
-#            print ("LOCAL: %s") % local_schedule_time
+            schedule_time = pytz.utc.localize(
+                datetime.datetime.strptime(schedule_time_string, 
+                                           "%Y-%m-%dT%H:%M:%S"))
 
             airline = airline_factory.get_airline_by_code(airline_code)
             airport = airport_factory.get_airport_by_code(airport_code)
