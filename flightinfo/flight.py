@@ -33,9 +33,24 @@ class Flight(object):
 
 
     def __str__(self):
-        return "%s - %s: %s (%s)" % (self.flight_id, 
-                                     self.airport.name.encode('utf-8'),
-                                     self.get_local_schedule_time().strftime("%H:%M"),
-                                     self.airline.name.encode('utf-8'))
+
+            
+        
+        new_info = []
+        if self.direction == Flight.Directions.DEPARTURE:
+            if self.gate:
+                new_info.append("Gate: %s" % (self.gate))
+            if self.check_in:
+                new_info.append("Check in: %s" % (self.check_in))
+        else:
+            if self.belt:
+                new_info.append("Belt: %s" % self.belt)
+
+
+        return "%s - %s: %s (%s) %s" % (self.flight_id, 
+                                        self.airport.name.encode('utf-8'),
+                                        self.get_local_schedule_time().strftime("%H:%M"),
+                                        self.airline.name.encode('utf-8'),
+                                        " ".join(new_info))
 
     
