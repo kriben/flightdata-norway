@@ -52,6 +52,7 @@ class TestFlightParser(unittest.TestCase):
         self.assertEqual("BGT", flight1.airline.code)
         self.assertEqual("BNN", flight1.airport.code)
         self.assertEqual(Flight.Directions.ARRIVAL, flight1.direction)
+        self.assertEqual("3", flight1.belt)
 
         flight2 = flights[1]
         self.assertEqual("1176338", flight2.unique_id)
@@ -59,6 +60,8 @@ class TestFlightParser(unittest.TestCase):
         self.assertEqual("SK", flight2.airline.code)
         self.assertEqual("OSL", flight2.airport.code)
         self.assertEqual(Flight.Directions.DEPARTURE, flight2.direction)
+        self.assertEqual("EF", flight2.check_in)
+        self.assertEqual("32", flight2.gate)
 
 if __name__ == '__main__':
     unittest.main()
