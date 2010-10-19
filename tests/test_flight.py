@@ -41,6 +41,20 @@ class TestFlight(unittest.TestCase):
 
         self.assertEqual(schedule_time, f.get_local_schedule_time())
 
+    def testOptionalArguments(self):
+        unique_id = "12345434"
+        flight_id = "SK123"
+        airline = Airline("WF", "Widerøe")
+        airport = AirPort("TRD", "Trondheim")
+        schedule_time = datetime.datetime.now(pytz.utc)
+        direction = Flight.Directions.DEPARTURE
+
+        f = Flight(unique_id, flight_id, airline, airport, schedule_time,
+                   direction, check_in = "c" )
+        
+        self.assertEqual("c", f.check_in)
+        self.assertEqual(None, f.gate)
+
 
 
 

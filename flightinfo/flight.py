@@ -11,7 +11,7 @@ class Flight(object):
     Directions = Enum(["DEPARTURE", "ARRIVAL"])
 
     def __init__(self, unique_id, flight_id, airline, airport, schedule_time,
-                 direction):
+                 direction, **kwargs):
         self.unique_id = unique_id
         self.flight_id = flight_id
         self.airline = airline
@@ -19,16 +19,23 @@ class Flight(object):
         self.schedule_time = schedule_time
         self.direction = direction
         
+        for (name, attribute) in kwargs.iteritems():
+            self.__setattr__(name, attribute) 
+
+        
     def get_local_schedule_time(self):
         oslo_tz = timezone('Europe/Oslo')
         local_schedule_time = self.schedule_time.astimezone(oslo_tz)
         return local_schedule_time
 
+    def __getattr__(self, name):
+        return None
+
 
     def __str__(self):
         return "%s - %s: %s (%s)" % (self.flight_id, 
-                                   self.airport.name.encode('utf-8'),
-                                   self.get_local_schedule_time().strftime("%H:%M"),
-                                   self.airline.name.encode('utf-8'))
+                                     self.airport.name.encode('utf-8'),
+                                     self.get_local_schedule_time().strftime("%H:%M"),
+                                     self.airline.name.encode('utf-8'))
 
     
