@@ -10,6 +10,7 @@ import pytz
 from flightinfo.airline import Airline
 from flightinfo.airport import AirPort
 from flightinfo.flight import Flight
+from flightinfo.flightstatus import FlightStatus
 
 class TestFlight(unittest.TestCase):
     def testBasic(self):
@@ -50,10 +51,12 @@ class TestFlight(unittest.TestCase):
         direction = Flight.Directions.DEPARTURE
 
         f = Flight(unique_id, flight_id, airline, airport, schedule_time,
-                   direction, check_in = "c" )
+                   direction, check_in = "c", 
+                   status = (FlightStatus("D", "New time"), datetime.datetime.now(pytz.utc)))
         
         self.assertEqual("c", f.check_in)
         self.assertEqual(None, f.gate)
+        self.assertEqual("D", f.status[0].code)
 
 
 

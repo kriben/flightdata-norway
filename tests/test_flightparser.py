@@ -11,6 +11,8 @@ from flightinfo.airportfactory import AirPortFactory
 from flightinfo.airport import AirPort
 from flightinfo.flight import Flight
 from flightinfo.flightparser import FlightParser
+from flightinfo.flightstatusfactory import FlightStatusFactory
+from flightinfo.flightstatus import FlightStatus
 
 class MockAirlineFactory(AirlineFactory):
     def __init__(self):
@@ -32,6 +34,15 @@ class MockAirPortFactory(AirPortFactory):
         else:
             return AirPort("BNN", "Bergen")
         
+class MockFlightStatusFactory(FlightStatusFactory):
+    def __init__(self):
+        pass
+    
+    def get_flight_status_by_code(self, code):
+        if code == "D":
+            return FlightStatus("D", "Departed")
+        else:
+            return FlightStatus("E", "New time")
         
     
 
@@ -43,7 +54,8 @@ class TestFlightParser(unittest.TestCase):
         
         flights = FlightParser.parse_flights(xml_data, 
                                              MockAirlineFactory(),
-                                             MockAirPortFactory())
+                                             MockAirPortFactory(),
+                                             MockFlightStatusFactory())
         self.assertEqual(2, len(flights))
 
         flight1 = flights[0]
@@ -53,6 +65,7 @@ class TestFlightParser(unittest.TestCase):
         self.assertEqual("BNN", flight1.airport.code)
         self.assertEqual(Flight.Directions.ARRIVAL, flight1.direction)
         self.assertEqual("3", flight1.belt)
+        self.assertEqual("E", flight1.status[0].code)
 
         flight2 = flights[1]
         self.assertEqual("1176338", flight2.unique_id)
@@ -62,6 +75,7 @@ class TestFlightParser(unittest.TestCase):
         self.assertEqual(Flight.Directions.DEPARTURE, flight2.direction)
         self.assertEqual("EF", flight2.check_in)
         self.assertEqual("32", flight2.gate)
+        self.assertEqual("D", flight2.status[0].code)
 
 if __name__ == '__main__':
     unittest.main()

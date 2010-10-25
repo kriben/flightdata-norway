@@ -5,6 +5,7 @@ import pytz
 #from pytz import timezone
 
 from flight import Flight
+from flightstatus import FlightStatus
 
 class FlightParser(object):
     """
@@ -13,7 +14,8 @@ class FlightParser(object):
     """
 
     @staticmethod 
-    def parse_flights(xml_file, airline_factory, airport_factory):
+    def parse_flights(xml_file, airline_factory, airport_factory, 
+                      flight_status_factory):
         """ 
         Parses the flights from the given xml.
 
@@ -45,8 +47,17 @@ class FlightParser(object):
                 if anode != None:
                     optionals[a] = anode.text
 
+            ## Status 
+            status_node = node.find("status")
+            if status_node != None:
+                status_code = status_node.attrib.get("code")
+                status_time = status_node.attrib.get("time")
+                flight_status = (flight_status_factory.get_flight_status_by_code(status_code), status_time)
+                optionals["status"] = flight_status
+                  
             airline = airline_factory.get_airline_by_code(airline_code)
             airport = airport_factory.get_airport_by_code(airport_code)
+            
             flight = Flight(unique_id, flight_id, airline, airport, 
                             schedule_time, direction, **optionals)
             flights.append(flight)

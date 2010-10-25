@@ -54,5 +54,10 @@ class FlightInformationService(object):
         url = "http://flydata.avinor.no/airportNames.asp" 
         return FlightInformationService.download_xml(url)
 
+    @staticmethod 
+    def download_flight_status_xml():
+        url = "http://flydata.avinor.no/flightStatuses.asp" 
+        return FlightInformationService.download_xml(url)
+
     
     
