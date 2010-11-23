@@ -1,3 +1,5 @@
+import copy
+
 
 class FlightStatusFactory(object):
     def __init__(self, statuses):
@@ -7,4 +9,4 @@ class FlightStatusFactory(object):
 
 
     def get_flight_status_by_code(self, code):
-        return self.mapping[code]
+        return copy.deepcopy(self.mapping[code])

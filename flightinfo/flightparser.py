@@ -14,6 +14,12 @@ class FlightParser(object):
     """
 
     @staticmethod 
+    def convert_to_utc(time_string):
+        pattern = "%Y-%m-%dT%H:%M:%S"
+        return pytz.utc.localize(datetime.datetime.strptime(time_string,
+                                                            pattern))
+
+    @staticmethod
     def parse_flights(xml_file, airline_factory, airport_factory, 
                       flight_status_factory):
         """ 
@@ -31,9 +37,8 @@ class FlightParser(object):
             airline_code = node.find("airline").text
             airport_code = node.find("airport").text
             schedule_time_string = node.find("schedule_time").text
-            schedule_time = pytz.utc.localize(
-                datetime.datetime.strptime(schedule_time_string, 
-                                           "%Y-%m-%dT%H:%M:%S"))
+            schedule_time = FlightParser.convert_to_utc(schedule_time_string)
+            
             arr_dep_string = node.find("arr_dep").text
             arr_dep_mapping = { "A" : Flight.Directions.ARRIVAL,
                                 "D" : Flight.Directions.DEPARTURE }
@@ -52,7 +57,9 @@ class FlightParser(object):
             if status_node != None:
                 status_code = status_node.attrib.get("code")
                 status_time = status_node.attrib.get("time")
-                flight_status = (flight_status_factory.get_flight_status_by_code(status_code), status_time)
+                
+                flight_status = flight_status_factory.get_flight_status_by_code(status_code)
+                flight_status.set_time(FlightParser.convert_to_utc(status_time))
                 optionals["status"] = flight_status
                   
             airline = airline_factory.get_airline_by_code(airline_code)

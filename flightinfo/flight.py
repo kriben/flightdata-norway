@@ -33,8 +33,6 @@ class Flight(object):
 
 
     def __str__(self):
-
-            
         
         new_info = []
         if self.direction == Flight.Directions.DEPARTURE:
@@ -47,8 +45,8 @@ class Flight(object):
                 new_info.append("Belt: %s" % self.belt)
 
         if self.status:
-            new_info.append("Info: %s %s" % (self.status[0].text, self.status[1]))
-
+            new_info.append("Info: %s %s" % (self.status.text, 
+                                             self.status.get_local_time().strftime("%H:%M")))
 
         return "%s - %s: %s (%s) %s" % (self.flight_id, 
                                         self.airport.name.encode('utf-8'),
