@@ -1,11 +1,14 @@
 """ FlightParser: Utility for parsing flights from XML """
 import xml.etree.ElementTree as ET 
 import datetime
-import pytz
-#from pytz import timezone
-
 from flight import Flight
 from flightstatus import FlightStatus
+
+try:
+    import pytz
+except ImportError:
+    from pytz.gae import pytz
+
 
 class FlightParser(object):
     """

@@ -1,4 +1,7 @@
-import pytz
+try:
+    import pytz
+except ImportError:
+    from pytz.gae import pytz
 
 
 class FlightStatus(object):

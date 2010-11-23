@@ -1,5 +1,7 @@
-from pytz import timezone
-import datetime
+try:
+    import pytz
+except ImportError:
+    from pytz.gae import pytz
 
 class Enum(set):
     def __getattr__(self, name):
@@ -24,7 +26,7 @@ class Flight(object):
 
         
     def get_local_schedule_time(self):
-        oslo_tz = timezone('Europe/Oslo')
+        oslo_tz = pytz.timezone('Europe/Oslo')
         local_schedule_time = self.schedule_time.astimezone(oslo_tz)
         return local_schedule_time
 
