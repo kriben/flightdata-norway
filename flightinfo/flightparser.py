@@ -5,10 +5,9 @@ from flight import Flight
 from flightstatus import FlightStatus
 
 try:
-    import pytz
-except ImportError:
     from pytz.gae import pytz
-
+except:
+    import pytz
 
 class FlightParser(object):
     """
@@ -62,7 +61,8 @@ class FlightParser(object):
                 status_time = status_node.attrib.get("time")
                 
                 flight_status = flight_status_factory.get_flight_status_by_code(status_code)
-                flight_status.set_time(FlightParser.convert_to_utc(status_time))
+                if status_time != None:
+                    flight_status.set_time(FlightParser.convert_to_utc(status_time))
                 optionals["status"] = flight_status
                   
             airline = airline_factory.get_airline_by_code(airline_code)

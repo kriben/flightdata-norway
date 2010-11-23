@@ -1,7 +1,9 @@
 try:
-    import pytz
-except ImportError:
     from pytz.gae import pytz
+except:
+    import pytz
+    
+
 
 class Enum(set):
     def __getattr__(self, name):
@@ -47,8 +49,10 @@ class Flight(object):
                 new_info.append("Belt: %s" % self.belt)
 
         if self.status:
-            new_info.append("Info: %s %s" % (self.status.text, 
-                                             self.status.get_local_time().strftime("%H:%M")))
+            infotext = "Info: %s" % self.status.text 
+            if self.status.get_time():
+                infotext += " %s" % self.status.get_local_time().strftime("%H:%M")
+            new_info.append(infotext)
 
         return "%s - %s: %s (%s) %s" % (self.flight_id, 
                                         self.airport.name.encode('utf-8'),
