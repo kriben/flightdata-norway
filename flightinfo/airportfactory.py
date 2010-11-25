@@ -50,6 +50,7 @@ class AirPortFactory(object):
                             "SVJ",
                             "TOS",
                             "TRD",
+                            "TRF",
                             "VAW",
                             "VDB",
                             "VDS",
@@ -61,3 +62,11 @@ class AirPortFactory(object):
             except KeyError:
                 pass
         return airports
+
+
+    def get_closest_norwegian_airport(self, pos):
+        airports = self.get_norwegian_airports()
+        if not airports:
+            return None
+
+        return min(airports, key=lambda a: pos.compute_distance_to(a.position))
