@@ -72,7 +72,8 @@ class AirPortFactory(object):
                 airports.append(airport)
             except KeyError:
                 pass
-        return airports
+        
+        return sorted(airports, key=lambda a: a.name)
 
 
     def get_closest_norwegian_airport(self, pos):

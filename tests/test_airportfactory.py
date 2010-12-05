@@ -30,6 +30,27 @@ class TestAirPortFactory(unittest.TestCase):
         self.assertTrue(find(lambda a: a.code == 'TRD', airports))
         self.assertFalse(find(lambda a: a.code == 'CPH', airports))
 
+    def testGetNorwegianAirportsSorted(self):
+        in_airports = [ AirPort("TRD", "Trondheim"),
+                        AirPort("OSL", "Oslo"),
+                        AirPort("OSY", "Namsos"),
+                        AirPort("VDB", "Fagernes"),
+                        AirPort("TRF", "Sandefjord") ]
+        
+        factory = AirPortFactory(in_airports)
+
+        airports = factory.get_norwegian_airports()
+        self.assertEqual(5, len(airports))
+
+        # Should be sorted by the name (not the code)
+        self.assertEqual(airports[0].code, "VDB")
+        self.assertEqual(airports[1].code, "OSY")
+        self.assertEqual(airports[2].code, "OSL")
+        self.assertEqual(airports[3].code, "TRF")
+        self.assertEqual(airports[4].code, "TRD")
+        
+
+                        
     def testGetClosestNorwegianAirport(self):
         
         trd = AirPort("TRD", "Trondheim")
