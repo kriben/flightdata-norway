@@ -3,6 +3,8 @@ import xml.etree.ElementTree as ET
 import datetime
 from flight import Flight
 from flightstatus import FlightStatus
+from airline import Airline
+from airport import AirPort
 
 try:
     from pytz.gae import pytz
@@ -64,10 +66,17 @@ class FlightParser(object):
                 if status_time != None:
                     flight_status.set_time(FlightParser.convert_to_utc(status_time))
                 optionals["status"] = flight_status
-                  
-            airline = airline_factory.get_airline_by_code(airline_code)
-            airport = airport_factory.get_airport_by_code(airport_code)
-            
+                
+            try:
+                airline = airline_factory.get_airline_by_code(airline_code)
+            except KeyError:
+                airline = Airline(airline_code, "Unknown airline")
+
+            try:
+                airport = airport_factory.get_airport_by_code(airport_code)
+            except KeyError:
+                airport = AirPort(airport_code, "Unknown airport")
+
             flight = Flight(unique_id, flight_id, airline, airport, 
                             schedule_time, direction, **optionals)
             flights.append(flight)

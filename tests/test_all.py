@@ -10,6 +10,7 @@ from test_flightparser import TestFlightParser
 from test_airlineparser import TestAirlineParser
 from test_airportparser import TestAirPortParser
 from test_airportfactory import TestAirPortFactory
+from test_airlinefactory import TestAirlineFactory
 from test_flightstatusparser import TestFlightStatusParser
 from test_flightinformationservice import TestFlightInformationService
 
@@ -29,6 +30,7 @@ def suite():
     suite.addTest(unittest.makeSuite(TestAirPortParser))
     suite.addTest(unittest.makeSuite(TestAirPortFactory))
     suite.addTest(unittest.makeSuite(TestPosition))
+    suite.addTest(unittest.makeSuite(TestAirlineFactory))
 
     return suite
 
