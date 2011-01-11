@@ -18,16 +18,18 @@ def find(f, seq):
 class TestAirPortFactory(unittest.TestCase):
     def testGetNorwegianAirports(self):
 
-        in_airports = [ AirPort("TRD", "Trondheim"),
+        in_airports = [ AirPort("AES", "Ålesund"),
+                        AirPort("TRD", "Trondheim"),
                         AirPort("CPH", "Copenhagen") ]
         
         factory = AirPortFactory(in_airports)
 
         airports = factory.get_norwegian_airports() 
         
-        self.assertEqual(1, len(airports))
+        self.assertEqual(2, len(airports))
         
         self.assertTrue(find(lambda a: a.code == 'TRD', airports))
+        self.assertTrue(find(lambda a: a.code == 'AES', airports))
         self.assertFalse(find(lambda a: a.code == 'CPH', airports))
 
     def testGetNorwegianAirportsSorted(self):

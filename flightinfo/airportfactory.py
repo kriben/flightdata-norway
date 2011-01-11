@@ -17,6 +17,7 @@ class AirPortFactory(object):
     def _init_norwegian_airports(self):
 
         norwegian_codes = [
+            ("AES", Position(62.560372, 6.110164)),
             ("ALF", Position(69.976111, 23.371667)),
             ("ANX", Position(69.292500, 16.144167)),
             ("BDU", Position(69.055758, 18.540356)),
